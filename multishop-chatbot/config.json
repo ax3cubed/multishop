@@ -16,9 +16,9 @@
         "yiiEnv":"dev"
     },
     "domain":{
-        "host":"localhost/multishop/multishop-chatbot",
-        "api":"localhost/multishop/multishop-api",
-        "shop":"localhost/multishop/multishop-shop"
+        "host":"localhost/multishop/multishop-chatbot/www",
+        "api":"localhost/multishop/multishop-api/web",
+        "shop":"localhost/multishop/multishop-shop/www"
     },
     "database":{
         "dbhost":"localhost",

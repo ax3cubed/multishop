@@ -1,0 +1,10 @@
+{
+    "name": "adeola/oauth2server",
+    "authors": [
+        {
+            "name": "Akinwole Adeola",
+            "email": "ajunior488@gmail.com"
+        }
+    ],
+    "require": {}
+}
