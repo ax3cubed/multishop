@@ -1,0 +1,248 @@
+.palette {
+    background: white
+}
+.palette .head {
+    background:whitesmoke;
+    padding:10px 25px;
+    text-align:left;
+    color: #555;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.palette .tailing {
+    padding:5px 25px;
+}
+.palette .border-top {
+    border-top: 1px solid whitesmoke;
+}
+.palette  > .normal {
+    padding:10px 25px;
+    text-align:left;
+    color: #555;
+    font-size: 13px;
+    line-height: 20px;
+}
+.palette .normal a {
+   color: #555;
+   text-decoration:none;
+}
+.palette .button-bar {
+    text-align: left;
+}
+.palette .message-bar {
+   margin:0px -20px;
+   text-align:left
+}
+.palette .message-bar ul {
+   padding-left:15px;
+}
+
+.palette form span i {
+    font-size: 1.35em;
+}
+
+.palette.promotion-item {
+    background:paleturquoise;
+    position:relative;
+}
+
+.column-left {
+    text-align: center;
+    z-index: 400;
+    position: absolute;
+    width: 63%;
+    border: none;
+/*    -webkit-box-shadow: rgba(0,0,0,0.1) 0 0 0 3px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0 0 0 3px;
+    box-shadow: rgba(0,0,0,0.1) 0 0 0 3px;    */
+}
+.column-right {
+    right: 0px;
+    text-align: center;
+    z-index: 400;
+    position: absolute;
+    width: 35%;
+    border: none;
+/*    -webkit-box-shadow: rgba(0,0,0,0.1) 0 0 0 3px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0 0 0 3px;
+    box-shadow: rgba(0,0,0,0.1) 0 0 0 3px;    
+    top: 3px;*/
+}
+.column-left .spaceline, .column-right .spaceline {
+    margin-top:15px;
+}
+.column-left .comment-invite-message,
+.column-left .comment-total-message,
+.column-left .comment-login-message {
+    clear: both;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.column-left .product {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.column-right .data-element .grand_total {
+    padding-bottom: 10px;
+    font-size: 2.8em;
+    color: black;
+}
+.column-right .data-element .subscript {
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+.column-right .grand-total-wrapper {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.modal-content .prevlink-comment{
+    padding-left: 20px;
+}
+.modal-content .prevdata-comment,
+.comment-modal-form.comments{
+    padding: 0px 12px;
+}
+.comment-modal-form.postcomment{
+    padding: 10px 20px 20px 15px;
+    bottom: 5px;
+}
+.comment-modal-form.postcomment textarea {
+    height: 70px;
+}
+.comment-modal-form .comment-form-wrapper .ui-button {
+    height: 35px;
+    font-size: 1.35em;
+    padding: 10px 25px;
+}
+
+#cart-modal-form .data-element .key {
+    width: 20%;
+    display: inline-block;
+}
+#cart-modal-form .price .detail-view {
+    display: inline-block;
+    font-size: 0.8em;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#cart-form #product_view .ui-button {
+    min-width: auto;
+}
+#cart-form #product_view .cartbutton .ui-button, 
+#cart-form  #product_view #promo-buttons .ui-button {
+    width: auto;
+    font-size:1.1em;
+}
+#cart-modal-form #product_view
+{
+    margin-bottom: 0px;
+    text-align:left;
+    padding: 10px 20px 20px;    
+}
+#cart-modal-form .data-column.normal {
+    width:100%;
+}
+#cart-modal-form .data-element:first-child {
+    padding: 0px 5px 8px;
+}
+#cart-modal-form .data-element {
+    padding: 8px 5px;
+}
+#cart-modal-form .data-element a {
+    text-decoration: none;
+}
+#cart-modal-form .data-element.promo .price {
+    padding: 2px 0px;
+    color: red;
+    font-size: 2.5em;
+}
+#cart-modal-form .price .detail-view .data-element
+{
+    display: inline-block;
+    padding: 0 5px;
+}
+#cart-modal-form .price .detail-view .data-element:first-child
+{
+    padding-left: 0px;
+    color:red;
+}
+#cart-modal-form .data-element.offer_price {
+    font-size: 2.4em;
+}
+#cart-modal-form .data-element.promo .offer_price {
+    font-size: 1em;
+}
+
+#cart-modal-form .data-element.unit_price,
+#cart-modal-form .data-element.usual_price {
+    font-size: 0.4em;
+}
+#cart-modal-form .data-element.unit_price .key,
+#cart-modal-form .data-element.usual_price .key {
+    width: auto;
+}
+#cart-modal-form .ui-button
+{
+    font-size: 1.35em;
+    width: 90%;
+    height:35px;
+}
+#cart-modal-form #product_view .cartbutton
+{
+    display:block;
+    padding:0;
+}
+#cart-modal-form #product_view #promo-buttons {
+    display:inline-block;
+    padding:0;
+    width: 100%;
+    min-height: 40px;
+}
+#cart-modal-form #promo-buttons div:first-child
+{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0px;
+    display: block;
+}
+#cart-modal-form  .data-column .product-option {
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+#cart-modal-form .data-column .product-shipping  {
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+#cart-modal-form .data-column .product-shipping .key,
+#cart-modal-form .data-column .product-option .key {
+    margin-bottom: 8px;
+}
+#cart-modal-form .product-shipping .options li {
+    display: block;
+    margin: 0px;
+}
+#cart-modal-form .product-shipping .options li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+
+}
+
+@media screen and (max-width : 375px) {
+ 
+}
+
+@media screen and (max-width : 320px) {
+    
+}

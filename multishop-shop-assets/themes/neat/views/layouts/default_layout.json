@@ -1,0 +1,28 @@
+[
+    {
+        "include":"header"
+    },
+    {
+        "name":"breadcrumbs-wrapper",
+        "columns":[
+            {
+                "size":12,
+                "name":"breadcrumbs",
+                "html":"w:breadcrumbs"
+            }
+        ]
+    },     
+    {
+        "name":"w:page_id",
+        "columns":[
+            {
+                "size":12,
+                "name":"w:page_id",
+                "html":"w:page_html"
+            }
+        ]
+    },
+    {
+        "include":"footer"
+    }
+]

@@ -1,0 +1,31 @@
+<?php $this->widget($this->getModule()->getClass('gridview'), array(
+        'id'=>'shipping-method-grid',
+        'dataProvider'=>$dataProvider,
+        'columns'=>array(
+            array(
+               'name'=>'status',
+               'value'=>'Helper::htmlColorText($data->getStatusText())',
+               'htmlOptions'=>array('style'=>'text-align:center;width:20%'),
+               'type'=>'html',
+             ),
+            array(
+                'class'=>'CLinkColumn',
+                'header'=>Sii::t('sii','Name'),
+                'labelExpression'=>'$data->displayLanguageValue(\'name\',user()->getLocale())',
+                'urlExpression'=>'url(\'shippings/management/view\',array(\'id\'=>$data->id))',
+                'htmlOptions'=>array('style'=>''),
+            ),
+            array(
+               'name'=>'method',
+               'value'=>'$data->getMethodDesc()',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+            array(
+               'name'=>'type',
+               'value'=>'$data->getTypeDesc()',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+       ),
+));

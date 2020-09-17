@@ -1,0 +1,10 @@
+.shop-messenger {
+    display:inline-block;
+}
+.shop-messenger.wrapper {
+    margin: 20px;
+    font-weight: 200;
+    border: 1px solid #EDEDED;
+    padding: 10px 20px;
+    display:block;
+}

@@ -1,0 +1,175 @@
+.card-form .credit-card-icons {
+    float:none;
+}
+
+.card-form #card_number, 
+.card-form #expiration_date,
+.card-form #cvv {
+  height: 35px;
+}
+
+body.merchant.login .page-layout .page-content {
+    border: 0;
+    font-size:1.2em;
+}
+
+.items .plan-package {
+    border: 1px solid gainsboro;
+    display:inline-block;
+    vertical-align:top;
+    background: white;
+    margin: 4px;
+}
+
+.plan-card {
+    position: relative;
+    text-align: center;
+    /*text-shadow: 0 3px 1px rgba(0,0,0,.1);*/
+}
+
+.plan-price {
+    position:relative;
+    display: block;
+    font-size: 5em;
+    font-weight: 400;
+    letter-spacing: -2px;    
+    left: -20px;
+}
+.plan-price .cents {
+    position: absolute;
+    top: 20px;
+    padding-left: 2px;
+    font-size: 0.3em;
+    letter-spacing: 1px;
+    font-weight: 700;    
+}
+
+.plan-price .currency {
+    position: relative;
+    top: -40px;
+    font-weight: 100;
+    font-size: 0.2em;
+    letter-spacing: 0;
+}
+
+.plan-promotional-text {
+    display: block;
+    padding-top: 1.25em;
+    font-size: 1.2em;
+    line-height: 1em;
+    opacity: .9;
+    -moz-opacity: .9;
+    -khtml-opacity: .9;
+    text-shadow: none;
+}
+
+.plan-price-details {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.85em;
+    line-height: 1em;
+    opacity: .9;
+    -moz-opacity: .9;
+    -khtml-opacity: .9;
+    text-shadow: none;
+}
+
+.plan-price-details.others {
+    margin-top: 30px;
+}
+
+.plan-button {
+    margin:40px 0px;
+}
+.main-view .body .plan-package .ui-button {
+    padding: 20px;
+}
+
+.main-view .body .plan-package:first-child .ui-button {
+    opacity: 0.8;
+    background: deepskyblue;
+}
+.main-view .body .plan-package:last-child .ui-button {
+    opacity: 0.8;
+    background: darkcyan;
+}
+.main-view .body .plan-package:nth-child(3) .ui-button {
+    opacity: 0.8;
+    background: slateblue;
+}
+.main-view .body .plan-package .ui-button {
+    opacity: 0.8;
+    background:lightsalmon;
+}
+
+.plan-features {
+    margin: 20px;
+    margin-top: 40px;
+    text-align: left;
+    font-family: arial;
+}
+
+.plan-features,
+.plan-features h1,
+.plan-features h2 {
+    text-align: center;
+}
+
+.plan-features h1 {
+    font-size: 1.6em;
+    margin:0px;
+}
+.plan-features h2 {
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding-left: 0px;
+    margin-top: 0;
+}
+.plan-features h3 {
+    font-weight: 300;
+    font-size: 1.1em;
+}
+.plan-features p {
+    font-size: 16px;
+    margin: 10px 0px;    
+}
+.plan-features .items,
+.plan-features ul {
+    list-style: circle;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    margin-left: -20px;
+}
+.plan-features .items {
+    margin-left: 0px;
+}
+
+.plan-features blockquote {
+    padding-left: 10px;
+    margin: 30px 0px 20px;    
+}
+.plan-features blockquote p {
+    font-size: 0.7em;
+    font-style: italic;
+}
+.feature-item {
+    padding: 5px 0px;    
+}
+
+#plan-form .chzn-container .chzn-results {
+    max-height: 100px;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+
+    .main-view .body .plan-package .ui-button {
+        width: auto;
+    }
+    .plan-button {
+        left: 20%;
+        right: 20%;
+    }
+}

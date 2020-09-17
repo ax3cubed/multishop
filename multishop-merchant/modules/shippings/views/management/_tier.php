@@ -1,0 +1,31 @@
+<?php 
+$this->widget($this->getModule()->getClass('gridview'), array(
+    'id'=>'shipping_tier_grid',
+    'dataProvider'=>$dataProvider,
+    'columns'=>array(
+            array(
+               'name'=>'base',
+               'value'=>'$data->getBaseDesc()',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+            array(
+               'name'=>'floor',
+               'value'=>'$data->getFormatFloor()',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+            array(
+               'name'=>'ceiling',
+               'value'=>'$data->getFormatCeiling()',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+            array(
+               'name'=>'rate',
+               'value'=>'$data->shipping->formatCurrency($data->rate)',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+    ),
+)); 

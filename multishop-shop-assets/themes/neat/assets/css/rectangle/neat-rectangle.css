@@ -1,0 +1,72 @@
+.shop-layout.rectangle .header-bottom.sgridrow,
+.shop-layout.rectangle .shop-subpage .embedded-page,
+.shop-layout.rectangle .row.footer-upper,
+.shop-layout.rectangle .row.footer-lower {
+    margin: 0 20px;
+}
+.shop-layout .page-content {
+    margin: 0;
+}
+.shop-layout.rectangle .sgridfixtureblock.menu-bottom,
+.header ul.dropdown-menu {
+    background:darkgray;
+    color:white;
+}
+.shop-layout.rectangle .header nav li a{
+    color: white;
+}
+.dropdown-menu,
+.shop-layout .nav-menu li:hover ul a {
+    border:0;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
+.header .dropdown-menu li ul li a:focus, .header .dropdown-menu li ul li a:hover {
+    color: white;
+    background: none;
+}
+.header .ssearch input[type="text"] {
+    border: 0;
+    background: whitesmoke;
+}
+.sgridslideblock.slideshow-section {
+    margin: 20px;
+}
+
+.shop-layout .sgridhtmlblock.announcement,
+.shop-layout.rectangle .row.footer-upper,
+.shop-layout.rectangle .row.footer-lower {
+    background:#444;
+    color: white;
+}
+.shop-layout.rectangle .footer a {
+    color: #cacbcc;
+}
+
+.sort-by {
+    border: 1px solid lightgray;
+}
+.sort-by .label {
+    font-weight: 300;
+}
+
+.trends-menu li,
+.trends-menu li:first-child,
+.trends-menu li:last-child {
+    border: 0;    
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+    .shop-layout.rectangle .header-bottom.sgridrow,
+    .shop-layout.rectangle .shop-subpage .embedded-page,
+    .shop-layout.rectangle .row.footer-upper,
+    .shop-layout.rectangle .row.footer-lower {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width : 375px) { 
+}
+
+@media screen and (max-width : 320px) {
+}

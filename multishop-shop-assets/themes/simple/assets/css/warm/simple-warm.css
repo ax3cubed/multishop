@@ -1,0 +1,241 @@
+.shop-layout.simple.warm {
+    margin: 0;
+    background:#ffeecc;
+}    
+.shop-layout.warm,
+.shop-layout.simple h2,
+.shop-layout.simple h3,
+.shop-layout.simple a,
+.shop-layout.simple .pagemenu .menuitem .label,
+.product .name,
+.palette,
+body.simple .smodal-content {
+    color:#664400;
+}    
+.shop-subpage h1,
+.form h2,
+.sgridhtmlblock.trends-menu,
+.shop-layout.simple .sgridlistblock h2,
+.shop-layout .news-listing h2,
+.pTab ul.tabs,
+body.simple .main-view .heading .view-control-linebreak,
+.shop-layout.simple .sgridlistblock .summary {
+    color: #664400;
+    border-bottom: 1px solid #ff8c66;
+}
+.shop-layout.simple .summary h2 {
+    border:0;
+}
+.sort-by {
+    border: 1px solid #ff8c66;
+}
+.shop-layout.simple .sgridlistblock .summary .total {
+    background: #ff8c66;
+}
+
+.shop-layout.simple .embedded-page {
+    color: #664400;
+    border-top: 1px solid #ff8c66;
+}
+
+.product_page.sgridhtmlblock, 
+.campaign_page.sgridhtmlblock {
+    border-top: 1px solid #ff8c66;
+}
+
+.shop-layout.simple .sgridlistblock h2 .total {
+    background: #ff8c66;
+}
+.shop-layout .ui-button ,
+body.simple .smodal-content form .ui-button,
+.form input[type="button"] {
+    background: #ff8c66;
+    border: none;
+    border-radius: 0;
+}
+.announcement {
+    background-color: #ff8c66;
+}
+.dropdown-menu,
+.shop-layout .nav-menu li:hover ul a {
+    background-color: #ffe6b3;
+    border:0;
+}
+.shop-layout .nav-menu li:hover ul a:hover {
+    background-color: #ffe6b3;
+    color: #ff6666;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
+.header .dropdown-menu li ul li a:focus, .header .dropdown-menu li ul li a:hover {
+    background-color: #ffe6b3;
+    color: #ff6666;
+    background: none;
+}
+
+.trends-menu li.active a {
+    border: 0;
+    background: #ffd480;
+}
+.pTab ul.tabs a {
+    border: 0;
+    background: #ffeecc;
+    color:#ff6666;
+}
+.pTab ul.tabs a:link, 
+.pTab ul.tabs a .title {
+    color: #ffcc66;
+}
+.pTab ul.tabs a.active {
+    background: #ff8c66; 
+    border: 0; 
+    border-bottom: 1px solid #ff8c66;
+}
+#promotion_list .detail-view {
+    background: #fff7e6;
+    border: 0;
+}
+#promotion_list .detail-view:hover {
+    border:1x solid #ffeecc;
+}
+#promotion_list .validity {
+    background: #ffd480;
+}
+.shop-layout.simple .comment {
+    background: #ffd480; 
+}
+.product-price {
+    color: #ff8c66;
+}
+.tag.inverse {
+    border:1px solid #ff8c66;
+    color: #ff8c66;
+}
+.shop-layout.simple .sgridlistblock h2 .total,
+.palette .head {
+    background: #fff7e6;
+}
+.shop-layout .footer {
+    color: #664400; 
+    background: wheat;
+}
+.detail-view .data-element .options li.active,
+.detail-view .data-element .options li.active:hover {
+    border: 0;
+    background: #ffeecc; 
+}
+.detail-view .data-element .options li:hover {
+    border: 0;
+    text-decoration: underline;
+}
+#promo_product_view.promo-product-y {
+    background: #ffd480;
+}
+body.simple .main-view .body .list-box {
+    border: 1px solid #ff8c66;
+}
+body.simple .pagemenu li a.active,
+body.simple .spager .selected a {
+    background: #ffd480;
+    color: inherit;
+}
+
+body.simple .offcanvasmenu {
+    color:#664400;
+    background:	wheat;
+    left: -3px;
+    border-right: 3px solid #ff8c66;
+}
+body.simple .offcanvasmenu,
+body.simple .offcanvas-cart .cart-item:last-child,
+#promotion_list .detail-view {
+    border-color: #ff8c66;
+}
+.offcanvas-cart .cart-item {
+    background:	#ffeecc;
+}
+body.simple .offcanvas-cart,
+body.simple .offcanvasmenu a {
+    color: #664400;
+}
+body.simple .offcanvas-cart-checkout {
+    border: 1px solid #ff8c66;
+}
+body.simple .cart-item .item-details .remove-link a {
+    color: #ff8c66;
+}
+
+
+/* All protected pages */
+body.simple .chart-filter li {
+    border: 1px solid #ff8c66;
+    border-right: 0 solid #ff8c66;
+}
+body.simple .chart-filter li:last-child {
+    border-right: 1px solid #ff8c66;    
+}
+body.shop .main-view .heading .view-control ul li a {
+    color: #ff8c66;
+    opacity: 0.4;
+}
+body.shop .main-view .heading .view-control ul.arrows li a,
+body.shop .main-view .heading .view-control ul li.active a {
+    opacity: 1;
+    font-size: 0.85em;
+}
+body.shop .main-view .heading .arrow-wrapper .arrow-shadow {
+    border-color: #ff8c66 transparent;
+}
+body.shop .main-view .body .detail-view.message {
+    border: 1px solid #ff8c66;
+}
+.list-box .summary,
+.page-sidebar .fa-fw {
+    color: #ff8c66;
+}
+body.shop .page-sidebar.left {
+    left: 0;
+    background:#ffd480;
+}
+body.shop .sidebar-menu.theme li.active a,
+body.shop .sidebar-menu.theme li a:hover {
+    color: #ff8c66;
+}
+body.shop .grid-view table.items tr.odd,
+.cart-item:nth-child(odd),
+.order-item:nth-child(odd) {
+    background: #fff7e6;
+}
+body.shop .main-view .body .detail-view.rounded, 
+body.shop .flash .detail-view.rounded,
+body.shop .grid-view table.items,
+body.shop .order-shop,
+body.shop .cart-shop,
+body.shop .single-image-container,
+.cart-summary .data-block {
+    border: 1px solid #ffd480;
+}
+.pagemenu li a.workflow-button {
+    background: #fff7e6;
+}
+.cart-items .cart-address-form {
+    background: wheat;
+}
+.flash-advice.notice {
+    background: wheat;
+}
+.flash-error {
+    background: #ff8c66;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+    body.simple .susermenu .offcanvas-menu li ul {
+        background: #fff7e6;
+    }
+}
+
+@media screen and (max-width : 375px) { 
+}
+
+@media screen and (max-width : 320px) {
+}

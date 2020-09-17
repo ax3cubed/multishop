@@ -1,0 +1,353 @@
+.sgridlistblock.promotions_page .items {
+    margin: 20px;
+}
+.campaign_page.sgridhtmlblock {
+    margin: 0px 20px;
+    border-top: 1px solid #ededed;
+    padding-top: 10px;
+}
+
+#promotion_list .detail-view {
+    border: 1px solid #ededed;
+    cursor:pointer;
+    margin: 0;
+    margin-bottom: 20px;
+    vertical-align: baseline;
+    text-align: left;
+}
+
+#promotion_list .detail-view:hover {
+    border: 1px solid;
+}
+
+#promotion_list .validity {
+    margin-top: 20px;
+    background: whitesmoke;
+    padding: 0px 10px;
+}
+#promotion_list .validity.expired {
+    color: gray;
+}
+#promotion_list .validity .tag {
+    margin: 5px;    
+}
+#promotion_list .promo-block {
+    display: inline-block;
+    max-width: 40%;
+}
+#promotion_list .offer {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 70%;
+}
+#promotion_list .offer .product-name {
+    font-size: 1.5em;
+}
+#promotion_list .offer .offer-price {
+    color: orangered;
+}
+#promotion_list .offer.large-font {
+    font-size: 2em;
+}
+#promotion_list .offer.large-font:last-child,
+#promotion_list .offer.large-font:last-child .offer-text {
+    width: 200px;
+}
+#promotion_list .offer div {
+    display: inline-block;
+    vertical-align:top;
+}
+#promotion_list .offer div:first-child {
+    margin: 0px 10px;
+}
+#promotion_list .offer div span:first-child {
+    margin-top:0px;
+    display:inline-block;
+}
+#promotion_list .offer div span {
+    margin-top:5px;
+    display:block;
+}
+#promotion_list .offer div span strong {
+    margin-right:5px;
+}
+
+.sgridnestedrow.left-column .section.promotions {
+    margin: 20px 20px 0px;
+    font-size: 18px;
+}
+.shop-layout .section.promotions .more {
+    float: none;
+    margin-left: 15px;
+}
+.shop-layout .section.promotions .more a {
+    color: black;
+}
+
+#promo_product_view.detail-view {
+    padding:20px;
+    text-align: left;
+}
+#promo_product_view.detail-view .name {
+    position: relative;
+    font-size: 2em;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+}
+#promo_product_view.detail-view .name .tag {
+    margin-right: 10px;
+}
+#promo_product_view .imgContainer {
+    margin: 0px;
+}
+#promo_product_view .data-column {
+    width: 100%;
+}
+#promo_product_view offer-tag {
+    top: -5px;
+    right: 0px;
+}
+#promo_product_view .option-container {
+    margin-top: 10px;
+    clear:both;
+    border-top: 1px solid darkturquoise;    
+}
+#promo_product_view .option-container li {
+    border: 1px solid paleturquoise;
+}
+#promo_product_view .product-y-image {
+    display: inline-block;
+}
+#promo_product_view .info-container {
+    color: black;
+    min-height: 130px;
+    display: inline-block;
+    vertical-align: top;    
+}
+#promo_product_view .info-container .detail-view{
+    margin-bottom: 0px;
+}
+#promo_product_view .info-container .offer_price {
+    font-size: 1.5em;
+    color: orangered;
+}
+#promo_product_view.promo-product-y {
+    padding: 3px 5px;
+    margin-top: 5px;
+    background: whitesmoke;
+    width: 90%;
+}
+#promo_product_view.promo-product-y .data-element .name {
+    font-size: 1.5em;
+}
+#promo_product_view.promo-product-y .data-element .name .tag {
+    margin-right: 5px;
+    font-size: 0.8em;
+    left: 0;
+}
+#promo_product_view.promo-product-y .option-container {
+    margin-top: 0px;
+    border-top: 0px solid lightgray; 
+}
+#promo_product_view.promo-product-y .option-container li {
+    border: 1px solid lightgray;
+}
+
+.promotion-heading-wrapper {
+    font-size:30px;
+}
+.promotion-heading-wrapper .validity  {
+    float: right;
+    position: relative;
+    top: 10px;
+    vertical-align: middle;
+    font-size: .5em;
+    font-weight: 200;
+} 
+.sgridrow.campaign_page  {
+    margin:20px;
+}
+.sgridrow.campaign_page #promo_view {
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.sgridrow.campaign_page .data-column {
+    display:inline-block;
+    vertical-align: top;
+}
+.sgridrow.campaign_page .elevatezoom .gallery {
+    float: none;
+    margin-left: 25px;
+}
+.sgridrow.campaign_page .elevatezoom .gallery a,
+.promo-product .elevatezoom .gallery a {
+    display: inline;
+    padding: 0 2px;
+}
+.data-element .grand_total {
+    padding-bottom: 10px;
+    font-size: 2.8em;
+    color: black;
+}
+.data-element .subscript {
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+
+.promo-product-y .offer_price,
+.promo-product-y .quantity,
+.promo-product-y .unit_price,
+.promo-product-y .usual_price {
+    margin:10px;
+}
+.promo-product-y .data-element .key {
+    margin-right: 10px;
+}
+.promo-form .offer_price {
+    display: inline-block;
+    color: red;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+.promo-form .unit_price,
+.promo-form .usual_price {
+    font-size: 12px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.promo-form .data-element {
+    margin: 10px 0px;
+}
+.promo-form .data-element .key {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.promo-form .ui-button {
+    margin-top: 40px;
+}
+
+.shop-layout .sgridlistblock .promo-product {
+    text-align: left;
+    background: whitesmoke;
+    padding: 10px;
+    cursor:pointer;
+}
+.sgridlistblock .items.p99-5 .promo-product {
+    width:96%;
+}
+.promo-block {
+    display:inline-block;
+    width:33%;
+}
+.validity {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: yellowgreen;
+    margin-top: 20px;
+}
+.validity.expired {
+    color: gray;
+}
+.validity .tag {
+    margin: 5px;    
+}
+.offer-container{
+    margin: 20px 0px;
+    border: 1px solid #EDEDED;
+    padding: 5px 10px;    
+    background: lavender;
+}
+.offer {
+    display: inline-block;
+    vertical-align: top;
+}
+.offer.large-font {
+    font-size: 2em;
+}
+.offer div {
+    display: inline-block;
+    vertical-align:top;
+}
+.offer div:first-child {
+    margin-right: 20px;
+}
+.offer div span:first-child {
+    margin-top:0px;
+    display:inline-block;
+}
+.offer div span {
+    margin-top:5px;
+    display:block;
+}
+.offer div span strong {
+    margin-right:5px;
+}
+
+
+/*Responsive Styles iPad size */
+@media screen and (max-width : 768px) {
+    .shop-layout .campaign_page .data-column,
+    .shop-layout .campaign_page .data-column.image,
+    .shop-layout .campaign_page .data-column.normal {
+        display: inline-block;
+        vertical-align: top;
+        width:50%;
+    }    
+    .shop-layout .campaign_page .data-column img {
+        width:80%;
+    }    
+    .shop-layout .campaign_page .data-column.normal {
+        margin-top:20px;
+    }  
+    .promotion-heading-wrapper {
+        padding:10px;
+    }
+    .sgridrow.campaign_page .elevatezoom .gallery img {
+        width: auto;
+    }
+    .sgridrow.campaign_page .elevatezoom .gallery {
+        margin-left: 0px;
+    }    
+}
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+    
+    .sgridnestedrow.left-column .section.promotions {
+        margin:10px;
+        padding: 0;
+    }
+    .campaign_page.sgridrow {
+        margin: 0 20px;
+    }
+    .shop-layout .campaign_page .data-column,
+    .shop-layout .campaign_page .data-column.image,
+    .shop-layout .campaign_page .data-column.normal {
+        display: inline-block;
+        vertical-align: top;
+        width:100%;
+    }    
+    .shop-layout .campaign_page .data-column img {
+        width:100%;
+    }    
+    .promotion-heading-wrapper {
+        padding:0px;
+    }
+    .sgridlistblock .items.p99-5 .promo-product {
+        width:90%;
+    }
+    .promo-block {
+        width:100%;
+    }
+    
+}
+
+@media screen and (max-width : 375px) {
+ 
+}
+
+@media screen and (max-width : 320px) {
+    
+}

@@ -1,0 +1,70 @@
+.main-view .body .detail-view .button {
+    float:right;
+}
+#billing_page .main-view .body .detail-view {
+    margin-bottom: 0px;
+}
+.card-form .credit-card-icons {
+    float:none;
+}
+
+.data-element.cancel,
+.data-element.change,
+.data-element.payment-method {
+    clear:both;
+}
+.data-element.payment-method .button .ui-button {
+    background: steelblue;
+}
+.data-element.cancel .button .ui-button {
+    background: darkgray;
+}
+
+.change-card {
+    display: inline-block;
+    font-size: 0.8em;
+    margin-left: 10px;    
+}
+
+.main-view .change-card a {
+    text-decoration: underline;    
+}
+
+#receipt_page .tag {
+    background: darkseagreen;    
+}
+
+#addCardButton,
+#changeCardButton {
+    margin-top: 50px;
+}
+
+div.form .payment-cards-wrapper label {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 3px;    
+}
+div.form .payment-cards-wrapper input {
+    float:left;
+}
+div.form .payment-card {
+    padding: 5px;  
+}
+
+.plan-rights ul {
+    list-style-type: none;
+    padding: 0;
+}
+.group-tag {
+    background: #ededed;
+    padding:3px;
+    margin:2px 3px;
+    display: inline-block;
+}
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    .main-view .body .data-element .button {
+        width:95%;
+        float:none;
+    }
+}

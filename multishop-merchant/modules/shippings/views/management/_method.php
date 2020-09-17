@@ -1,0 +1,31 @@
+<?php $this->widget($this->getModule()->getClass('gridview'), array(
+        'id'=>'shipping-method-grid',
+        'dataProvider'=>$dataProvider,
+        'template'=>'{items}',
+        'columns'=>array(
+            array(
+               'name'=>'method',
+               'value'=>'$data->getMethodDesc()',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+            array(
+               'name'=>'speed',
+               'value'=>'$data->speed==null?\'not set\':$data->speed.\' day(s)\'',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+            array(
+               'name'=>'type',
+               'value'=>'$data->getTypeDesc()',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+            array(
+               'name'=>'rate',
+               'value'=>'$data->type==Shipping::TYPE_TIERS?\'-\':$data->formatCurrency($data->rate)',
+               'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+               'type'=>'html',
+             ),
+       ),
+));

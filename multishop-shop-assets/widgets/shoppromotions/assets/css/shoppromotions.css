@@ -1,0 +1,155 @@
+.promotion {
+    position: relative;
+    width:200px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.promotion .hovertext {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    color: white;
+    width: 100%;
+    font: bold 18px Helvetica, Sans-Serif;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3);
+    display:none;
+    text-decoration: none;
+    text-align: left;
+}
+.promotion .wrapper {
+    cursor: pointer;
+}
+.promotion .buy-tag {
+    float:left;
+    width:50%;
+    font-size:1.5em;
+    background:lightgray;
+    text-transform: uppercase;
+    color: white;
+    height: 40px;
+    line-height: 40px;    
+}
+.promotion .buy-item,
+.promotion .get-item {
+    float:left;
+    width:50%;    
+}
+.promotion .get-tag {
+    float:left;
+    width:50%;
+    font-size:1.5em;
+    text-transform: uppercase;
+    color: white;
+    height: 40px;
+}
+.promotion .get-tag .upper {
+    background:darkgray;
+    font-size:0.65em;    
+    height: 20px;
+    padding: 1px;
+}
+.promotion .get-tag .lower {
+    background:lightskyblue;
+    font-size:0.75em;
+    height: 20px;
+    padding: 0px;
+}
+.promotion .hovertext div {
+    position:relative;
+    margin:5px;
+}
+.promotion.with-action-bar .hovertext {
+    bottom:27px;
+}
+.promotion .hovertext .hover-price {
+    font-size:0.9em;
+    color:lightpink;
+}
+.promotion .hovertext .hover-price.x {
+    float:left;
+    position: absolute;
+    bottom: 0;
+}
+.promotion .hovertext .hover-price.y {
+    float:right;
+}
+.promotion .hovertext .hover-price s {
+    font-size:0.7em;
+    color:lightgray;
+    padding:0px 5px;
+    display: block;
+    text-align:right;
+}
+.promotion .action {
+    position:absolute;
+    top:5px;
+    right:8px;
+    color: white;
+    font: bold 12px Helvetica, Sans-Serif;
+    display: none;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+.promotion .action.shortcut {
+    color: orange;
+    font-size: 1.3em;
+    background: transparent;
+}
+.promotion .action.shortcut .ui-button {
+    border: 0;
+    font-size: 0.8em;
+    padding: 5px 8px;
+}
+.promotion .action.shortcut .icon {
+    position: relative;
+    top: -5px;
+    vertical-align: top;
+}
+.promotion .action.shortcut .icon.filled a i {
+    color: darkorange;
+}
+.promotion .action.shortcut .fa {
+    padding:0;
+}
+.promotion .action.shortcut form {
+    display: inline-block;
+}
+.promotion .action.shortcut .count {
+    padding: 0;
+    font-weight: normal;
+    font-size: 0.75em;
+    top: -6px;
+    position: relative;
+}
+.promotion .action-bar {
+    text-align: left;
+    padding: 5px 8px;
+    background: whitesmoke;
+    font-size: 1.2em;
+}
+.promotion .action-bar form {
+    display: inline-block;
+    vertical-align: middle;
+}
+.promotion .action-bar .count {
+    font-size: .7em;
+    padding-right: 5px;
+    vertical-align: middle;
+    color: darkgray;
+}
+@media screen and (max-width : 640px){
+    .promotion {
+        max-width: 155px;
+        margin: 5px;
+        display: inline-table;
+    }
+    .promotion img {
+        max-width: 79px;
+    }
+    .promotion .action-bar {
+        padding: 2px 3px;
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "common":{
+        "css": [
+            "simple.css",
+            "simple-products.css",
+            "simple-trends.css",
+            "simple-promotions.css",
+            "simple-modal.css"
+        ],
+        "js": [
+            "simple.js"
+        ]
+    },
+    "default":{
+        "name":{
+            "en_sg":"Breeze",
+            "zh_cn":"微风"
+        },
+        "css":[
+            "simple-default.css"
+        ],
+        "images": [
+            {"desktop":"simple-default-desktop.png"},
+            {"tablet":"simple-default-tablet.png"},
+            {"mobile":"simple-default-mobile.png"}
+        ]
+    },
+    "warm":{
+        "name":{
+            "en_sg":"Warm",
+            "zh_cn":"暖和"
+        },
+        "css":[
+            "simple-warm.css"
+        ],
+        "images": [
+            {"desktop":"simple-warm-desktop.png"},
+            {"tablet":"simple-warm-tablet.png"},
+            {"mobile":"simple-warm-mobile.png"}
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "app":{
+        "organization":"Multishop.org",
+        "name":"Multishop Shop Assets"
+    },    
+  "system":{
+        "versionLabel":"Beta",
+        "backupDir":"C:\\backup",
+        "gitWorkTree":"",
+        "gitBranch":"master",
+        "gitDir":"",
+        "yii1Path":"C:\\xampp\\htdocs\\multishop\\vendor\\yiisoft\\yii",
+        "yii2Path":"C:\\xampp\\htdocs\\multishop",
+        "yiiDebug":true,
+        "yiiTraceLevel":8,
+        "yiiEnv":"dev"
+    }
+}

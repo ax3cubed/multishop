@@ -1,0 +1,72 @@
+{
+    "app":{
+        "organization":"Multishop.org",
+        "name":"Multishop Merchant"
+    },    
+    "system":{
+        "versionLabel":"Beta",
+        "backupDir":"C:\\backup",
+        "gitWorkTree":"",
+        "gitBranch":"master",
+        "gitDir":"",
+        "yii1Path":"C:\\xampp\\htdocs\\multishop\\vendor\\yiisoft\\yii",
+        "yii2Path":"C:\\xampp\\htdocs\\multishop",
+        "yiiDebug":true,
+        "yiiTraceLevel":8,
+        "yiiEnv":"dev"
+    },
+    "domain":{
+        "host":"localhost/multishop/multishop-merchant",
+        "api":"localhost/multishop/multishop-api",
+        "shop":"localhost/multishop/multishop-shop",
+        "bot":"localhost/multishop/multishop-chatbot"
+    },
+    "database":{
+        "dbhost":"localhost",
+        "dbname":"multishop",
+        "username":"ade",
+        "password":"adeolaade"
+    },
+    "storage":{
+        "media":{
+            "mount_point_1":"C:\\xampp\\htdocs\\multishop\\media-1",
+            "mount_point_2":"C:\\xampp\\htdocs\\multishop\\media-2"
+        }
+    },
+    "email":{
+        "smtp_host":"smtp.gmail.com",
+        "smtp_port":"587",
+        "smtp_secure":"tls",
+        "smtp_username":"moneyymag@gmail.com",
+        "smtp_password":"danDaniel11",
+        "sender_name":"Multishop"
+    },
+    "elasticsearch":{
+        "host":"localhost",
+        "port":9200
+    },
+    "facebook":{
+        "appId":"<Please input the facebook app id for oauth use>",
+        "appSecret":"<Please input the facebook app secret for oauth use>",
+        "pageAppId":"<Please input the facebook page app id for merchant shop appeared in facebook page tab>",
+        "pageAppSecret":"<Please input the facebook page app secret for merchant shop appeared in facebook page tab>"
+    },
+    "googleanalytics":{
+        "gtmAccount":"<Please input the google analytics account id (GTM)>",
+        "enable":false
+    },
+    "braintree":{
+       "apiMode":"sandbox",
+        "merchantId":"cvxst25xcrfksv7p",
+        "publicKey":"zkbh97q48pxfpb3r",
+        "privateKey":"6bd8c70740d3fa9fa48d0fe8f0c41822",
+        "merchantAccounts":{
+            "USD":"claimedweb"
+        }
+    },
+    "drift":{
+        "id":"<Please input Drift widget id>",
+        "enable":["<Please input app id>","<Please input app id 2>","<and so on>"],
+        "enableAfterLogin":["<Please input app id>","<Please input app id 2>","<and so on>"]
+    }
+}

@@ -1,0 +1,37 @@
+<?php $this->widget($this->getModule()->getClass('gridview'), array(
+        'id'=>'product-shipping-grid',
+        'dataProvider'=>$dataProvider,
+        'columns'=>array(
+            array(
+                'name'=>'status',
+                'value'=>'Helper::htmlColorText($data->shipping->getStatusText())',
+                'htmlOptions'=>array('style'=>'text-align:center;width:8%'),
+                'type'=>'html',
+            ),
+            array(
+                'class'=>'CLinkColumn',
+                'header'=>Sii::t('sii','Name'),
+                'labelExpression'=>'$data->shipping->displayLanguageValue(\'name\',user()->getLocale())',
+                'urlExpression'=>'url(\'shippings/management/view\',array(\'id\'=>$data->shipping->id))',
+                'htmlOptions'=>array('style'=>'text-align:center;width:25%'),
+            ),
+            array(
+               'header'=>Sii::t('sii','Method'),
+               'value'=>'$data->shipping->getMethodDesc()',
+               'htmlOptions'=>array('style'=>'text-align:center;width:15%'),
+               'type'=>'html',
+             ),
+            array(
+                'header'=>Sii::t('sii','Rate per order'),
+                'value'=>'Yii::app()->controller->getShippingRateData($data->shipping)',
+                'htmlOptions'=>array('style'=>'text-align:center;width:40%'),
+                'type'=>'html',
+            ),
+            array(
+                'header'=>Sii::t('sii','Surcharge'),
+                'value'=>'$data->shipping->formatCurrency($data->surcharge)',
+                'htmlOptions'=>array('style'=>'text-align:center;width:20%'),
+                'type'=>'html',
+            ),
+        ),
+    )); 

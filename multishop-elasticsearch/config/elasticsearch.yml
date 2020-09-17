@@ -1,0 +1,21 @@
+##################### Elasticsearch Configuration #####################
+# Cluster name identifies your cluster for auto-discovery. If you're running
+# multiple clusters on the same network, make sure you're using unique names.
+cluster.name: multishop
+# Node names are generated dynamically on startup, so you're relieved
+# from configuring them manually. You can tie this node to a specific name:
+node.name: multishop-node
+# Set the bind address specifically (IPv4 or IPv6):
+network.host: localhost
+# Set a custom port to listen for HTTP traffic (9200 by default):
+http.port: 9200
+# Set a custom port for the node to node communication (9300 by default):
+#transport.tcp.port: 9300
+# Path to directory where to store index data allocated for this node.
+path.data: C:\xampp\htdocs\multishop\elasticsearch\data
+# Path to log files:
+path.logs: C:\xampp\htdocs\multishop\elasticsearch\logs
+
+########################################################################
+# Note: More settings and detailed explanation please refer to out of box elasticsearch.yml.
+########################################################################

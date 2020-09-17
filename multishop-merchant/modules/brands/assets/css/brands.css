@@ -1,0 +1,56 @@
+.itemname  {
+    padding-bottom:5px;
+}
+.list-objects li {
+    display: inline-block;   
+}
+.section-products .section-body {
+    padding: 10px;
+}
+
+.product-thumbnail {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+.product-thumbnail .caption {
+    bottom: 0px;
+    position: absolute;
+    right: -5px;
+}
+
+.list-box .list-view {
+    padding: 5px 0px;
+}
+
+.main-view .body .data-form {
+    width:70%;
+}
+.main-view .body .data-form .cke {
+    margin-top:5px;
+}
+
+form#brand-form .row {
+    width:95%;
+}
+
+div.form .brand-slug label {
+    display: inline;
+}
+div.form .brand-slug .note {
+    color: gray;
+    margin-top: 0;
+}
+div.form .brand-url {
+    color: gray;
+    margin-right: 5px;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    .main-view .body .data-form {
+        width: 95%;
+        position: relative;
+        top: 10px;
+    }
+}

@@ -1,0 +1,42 @@
+#!/usr/bin/env php
+<?php
+/**
+ * This file is part of Multishop.org (http://multishop.org)
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code. 
+ */
+/**
+ * Command line script for Unix/Linux (Customized from yiic.php)
+ * This is the bootstrap script for running yiic on Unix/Linux.
+ *
+ * To see how to use a command, we can execute
+ * php console help <command-name> or
+ * ./console help <command-name>
+ * 
+ * And to execute a command, we can use the following command format:
+ * php console <command-name> [parameters...] or
+ * ./console <command-name> [parameters...]
+ * 
+ * 
+ * @author kwlok
+ */
+echo "------------------------\n";
+echo "Multishop Console Tool v1.0\n";
+echo "------------------------\n";
+// fix for fcgi
+defined('STDIN') or define('STDIN', fopen("php://stdin", "r"));
+
+defined('APP_CONFIG') or define('APP_CONFIG',dirname(__FILE__).'/config.json');
+require_once(dirname(__FILE__).'/../multishop-kernel/config/globals.php');
+//load customized Yii class (enable both Yii 1.x and Yii 2.x)
+require(dirname(__FILE__).'/../multishop-kernel/components/Yii.php');
+$config=dirname(__FILE__).'/config/main.php';
+
+$app=Yii::createConsoleApplication($config);
+$app->commandRunner->addCommands(YII_PATH.'/cli/commands');//import Yii built-in commands
+
+$env=@getenv('YII_CONSOLE_COMMANDS');
+if(!empty($env))
+	$app->commandRunner->addCommands($env);
+
+$app->run();

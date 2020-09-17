@@ -1,0 +1,46 @@
+<?php $this->widget($this->getModule()->getClass('gridview'), array(
+    'id'=>$scope,
+    'dataProvider'=>$this->getDataProvider($scope, $searchModel),
+    'viewOptionRoute'=>$viewOptionRoute,
+    //'filter'=>$searchModel,
+    'columns'=>array(
+        array(
+            'name'=>'shop_id',
+            'value'=>'$data->shop->displayLanguageValue(\'name\',user()->getLocale())',
+            'filter'=>CHtml::listData(Shop::model()->mine()->findAll(),'id','name'),
+            'htmlOptions'=>array('style'=>'text-align:center;width:20%'),
+            'type'=>'html',
+            'visible'=>!$this->hasParentShop(),
+        ),
+        array(
+            'name'=>'name',
+            'value'=>'$data->displayLanguageValue(\'name\',user()->getLocale())',
+            'htmlOptions'=>array('style'=>'text-align:center;'),
+            'type'=>'html',
+        ),
+        array(
+            'name'=>'rate',
+            'value'=>'$data->formatPercentage($data->rate)',
+            'filter'=>Shipping::getTypes(),
+            'htmlOptions'=>array('style'=>'text-align:center;'),
+            'type'=>'html',
+        ),
+        array(
+            'name'=>'status',
+            'value'=>'Helper::htmlColorText($data->getStatusText())',
+            'htmlOptions'=>array('width'=>'6%'),
+            'type'=>'html',
+            'filter'=>false,
+        ),
+        array(
+            'class'=>'SButtonColumn',
+            'buttons'=>SButtonColumn::getTaxButtons(array(
+                'view'=>true,
+                'update'=>'$data->updatable()',
+                'delete'=>'$data->deletable()',
+            )), 
+            'template'=>'{view} {update} {delete}',
+            'htmlOptions'=>array('width'=>'8%'),
+        ),
+    ),
+)); 

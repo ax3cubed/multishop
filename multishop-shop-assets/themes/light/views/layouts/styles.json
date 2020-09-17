@@ -1,0 +1,42 @@
+{
+    "common":{
+        "css": [
+            "light.css",
+            "light-products.css",
+            "light-trends.css",
+            "light-promotions.css",
+            "light-modal.css"
+        ],
+        "js": [
+            "light.js"
+        ]
+    },
+    "default":{
+        "name":{
+            "en_sg":"White",
+            "zh_cn":"白"
+        },
+        "css":[
+            "light-default.css"
+        ],
+        "images": [
+            {"desktop":"light-default-desktop.png"},
+            {"tablet":"light-default-tablet.png"},
+            {"mobile":"light-default-mobile.png"}
+        ]
+    },
+    "lavender":{
+        "name":{
+            "en_sg":"Lavender",
+            "zh_cn":"薰衣草"
+        },
+        "css":[
+            "light-lavender.css"
+        ],
+        "images": [
+            {"desktop":"light-lavender-desktop.png"},
+            {"tablet":"light-lavender-tablet.png"},
+            {"mobile":"light-lavender-mobile.png"}
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+<?php
+$this->widget('common.widgets.SDetailView', array(
+    'data'=>$data,
+    'attributes'=>array(
+        array('name'=>'offer_price',
+              'label'=>Sii::t('sii','Offer Price'),
+              'template'=>'<div class="{class}"><span class="value">{value}</span></div>',
+              'cssClass'=>'offer_price',
+              'visible'=>$data['show_offer_price']),
+        array('name'=>'quantity',
+              'label'=>Sii::t('sii','Quantity'),
+              'template'=>'<div class="{class}"><span class="key">{label}</span><span class="value">{value}</span></div>',
+              'cssClass'=>'quantity',
+              'visible'=>$data['show_quantity']),
+        array('name'=>'usual_price',
+              'label'=>Sii::t('sii','Usual Price'),
+              'template'=>'<div class="{class}"><span class="key">{label}</span><i><s><span class="value">{value}</span></s></i></div>',
+              'cssClass'=>'usual_price',
+              'visible'=>$data['show_usual_price']),
+        array('name'=>'unit_price',
+              'label'=>Sii::t('sii','Unit Price'),
+              'cssClass'=>'unit_price',
+              'visible'=>$data['show_unit_price']),
+    ),
+    'htmlOptions'=>array('class'=>'detail-view'),
+));   

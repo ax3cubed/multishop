@@ -1,0 +1,197 @@
+.page-sidebar .spagefilter .page-menu {
+    width: 150%;
+    right:160px;
+}
+
+.validity {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: yellowgreen;
+    margin-top: 20px;
+}
+.validity.expired {
+    color: gray;
+}
+.validity .tag {
+    margin: 5px;    
+}
+.offer-container{
+    margin: 20px 0px;
+    border: 1px solid #EDEDED;
+    padding: 5px 10px;    
+    background: lavender;
+}
+.offer {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 33%;
+}
+.offer.large-font {
+    font-size: 2em;
+}
+.offer div {
+    display: inline-block;
+    vertical-align:top;
+}
+.offer div:first-child {
+    margin-right: 20px;
+}
+.offer div span:first-child {
+    margin-top:0px;
+    display:inline-block;
+}
+.offer div span {
+    margin-top:5px;
+    display:block;
+}
+.offer div span strong {
+    margin-right:5px;
+}
+
+.offer input {
+    height: 100%;
+    line-height: 100%;
+    margin-bottom: 0px;
+}
+
+.form .row .x-product-area,
+.form .row .y-product-area {
+    padding:5px;
+    border:1px solid whitesmoke;
+    margin-top:5px;
+    position:relative
+}
+.form .row .loader-area {
+    position: absolute;
+    top: 0px;
+    left: 8%;
+}
+.form .row .loader-area .text {
+    background: white;
+}
+.form .row .data-element {
+    padding: 2px;
+}
+.form .row .data-element .key {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.offer-price {
+    color:red;
+}
+
+#campaign-form .row:first-child {
+    margin-bottom: 10px;
+}
+#campaign-form .row:last-child {
+    margin-top:50px;
+}
+#campaign-form .row {
+    padding-top: 10px;
+}
+#campaign-form .row label {
+    margin-bottom: 3px;
+}
+#campaign-form .section-description .section-body > div {
+    margin-bottom:10px;
+    margin-left:15px;
+}
+
+#campaign-form .offer_area .detail-view,
+#campaign-form .product_area .detail-view {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#shipping_table_container {
+    margin-left: 15px;
+    padding: 0;
+}
+#shipping_table {
+    margin-top:15px;
+}
+#shipping_table tr:even{
+    margin-top:15px;
+}
+#shipping_table tr:nth-child(even)
+{
+    background: white;
+}
+#shipping_table tr:nth-child(odd)
+{
+    background: #F9F9F9;
+}
+
+.main-view .body .data-element .value .tag {
+    margin-left: 5px;
+    vertical-align: top;
+}
+.data-form select {
+    width:250px;
+}
+.form .date-field {
+    margin-right:5px;
+    vertical-align:middle;
+}
+
+.promo-block {
+    display:inline;
+}
+.main-view .body .list-box.float-image .data .detail-view {
+    border: 0;
+}
+.main-view .body .image-form {
+    padding-right: 20px;
+}
+.main-view .body .data-form {
+    width:70%;
+}
+
+.main-view .body .row .select-product {
+    width: 500px;
+}
+
+#CampaignPromocode_code {
+    text-transform: uppercase;
+}
+
+#campaign-form .page-tab .view .row {
+    margin-top:0px;
+}
+
+#campaign_page .fileupload-button .fileinput-button {
+  top: 135px;
+}
+
+#campaign_page .avatar img {
+  border-radius: 0%; 
+  -webkit-border-radius: 0%; 
+  -moz-border-radius: 0%;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    .main-view .body .data-form {
+        width: 95%;
+        position: relative;
+        top: 10px;
+    }
+    
+    .data-form  select {
+        width:200px;
+    }   
+    .promo-block {
+        display:inline-block;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .offer {
+        max-width: 50%;
+    }
+    .offer .offer-text {
+        display: inline;
+    }
+    .main-view .body .row .select-product {
+        width: 200px;
+    }
+}

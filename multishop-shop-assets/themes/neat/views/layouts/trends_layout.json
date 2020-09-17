@@ -1,0 +1,36 @@
+[
+    {
+        "include":"header"
+    }, 
+    {
+        "name":"trends",
+        "locked":true,
+        "columns":[
+            {
+                "locked":true,
+                "size":12,
+                "name":"trends-menu",
+                "html":"w:trends_menu"
+            }
+        ]
+    }, 
+    {
+        "name":"trends",
+        "locked":true,
+        "columns":[
+            {
+                "locked":true,
+                "size":12,
+                "type":"listblock",
+                "name":"trends-container",
+                "listItem":"trend",
+                "itemsPerRow":4,
+                "itemsLimit":12,
+                "afterViewFile":"_joinus"
+            }
+        ]
+    },
+    {
+        "include":"footer"
+    }
+]

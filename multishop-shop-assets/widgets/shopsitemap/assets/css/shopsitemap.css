@@ -1,0 +1,23 @@
+#sitemap_page ul {
+    vertical-align: top;
+    padding: 0px 20px;
+}
+#sitemap_page h2 {
+    font-size: 1.3em;
+    font-weight: 200;
+}
+#sitemap_page ul li {
+    display: inline;
+    padding:5px;
+    line-height: 15px;
+}
+#sitemap_page ul li a{
+    text-decoration: underline;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    #sitemap_page ul {
+        padding: 0px 20px;
+    }
+}

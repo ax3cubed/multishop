@@ -1,0 +1,9 @@
+#options_table tr:nth-child(even){
+    background: white;
+}
+#options_table tr:nth-child(odd){
+    background: #F9F9F9;
+}
+#options_table {
+    width:100%;
+}

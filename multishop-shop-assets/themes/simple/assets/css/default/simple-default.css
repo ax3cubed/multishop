@@ -1,0 +1,39 @@
+.shop-layout.simple.default {
+    margin: 0;
+}    
+.announcement {
+    background-color: black;
+    color: white;
+}
+.shop-layout.simple .announcement h1,
+.shop-layout.simple .announcement h2,
+.shop-layout.simple .announcement h3,
+.shop-layout.simple .announcement h4,
+.shop-layout.simple .announcement p {
+    color: white;
+    margin: 0;
+}
+.menu-top {
+    background-color:whitesmoke;
+}
+.sgridcolumn .sgridboxblock {
+    margin:20px;
+}
+.shop-layout.simple.default .sgridcategoryblock .items img, 
+.shop-layout.simple.default .sgridlistblock .items img {
+    max-height: 408px;
+}
+/* protected pages */
+.pagemenu li a.workflow-button {
+    background: whitesmoke;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+}
+
+@media screen and (max-width : 375px) { 
+}
+
+@media screen and (max-width : 320px) {
+}

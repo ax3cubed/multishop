@@ -1,0 +1,132 @@
+.shop-subpage.trends_page > div {
+    margin: 0;
+}    
+.shop-subpage.trends_page .trends-container {
+    margin-top: 20px;
+}    
+.trends-container {
+    padding:0px 40px;
+    display:block;
+}
+.trends-container .ias_trigger {
+   margin: 10px 0 50px; 
+}
+.trends-container .product {
+   width: 23%; 
+   display: inline-block;
+   margin: 10px;
+   position: relative;
+}
+.trends-container .product img {
+   width: 100%; 
+}
+.trends-menu {
+    padding: 40px;
+    text-align: center;
+}
+.trends-menu ul {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0;
+}
+.trends-menu li {
+    font-size: 14px;
+    list-style: none;
+    border: 1px solid;    
+    border-right: 0px solid;    
+    display: inline-block;    
+    margin: 0px;
+    padding: 5px 10px;
+}
+.trends-menu li:first-child {
+    border-left: 1px solid;    
+}
+.trends-menu li:last-child {
+    border-right: 1px solid;    
+}
+.trends-menu li a {
+    color: lightgray;
+    font-weight: 200;
+}
+.trends-menu li.active a {
+    color: white;
+}
+.trends-menu li.active.recentliked {
+    background: #6495ED;
+    border-right: 1px solid #6495ED;
+}
+.trends-menu li.active.mostliked {
+    background: lightskyblue;
+}
+.trends-menu li.active.recentpurchased {
+    background: #8FBC8F;
+}
+.trends-menu li.active.mostpurchased {
+    background: lightseagreen;
+}
+.trends-menu li.active.recentdiscussed {
+    background: plum;
+}
+.trends-menu li.active.mostdiscussed {
+    background: #9E1F63;
+}
+.most-counter {
+    position: absolute;
+    left: 85%;
+    top: 0;
+}
+.most-counter .fa-lg {
+    position: absolute;
+    top: -1px;
+}
+.most-counter .value {
+    position: absolute;
+    bottom: 7px;
+    font-size: .8em;
+    font-weight: 300;
+    color: white;
+}
+.most-counter .fa-bookmark {
+    color: pink;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+    .trends-container {
+        margin: 0;   
+        padding:0 20px;
+    }
+    .trends-container .product {
+        width: 100%; 
+    }
+    #trends_page .shop-subpage,
+    .trends-container .items {
+        padding: 0;       
+    }
+    .trends-menu li{
+        font-size: 13px;
+        width: 40%;
+        border-top: 0px solid #EDEDED;    
+        border-bottom: 0px solid #EDEDED;    
+        border-right: 1px solid #EDEDED;    
+    }
+    .trends-menu li:first-child {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .trends-menu li:nth-child(2n) {
+        border-left: 0px solid #EDEDED;    
+    }
+    .trends-menu li:last-child {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+ 
+}
+
+@media screen and (max-width : 320px) {
+    
+}

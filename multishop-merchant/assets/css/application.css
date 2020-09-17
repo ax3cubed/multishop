@@ -1,0 +1,132 @@
+* {
+    -webkit-box-sizing: content-box; /*override bootstrap.css */
+}
+body.merchant.login {
+    font: normal 10pt sans-serif;
+}
+body.merchant.login .footer-container{
+    margin-top: 60px;
+    background: #F8F8F8;
+    border-top: 1px solid #EDEDED;
+}
+body.merchant .header-container .portal-menu.active a {
+    text-decoration: underline;
+}
+
+body.merchant.login .header-container {
+    border-bottom: 0px solid whitesmoke;
+    z-index: 900;
+}
+body.no-gradient-backdrop.merchant .header-container {
+    position: absolute;
+}
+body.merchant .header-container a,
+body.merchant .header-container .sitelogo a {
+    color: black;
+}
+body.merchant .header-container a:hover{
+    text-decoration: underline;
+}
+body.merchant.login .header-container .sitelogo {
+    margin: 17.5px 0px;
+}
+body.merchant.login .header-container .sitelogo.on {
+    margin: 0px 0px;
+}
+body.merchant .header-container .sitelogo .subscript {
+    background: orange;
+    top:-5px;
+    padding:1px 3px;
+}
+body.merchant .header-container .sitelogo.on .subscript {
+    top:15px;
+}
+body.merchant.login .nav-menu {
+    margin:5px;
+}
+body.merchant.login .nav-menu ul {
+    font-size: 16px;
+    letter-spacing: 0;
+    margin:0px;
+}
+body.merchant.login .nav-menu .quickaccess.home ul {
+    width:100%;
+}
+body.merchant.login .nav-menu ul li {
+    line-height: 2.2;
+}
+body.merchant.login .page-container {
+    position: relative;
+    top: 38px;
+}
+body.merchant .page-container .segment:first-child form input.ui-button {
+    margin-top: 0px;
+}
+body.merchant .segment.with-background .signup-merchant-form-wrapper .row .form-input {
+    height:40px;
+    width:315px;
+    font-weight: 100;
+}
+body.merchant .segment.with-background .signup-merchant-form-wrapper .row .form-input.ui-button {
+    color:white;
+    height:50px;
+}
+body.merchant .segment.with-background .signup-merchant-form-wrapper .form-input.ui-button:hover {
+    background: yellow;
+    color:black;
+}
+body.merchant .smodal-content .form .checkbox-wrapper {
+    position: relative;
+    top: -15px;
+}
+.form-wrapper {
+    background:white;
+    margin: 0 auto;
+    margin-top:40px;
+    margin-bottom: 10px;    
+    width: 515px;
+    border:1px solid #EDEDED;
+}
+.smodal-content .form-wrapper {
+    margin-top:0px;
+}
+
+form .row.tos {
+    font-size: 12px;
+    color:white;
+    font-weight:100;
+}
+form .row.tos a {
+    text-decoration: underline;
+}
+form .row.tos a:hover {
+    color: white;
+}
+
+body.merchant .signup-form-wrapper {
+    width: 40%;
+    border: 0px solid #EDEDED;
+}
+
+@media screen and (max-width : 640px){
+    form .row.tos {
+        font-size: 12px;
+    }
+    body.merchant .page-content.center {
+        margin-top: 5px;
+    }
+    body.merchant .signup-form-wrapper {
+        width: 100%;
+    }
+    body.merchant.login .header-container {
+        height: 38px;
+    }    
+    body.login .page-container {
+        top: 40px;
+    }
+    .form-wrapper{
+        width: 90%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}

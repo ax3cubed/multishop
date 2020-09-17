@@ -1,0 +1,66 @@
+# -----------
+# This file is part of Multishop.org (https://multishop.org)
+# For the full copyright and license information, please view the LICENSE
+# file that was distributed with this source code. 
+# -----------
+# This script restores application including database and all required files
+# It combines the restoration of database and files backup and 
+# run all necessary steps to restore the entire application
+# 
+# @author kwlok
+# -----------
+#!/bin/bash
+
+echo -e "-----------------------"
+echo -e "A. Database Restoration"
+echo -e "-----------------------"
+echo -n "A.1. Please enter OS env (e.g. mac or linux (default) ) > "
+read os
+echo "OS env: $os"
+echo -n "A.2. Please enter database backup name (e.g. *.gz) > "
+read dbbackup
+echo "Database backup: $dbbackup"
+echo -n "A.3. Please enter target database name > "
+read target
+echo "Target database: $target"
+echo -n "A.4. Please enter target database username > "
+read dbuser
+echo "Target database username: $dbuser"
+
+php console database restore --backup=$dbbackup --db=$target --u=$dbuser --os=$os
+
+echo -e "--------------------------"
+echo -e "B. File Backup Restoration"
+echo -e "--------------------------"
+echo -n "B.1. Please enter file backup name (e.g. www-files.tar.gz) > "
+read filebackup
+echo "File backup: $filebackup"
+echo -n "B.2. Please enter destination (e.g. /install_base/app/www) > "
+read destination
+echo "Restoration file destination: $destination"
+
+php console file restore --backup=$filebackup --destination=$destination
+
+echo -e "---------------------------------"
+echo -e "C. Web Content Backup Restoration"
+echo -e "---------------------------------"
+echo -n "C.1. Please enter web content backup name (e.g. www-content.tar.gz) > "
+read contentbackup
+echo "Web content backup: $contentbackup"
+echo -n "C.2. Please enter destination (e.g. /install_base/common/modules/wcm) > "
+read wcmdestination
+echo "Restoration web content destination: $wcmdestination"
+
+php console file restore --backup=$contentbackup --destination=$wcmdestination
+
+echo -e "IMPORTANT: Please run chgrp [group-name] -R $wcmdestination at command line to give proper permission (read/execute access)"
+
+echo -e "-----------------------------------"
+echo -e "D. Elasticsearch Backup Restoration"
+echo -e "-----------------------------------"
+echo -n "D.1. Please enter snapshot name (e.g. beta_test_snapshot) > "
+read snapshot
+echo "Snapshot name: $snapshot"
+
+php console elasticsearch restore --snapshot=$snapshot
+

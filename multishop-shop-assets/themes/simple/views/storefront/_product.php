@@ -1,0 +1,73 @@
+<div class="product">
+                
+    <?php if ($this->onPreview()):?>
+        <div class="preview-status">
+            <?php echo Sii::t('sii','PREVIEW ONLY');?>
+            <?php echo Helper::htmlColorText($data->getStatusText(),false);?>
+        </div>
+    <?php endif;?>
+    
+    <a href="javascript:void(0);" onclick="<?php echo $this->loadProductViewScript($data,$page);?>">
+        <?php
+                if ($theme->getValue('toggle_product_image')){
+                    foreach ($data->getImages(2) as $index => $image) {
+                        $alt = $data->displayLanguageValue('name',user()->getLocale());
+                        $class = $index==0 ? 'product-image show' : 'product-image hide';//hide 2nd image onwards
+                        $style = $index==0 ? '' : 'display:none';//hide 2nd image onwards
+                        echo CHtml::tag('span',['class'=>$class,'style'=>$style],CHtml::image($image, $alt));
+                    }
+                }
+                else {
+                    //show first image found
+                    echo $data->getImageThumbnail(Image::VERSION_ORIGINAL,['class'=>'img'],$data->displayLanguageValue('name',user()->getLocale()));
+                }
+        ?>
+    </a>
+    
+    <a class="product-info" href="javascript:void(0);" onclick="<?php echo $this->loadProductViewScript($data,$page);?>">
+        <div class="product-name">
+            <?php echo Helper::rightTrim($data->displayLanguageValue('name',user()->getLocale()),38); ?>
+        </div>
+        <div class="product-price">
+            <?php echo $data->formatCurrency($data->getPrice()); ?>
+            <?php if ($data->hasCampaign())
+                      echo CHtml::tag('s',[],$data->formatCurrency($data->unit_price));
+            ?>
+       </div>
+    </a>
+    
+    <?php if ($data->hasCampaign()):?>
+    <div class="offer-tag">
+        <a href="javascript:void(0);" onclick="<?php echo $this->loadProductViewScript($data,$page);?>">
+            <?php if ($data->isNew()):?>
+                <?php echo CHtml::tag('span',['style'=>'font-size:0.5em;'],Helper::htmlColorTag(Sii::t('sii','New'),'orangered',false));?>
+            <?php endif;?>
+            <?php echo Helper::htmlColorText($data->getCampaign()->getOfferTag(false,true),false);?>
+        </a>
+    </div>
+    <?php endif;?>
+    
+    <?php if ($data->isNew()&&!$data->hasCampaign()):?>
+    <div class="new-tag">
+        <?php echo Helper::htmlColorTag(Sii::t('sii','New'),'red',false);?>
+    </div>
+    <?php endif;?>
+    
+    <?php if (isset($data->most_counter) && $page->trendTopic==ShopPage::TREND_MOSTPURCHASED):?>
+        <div class="most-counter">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-bookmark fa-stack-2x"></i>
+                <span class="fa fa-stack-1x value"><?php echo $data->most_counter;?></span>
+            </span>
+        </div>
+    <?php endif;?>
+
+    <?php   
+            $this->renderPartial($this->getThemeView('_action'),[
+                'data'=>$data,
+                'page'=>$page,
+                'showActionBar'=>false,//set to false by default
+            ]);
+    ?>
+    
+</div>

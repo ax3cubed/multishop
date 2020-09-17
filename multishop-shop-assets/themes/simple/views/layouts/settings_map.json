@@ -1,0 +1,23 @@
+{
+    "product": {
+        "name":{
+            "en_sg":"Product",
+            "zh_cn":"产品"
+        },
+        "fields":[
+            {
+                "id":"toggle_product_image",
+                "name":{
+                    "en_sg":"Toggle Product Images",
+                    "zh_cn":"切换产品图片"
+                },
+                "remarks":{
+                    "en_sg":"Product needs to have at least 2 images. First and second image will be selected for toggling.",
+                    "zh_cn":"需要至少两张产品图片. 第一和第二张图片将会被选用作切换."
+                },
+                "type":"checkbox",
+                "value":false
+            }
+        ]
+    } 
+}

@@ -1,0 +1,54 @@
+.product-base-menu .ui-accordion-header {
+    background: white;
+    margin-top: 0px;
+    border: 0px;
+}
+.product-base-menu .ui-state-active {
+    border-bottom: 1px dashed lightgrey;
+}
+.product-base-menu .ui-accordion-content {
+    border: 0px solid whitesmoke;
+    padding: 10px;
+    font-size: 0.8em;
+}
+.product-base-menu .ui-accordion-content a {
+    color: darkgray;
+}
+.product-base-menu .ui-corner-all,
+.product-base-menu .ui-corner-top,
+.product-base-menu .ui-corner-left,
+.product-base-menu .ui-corner-tl {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.product-base-menu .ui-accordion-content ul {
+    margin: 0;
+    padding: 0px 25px;
+}
+.product-base-menu .ui-accordion-content ul ul {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.product-base-menu .ui-accordion-content ul ul li {
+}
+
+.product-base-menu .ui-accordion-content li {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.product-base-menu .ui-accordion-content li a {
+    color: #222;
+    font-weight: 100;
+}
+.product-base-menu .ui-accordion-content li.active > a {
+    color: black;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+    .product-base-menu .ui-accordion-content {
+        padding: 0;
+        border: 0;
+        padding-left: 3px;
+    }
+}

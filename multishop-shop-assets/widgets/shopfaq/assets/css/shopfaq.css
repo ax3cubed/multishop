@@ -1,0 +1,10 @@
+.shop-faq .panel-group .panel,
+.shop-faq .panel-group .panel-body {
+    border:0;
+}
+.shop-faq .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top:0;
+}
+.shop-faq .panel-group .panel-heading {
+    background: whitesmoke;
+}

@@ -1,0 +1,15 @@
+#row_tiers table {
+    width:50%;
+}
+
+#row_tiers table .del-button a {
+  position: relative;
+  top: 0px;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    #row_tiers table {
+        width:100%;
+    }
+}

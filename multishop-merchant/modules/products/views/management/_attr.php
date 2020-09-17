@@ -1,0 +1,36 @@
+<?php $this->widget($this->getModule()->getClass('gridview'), array(
+        'id'=>'product-attribute-grid',
+        'dataProvider'=>$dataProvider,
+        'columns'=>array(
+            array(
+               'name'=>'type',
+               'value'=>'$data->getTypeText()',
+               'htmlOptions'=>array('style'=>'text-align:center;width:10%'),
+               'type'=>'html',
+             ),
+            array(
+               'name'=>'code',
+               'value'=>'$data->code',
+               'htmlOptions'=>array('style'=>'text-align:center;width:20%'),
+               'type'=>'html',
+             ),
+            array(
+               'name'=>'name',
+               'value'=>'$data->displayLanguageValue(\'name\',user()->getLocale())',
+               'htmlOptions'=>array('style'=>'text-align:center;width:20%'),
+               'type'=>'html',
+             ),
+            array(
+                'header'=>Sii::t('sii','Option'),
+                'value'=>'$data->getOptionsText()',
+                'htmlOptions'=>array('style'=>'text-align:center;width:40%'),
+                'type'=>'html',
+            ),
+            array(
+                'header'=>Sii::t('sii','Share'),
+                'value'=>'$data->getShareText()',
+                'htmlOptions'=>array('style'=>'text-align:center;width:10%'),
+                'type'=>'html',
+            ),
+        ),
+)); 

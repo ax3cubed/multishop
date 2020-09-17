@@ -1,0 +1,72 @@
+.news-panel .ui-state-active {
+    background: inherit;
+}
+.news-panel .ui-accordion-content {
+    border: 0;
+    font-size: 0.85em;
+    padding: 0 20px 0;    
+    background: inherit;
+}
+.news-panel .ui-accordion-content a {
+    color: #222;
+}
+.news-panel .ui-corner-all,
+.news-panel .ui-corner-top,
+.news-panel .ui-corner-left,
+.news-panel .ui-corner-tl {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.news-panel .ui-accordion-content ul {
+    padding: 0px;
+    margin: 0px;
+}
+.news-panel .ui-accordion-content ul ul {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.news-panel .ui-accordion-content li {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.news-panel .ui-accordion-header,
+.news-panel .ui-accordion-header a {
+    cursor: default;
+}
+.news-panel .ui-accordion-content li a {
+    display:inline;
+}
+.news-panel.side-menu.ui-accordion h3 {
+    font-size: 1.5em;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.news-panel.side-menu .ui-state-active {
+    border: 0;
+}
+.news-panel .ui-accordion-content .date {
+    font-size: 0.8em;
+    padding-top: 2px;
+    display: inline-flex;
+    float: right;
+}
+.section .more,
+.ui-accordion .ui-accordion-header .more-news {
+    float: right;
+    font-size: .7em;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.side-menu .ui-accordion-header,
+.side-menu .ui-accordion-header a {
+    cursor: pointer;
+}
+
+.news-panel .ui-accordion-header .more-news {
+    font-size: 0.75em;
+    margin-right: 15px;
+    font-weight: 500;
+}

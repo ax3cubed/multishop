@@ -1,0 +1,36 @@
+[
+    {
+        "include":"header"
+    },
+    {
+        "name":"breadcrumbs-wrapper",
+        "columns":[
+            {
+                "size":12,
+                "name":"breadcrumbs",
+                "html":"w:breadcrumbs"
+            }
+        ]
+    },     
+    {
+        "name":"promotions",
+        "locked":true,
+        "columns":[
+            {
+                "size":12,
+                "locked":true,
+                "type":"listblock",
+                "name":"w:page_id",
+                "listItem":"promotion",
+                "itemsPerRow":1,
+                "itemsLimit":10,
+                "beforeViewFile":"_promotions_summary",
+                "afterViewFile":"_joinus"
+            }
+        ]
+    }, 
+    {
+        "include":"footer"
+    }
+]
+

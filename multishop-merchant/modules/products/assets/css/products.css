@@ -1,0 +1,234 @@
+.main-view .body .product {
+    display:inline;
+    width: 340px;
+    margin-left: 0px;
+    float:left;
+}
+.page-sidebar .spagefilter .page-menu {
+    margin-bottom:80px;
+}
+.wordwrap { 
+   /*white-space: pre-wrap;*/      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+
+.main-view .body .detail-view .data-element .shortcut-button {
+    margin-left: 5px;
+    background: orange;
+    color: white;
+    padding: 1px 5px;
+    text-decoration: none; 
+    font-size: 0.85em;    
+}
+.main-view .body .detail-view .data-element .shortcut-button:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#product .main-view .heading .name .superscript {
+    margin-left: 0px;
+}
+.main-view .body .row p.note {
+    margin:0;
+}
+.main-view .body .data-form textarea {
+    border: 1px solid lightgray;
+}
+.main-view .body .grid-view .items ul {
+    list-style: none;
+}
+.main-view .body .list-box table td.data ul {
+    list-style: none;
+    padding:0;
+}
+.main-view .body .list-box table td.data ul li {
+    padding-bottom: 3px;
+}
+
+#shipping_table_container {
+    margin-left: 15px;
+    padding: 0;
+}
+#child_table {
+    margin-top:15px;
+}
+
+.itemname  {
+    padding-bottom:5px;
+}
+.list-objects li {
+    display: inline-block;   
+}
+.section-products .section-body {
+    padding: 10px;
+}
+.product-thumbnail {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+.product-thumbnail .caption {
+    bottom: 0px;
+    position: absolute;
+    right: -5px;
+}
+
+#Product .main-view .body .image-form {
+    float:none;
+    width:100%;
+    margin:20px 0px;
+}
+#Product .main-view .body .form .sections {
+    padding-top: 0px;
+}
+#Product .main-view .body .form textarea {
+    width:99%;
+    height:50px;
+}
+#Product tr.template-download td.name .wordwrap {
+    width: auto;
+}
+
+.main-view .body .data-form .cke {
+    margin-top:5px;
+}
+
+#Category .main-view .body .grid-view {
+  padding-top: 0px;
+}
+div.form .category-slug {
+    margin-bottom: 20px;
+}
+
+div.form .category-slug label {
+    display: inline;
+}
+div.form .category-slug .note {
+    color: gray;
+    margin-top: 0;
+}
+div.form .category-url {
+   color: gray;
+   margin-right: 5px;
+}
+#child_table td.nonlocale-attribute {
+   position: relative;
+    top: 13px;    
+}
+
+div.form label.subcategory {
+    display:inline-block;
+}
+
+.product-categories-list {
+    margin: 0;
+    padding: 10px 10px 0;
+    list-style: none;
+}
+.product-categories-list li {
+    padding-bottom: 5px;
+}
+
+#ProductAttribute form .grid-view {
+   margin-top: 60px;    
+}
+
+#ProductAttribute form .grid-view td.nonlocale-attribute {
+    position: relative;
+    top: 12px;  
+}
+
+#product_import_page .data-column.normal {
+    text-align: right;
+    color: lightseagreen;
+}
+
+#product_import_page .flash ul li {
+    padding: 1px 0px 0px;
+}
+
+#product_import_page .flash ul.product-attribute-error {
+    margin:0;
+    padding: 0;
+}
+#product_import_page .flash .key-value-pair span.value {
+    position: relative;
+    left: 30px;
+}
+
+#product_import_page .flash .key-value-pair span.value ul {
+    padding: 5px 0px;
+}
+
+.product-upload form.upload-form {
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;    
+}
+.product-upload table.items .error {
+    position:relative;
+    color:red;
+}
+.product-preview-container .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.product-preview-container .summary {
+    float: right;
+}
+
+.products-import-preview {
+    overflow: scroll;
+    max-height: 800px;
+}
+.products-import-preview .fa-minus-circle {
+    color: red;
+}
+.products-import-preview .fa-check-circle {
+    color: green;
+}
+.products-import-preview td.error.message {
+    color: red;
+}
+#product_import_preview table.items ul {
+  padding: 0px 20px;
+  list-style-type: circle;
+}
+
+#product_import_preview .product-attribute-error li {
+    list-style:	none;
+    margin-left: -20px
+}
+
+#Category.page #child_table {
+    width: 90%;
+}
+
+div.form .meta-tags label {
+    display: inline;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    #Product .main-view .body .data-form {
+        position: relative;
+        top: 0;
+    }
+    #Product div.form label {
+        display: inline;
+    }
+    #Product tr.template-download td.name .wordwrap {
+        width: 100px;
+    }
+   .imageurlform-dialog.form label {
+        width:100%;
+    }
+    .data-column.image.width-p-33 {
+        width: 100%;
+        margin-bottom: 10px;
+    }    
+}

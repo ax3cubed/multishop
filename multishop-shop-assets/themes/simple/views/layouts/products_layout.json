@@ -1,0 +1,37 @@
+[
+    {
+        "include":"header"
+    },
+    {
+        "name":"breadcrumbs-wrapper",
+        "columns":[
+            {
+                "size":12,
+                "name":"breadcrumbs",
+                "html":"w:breadcrumbs"
+            }
+        ]
+    },     
+    {
+        "name":"products",
+        "locked":true,
+        "columns":[
+            {
+                "size":12,
+                "locked":true,
+                "type":"listblock",
+                "name":"w:page_id",
+                "listItem":"product",
+                "itemsPerRow":4,
+                "itemsLimit":12,
+                "itemScript":"toggleproduct('.product');",
+                "beforeViewFile":"_products_summary",
+                "afterViewFile":"_joinus"
+            }
+        ]
+    },   
+    {
+        "include":"footer"
+    }
+]
+

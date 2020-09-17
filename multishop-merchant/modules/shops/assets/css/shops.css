@@ -1,0 +1,516 @@
+/* BEGIN overriding bootstrap css - temporary required until entired UI framework is incorporating bootstrap.  */
+/*       by then, all will be moved to common.css */
+.page-sidebar * {
+    -webkit-box-sizing: content-box; /*override bootstrap.css */
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.bootstrap-page * {
+    -webkit-box-sizing: content-box; /*override bootstrap.css */
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.bootstrap-page h1 {
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+.bootstrap-page h2 {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+.bootstrap-page h3 {
+    font-size: 1.2em;
+}
+.bootstrap-page h4 {
+    font-size: 1.1em;
+}
+.bootstrap-page .pagemenu .menuitem .label {
+    color: #DCDCDC;
+    padding: 0px;
+    display: inherit;
+}
+.bootstrap-page .pagemenu li a:hover .label i,
+.bootstrap-page .pagemenu li a.active .label i {
+    color: black;
+}
+.bootstrap-page .image-form,
+.bootstrap-page .data-form {
+    display: inline-block;
+}
+.bootstrap-page .upload-form div.progress {
+    margin:0;
+}
+.bootstrap-page .upload-form .row.fileupload-buttonbar {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.bootstrap-page .upload-form .template-download.fade {
+    opacity: 1;
+}
+/* END overriding bootstrap css */
+
+.main-view .body .detail-view .data-element .shortcut-button {
+    margin-left: 5px;
+    background: orange;
+    color: white;
+    padding: 1px 5px;
+    text-decoration: none;
+    font-size: .85em;      
+}
+.main-view .body .detail-view .data-element .shortcut-button:hover {
+    color: white;
+    text-decoration: underline;
+}
+.preview-bar{
+    font-size: 2em;
+    font-weight: bold;
+    background: black;
+    color: white;
+    margin-top: -5px;
+}
+.preview-bar .description {
+    font-size: 0.5em;
+    padding-bottom: 2px;
+    color: white;
+}
+.preview-bar .close-button {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px;
+    font-weight: 100;  
+    cursor: pointer;
+}
+#shop_layout_page.modern.preview .shop-hd {
+    text-align: left;
+}
+.main-view .body .row input.error {
+    border: 1px solid #C00;
+}
+.main-view .body .row p.note {
+    margin:0;
+}
+
+.shortcuts {
+    margin: 0;
+    list-style-type: none;
+}
+.shortcuts li {
+    padding: 2px 0px;
+}
+.shortcuts li .letter-icon {
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+#shop_list {
+    min-height: 300px;
+}
+
+.subform select.locale {
+    width:330px;
+}
+.subform .remarks {
+    color: lightgray;
+    margin-left: 15px;
+    font-size: 0.9em;
+}
+
+.main-view .body .image-form {
+    padding-right: 20px;
+}
+.main-view .body .data-form {
+    width: 70%;
+}
+
+#shop_settings .sections .section-body .data-element .value {
+    display: block;
+    background: whitesmoke;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+}
+#shop_settings .data-element .tabs a {
+    text-decoration: none;
+}
+#shop_settings .data-element .page-tab .view {
+    margin-left: 1px;
+    padding: 5px;
+}
+#multisections_settings .main-view .body {
+    padding:0;
+}
+#multisections_settings .sections .section-body .subform {
+    margin-bottom: 30px;
+}
+
+.ui-sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.ui-sortable li:last-child {
+    border-bottom: 1px solid #EDEDED;
+}
+.ui-sortable li {
+    cursor: move;
+    border-top: 1px solid #EDEDED;
+    border-left: 1px solid #EDEDED;
+    border-right: 1px solid #EDEDED;
+    padding: 10px;    
+}
+.ui-sortable li .sort-item i {
+    font-weight: 100;
+    color: lightgray;
+    padding-right: 10px;
+    font-size: 1.2em;
+    vertical-align: top;
+}
+.ui-sortable ul li {
+    margin: 5px 0px;
+}
+
+.nav-main-menu,
+.nav-candidates {
+    width: 40%;
+    margin-right: 50px;
+}
+.nav-main-menu ul {
+    min-height: 35px;
+    padding: 5px;
+    border: 1px dashed lightgray;
+    background: whitesmoke;
+}
+.nav-main-menu ul li {
+    background: white;
+    border-bottom: 1px solid #EDEDED;
+}
+.nav-main-menu ul ul,
+.nav-candidates ul ul {
+    margin-left: 25px;    
+}
+.nav-main-menu ul li li {
+    margin: 0px;
+    border: 0px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.nav-main-menu ul li li:last-child {
+    border-bottom: 0px solid #EDEDED;
+}
+.nav-main-menu ul.submenu {
+    margin-top: 10px;
+    background: whitesmoke;
+    min-height:0px;
+}
+.nav-main-menu .subsubmenu {
+    padding: 0;
+}
+.nav-candidates ul.connectedSortable {
+    min-height: 40px;
+    background: whitesmoke;
+}
+.main-view .body .form .nav-candidates .sections {
+    margin:0;
+    padding:0;
+}
+.nav-candidates .section-heading i {
+    margin-right: 10px;
+    color: gray;
+}
+.nav-candidates .section-heading i.material-icons {
+    vertical-align: bottom;
+    margin-left: -3px;
+}
+.nav-candidates li i.material-icons,
+.nav-main-menu li i.material-icons {
+    font-size: 1.5em;
+    vertical-align: top;
+}    
+.add-nav-link {
+    margin-left: 10px;
+    font-size: 0.6em;
+    text-decoration: underline;  
+    cursor:pointer;
+}
+.nav-link-form {
+    position: relative;
+    margin-left: 25px;
+    margin-top: -15px;
+}
+.nav-link-form ul {
+    background: white;
+    border: 0;
+    min-height: auto;
+    height: 15px;  
+    background: none;
+}
+.nav-link-form .page-tab ul.tabs {
+    margin-left: 25px;
+    margin-top: -20px;
+}
+.nav-link-form .page-tab ul.tabs li {
+    position: relative;
+    background: none;
+    margin: 0;
+    padding: 0;
+}    
+.nav-link-form ul li {
+    border: 0;
+    display:inline;
+}
+.nav-link-form div.row.field {
+    margin: 0;
+    width: auto;
+}
+.nav-link-form div.row.field.link {
+    margin-top: -10px;
+}
+.nav-link-form .page-tab div.view {
+    padding:0;
+    background: none;
+}
+.nav-link-form input {
+    padding: 0;    
+    margin: 0;
+    width: 90%;
+}
+
+.shop-map {
+  float: right;    
+}
+
+.section-theme .section-body {
+    margin-top: -10px;
+    padding-bottom: 10px;    
+}
+
+#shop_list .heading-element {
+  padding: 5px 5px 5px 3px;
+  font-size: 1.8em;
+}
+
+#shop_update_page .fileupload-button .fileinput-button {
+  top: 135px;
+}
+
+#shop_update_page .avatar img {
+  border-radius: 0%; 
+  -webkit-border-radius: 0%; 
+  -moz-border-radius: 0%;
+}
+
+#ShopForm_slug.disabled {
+    background:whitesmoke;
+    border:1px solid #a7a6ac;
+}
+
+.navigation-menuitems {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+.navigation-menuitems li {
+    padding:5px;
+}
+.navigation-menuitems li .fa {
+    padding-right:5px;
+}
+
+.banner-form h2 {
+    margin: 20px 0 -20px 20px;  
+}
+
+
+.favicon-desc {
+    margin-top: 5px;
+    font-size: 0.95em;
+    clear: left;
+    display: inline-block;
+    width: 60%;
+}
+div.form.settings-2 {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    width: 50%;
+}    
+div.form .row.fileupload-buttonbar {
+}
+div.form .fileinput-button input{
+    top:0px;
+    margin:0;
+}
+.row.fileupload-buttonbar div label.required {
+    display: inline;
+}
+
+.main-view .body .ui-button.extra-button {
+    background: black;    
+}
+.main-view .body .ui-button.disabled-button {
+    background: lightgray;    
+}
+
+div.form .meta-tags label {
+    display: inline;
+}
+
+#btn_update_theme {
+    float:right;
+    text-decoration: none;
+}
+#btn_update_theme:hover {
+    color:white;
+}
+.themes-container .summary {
+    text-align: right;
+}
+.main-view .body .themes-container .list-box {
+    border: 2px solid #EDEDED;
+    width:23.7%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    margin-left: 0px;
+}
+.themes-container .theme-info {
+    display:inline-block;
+    padding:0 8px;
+}
+.themes-container .image-element {
+    border-bottom: 1px solid whitesmoke;
+}
+.themes-container .image-element img {
+    width:100%;
+    max-height: 350px;
+}
+.main-view .body .themes-container .list-box .data {
+    padding:0;
+}
+.main-view .body .themes-container .ui-button {
+    margin: 10px 0px 10px 10px;
+}
+.main-view .body .themes-container .ui-button.preview,
+#shop_update_page .ui-button.preview {
+    background:darkcyan;
+}
+.main-view .body .tips {
+    margin-bottom: 15px;    
+    font-size: 0.9em;
+}
+.main-view .body .tips .ui-button{
+    cursor: auto;    
+}
+.main-view .body .tips .ui-button.current,
+.main-view .body .themes-container .ui-button.current {
+    background: orangered;
+}    
+.main-view .body .tips .ui-button.publish,
+.main-view .body .themes-container .ui-button.publish {
+    background: limegreen;
+}    
+.theme-selection {
+    margin:10px;
+    display:inline-block;
+}
+.main-view .body .theme-selection input {
+    height:auto;
+    display:inline-block;
+    margin-right: 5px;
+}
+.themes-container .style-image {
+    display: none;
+}
+.themes-container .style-image.selected {
+    display: block;
+}
+.main-view .body .css-form {
+    position: relative;
+}
+.main-view .body .css-form .form {
+    padding:0;
+}
+.css-disclaimer {
+    position: relative;
+    font-size: 0.9em;
+    width: 80%;
+    color: gray;
+}
+.css-disclaimer .key {
+    font-weight:800;
+    margin-right: 5px;
+}
+.css-disclaimer .value {
+    font-weight:100;
+}
+.sections .subform input,
+.sections .subform select {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+select.chzn-select-category {
+    width:450px;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    
+    .subform select.locale {
+        width:220px;
+    }   
+    .subform-column {
+        display:block;
+    }
+    
+    .main-view .body .data-column.image,
+    .main-view .body .data-column.normal {
+        width: 100%;
+    }
+    .shop-map {
+      float: none;    
+    }
+    div.form.settings-2 {
+        width: 100%;
+    }    
+    .favicon-desc {
+        width: 40%;
+    }
+    
+    .nav-main-menu.column  {
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        width: 50%;
+        vertical-align: top;        
+    }
+    .nav-candidates {
+        display: inline-block;
+        margin: 0;
+        width: 45%;
+        position: relative;
+    }
+    
+    .themes-heading,
+    .themes-container,
+    div.tips {
+        margin:10px;
+    }
+    .themes-container .list-box {
+        width:100%;
+        display: block;
+        margin: 20px;
+        margin-left:0px;
+    }
+    .main-view .body .themes-container .ui-button {
+        width: 85%;
+    }  
+    select.chzn-select-category {
+        width:100%;
+    }
+}

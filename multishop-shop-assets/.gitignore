@@ -1,0 +1,16 @@
+# netbeans project files
+nbproject
+
+# Mac DS_Store Files
+.DS_Store
+
+#auto or offline generated files
+/themes/**/assets/**/*.min.css
+/themes/**/assets/**/*.min.js
+/widgets/**/assets/**/*.min.css
+/widgets/**/assets/**/*.min.js
+
+# ------------------------------------------
+# Exception : mainly used for empty folder
+# ------------------------------------------
+!.gitignore

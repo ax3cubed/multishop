@@ -1,0 +1,70 @@
+<?php
+/**
+ * Module Message translations (this file must be saved in UTF-8 encoding).
+ * It merges messages from below sources in sequence:
+ * [1] application level messages 
+ * [2] common module level messages (inclusive of kernel common messages)
+ * [3] local module level messages
+ */
+$appMessages = require(Yii::app()->basePath.DIRECTORY_SEPARATOR.'messages/zh_cn/sii.php');//already inclusive kernel messages
+$moduleName = basename(dirname(__DIR__, 2));//move two levels up and grep module name
+$moduleMessages = Sii::findMessages(Yii::app()->basePath.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.KERNEL_NAME,$moduleName,'zh_cn');
+return array_merge($appMessages,$moduleMessages,[
+    'Billing' => '套餐计费',
+    'billing' => '套餐计费',
+    'Billing Overview' => '计费信息',
+    'Billing Settings' => '计费设置',
+    'settings' => '计费设置',
+    'Billed To' => '付款方',
+    'Billing|Billings' => '套餐计费',
+    'Plan'=>'套餐',  
+    'Cancel Plan' => '取消套餐',
+    'Download Receipt'=>'下载收据',
+    'Receipt|Receipts'=>'收据',
+    'Receipt No' => '收据编号',
+    'Receipt Date' => '收据日期',
+    'n<=1#Item|n>1#Items'=>'物件',
+    'Charged To'=>'付款卡',
+    'Transaction ID'=>'交易编号',
+    'Transaction Date'=>'交易日期',
+    'View Receipt' => '查看收据',
+    'Subscription No'=>'套餐编号',
+    'history'=>'套餐历史',
+    'Package'=>'套餐',
+    'Monthly'=>'月费',
+    'Yearly'=>'年费',
+    '{start_date} to {end_date}'=>'{start_date} 至 {end_date}',
+    'Active'=>'现有套餐',
+    'Expired'=>'已逾期',
+    'Charged'=>'已付款',
+    'Subscriptions'=>'套餐历史',
+    'Subscription History'=>'套餐订购历史',
+    'Service Start Date'=>'服务开始日期',
+    'Service End Date'=>'服务结束日期',
+    'Service Validity'=>'服务有效期',
+    'Never'=>'无限期',
+    'Next Bill Date'=>'下一次计费日期',
+    'Next Bill Amount'=>'下一次计费款额',
+    'Credit Card Number'=>'信用卡号码',
+    'Expiration'=>'有效期',
+    'Expiration: {date}'=>'有效至：{date}',
+    'Renewal'=>'套餐续订',
+    'Change Payment Card'=>'更换信用卡',
+    'Change'=>'更换',
+    'Update'=>'更新',
+    'Create'=>'创建',
+    'Create Payment Card'=>'创建信用卡',
+    'Payment Cards'=>'信用卡',
+    'payment'=>'付款卡',
+    'Plan Rights'=>'套餐权限',
+    'Add Payment Card'=>'添加信用卡',
+    'Payment card is changed successfully'=>'信用卡已成功更换',
+    'Payment Card Update'=>'更新信用卡',
+    'Payment Card Create'=>'创建信用卡',
+    'Payment Card'=>'付款卡',
+    'Secure Form'=>'安全表格',
+    'Save' => '储存',
+    'Sent' => '已发票',
+    'We received payment for your {app} subscription. Thanks for business!'=>'我们已收到您在{app}的套餐付款。谢谢您的惠顾！',
+    'Contact us at <em style="color:skyblue;">{email}</em> if you have questions.'=>'若您有任何问题请联系我们：<em style="color:skyblue;">{email}</em>',
+]);

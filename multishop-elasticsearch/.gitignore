@@ -1,0 +1,14 @@
+# netbeans project files
+nbproject
+
+# Mac DS_Store Files
+.DS_Store
+
+# elasticsearch data/logs files
+/data
+/logs
+
+# ------------------------------------------
+# Exception : mainly used for empty folder
+# ------------------------------------------
+!.gitignore

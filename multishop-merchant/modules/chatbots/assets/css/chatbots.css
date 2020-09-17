@@ -1,0 +1,74 @@
+.chatbot-modal .btn-default {
+    background: white;
+    border-radius: 0px;
+}
+.chatbot-modal .btn-primary {
+    background: #1E90FF;
+    border-color: #1E90FF;
+    border-radius: 0px;
+}
+.chatbot-modal .btn-success {
+    background: limegreen;
+    border-color: limegreen;
+    border-radius: 0px;
+}
+.chatbot-modal .btn-default:focus, 
+.chatbot-modal .btn-default:hover {
+    background-color: white;
+}
+.chatbot-modal .btn-primary:focus, 
+.chatbot-modal .btn-primary:hover {
+    background-color: #1E90F0;
+    border-color: #1E90F0;
+}
+.chatbot-modal .form .flash-icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+.chatbot-modal .flash-title {
+    font-size: 1.1em;
+    padding:0px;
+}
+.chatbot-modal .flash-title ul {
+    padding: 0px 5px;
+    display: inline-block;
+    list-style-type: none;
+}
+.chatbot-modal .message > div {
+    padding: 5px;
+}
+
+.chatbot-modal .form .row.message {
+    margin: 0;
+    margin-top: -10px;
+}
+.chatbot-modal .form .row {
+    margin-bottom: 20px;
+}
+.chatbot-modal .form .row label {
+    font-size:1em;
+    font-weight: 600;
+}
+.chatbot-modal .form .row i,
+.chatbot-modal .form .row p {
+    font-weight: 100;
+}
+.chatbot-modal .form input {
+    width: 98%;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.chatbot-modal .send-button-wrapper {
+    float:right;
+    display: inline-block;
+}
+
+.chatbot-modal .last-sent-time {
+    display: inline-block;    
+    padding-right: 10px;
+    font-size: 0.85em;
+}

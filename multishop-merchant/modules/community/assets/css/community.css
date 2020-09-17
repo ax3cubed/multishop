@@ -1,0 +1,1150 @@
+body.wcm.community {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: black;
+    font: normal 12pt sans-serif;
+}
+body.wcm.community .sitelogo {
+    margin: 25px 20px 0px 10px;
+}
+
+body.wcm.community .smodal-content input {
+    height: 30px;
+    width:96%;
+}
+body.wcm.community .smodal-content input.ui-button {
+    height: 35px;
+    width: 93%;    
+}
+body.community .form-wrapper {
+    margin-top:0px;
+}
+body.error .segment.error {
+    margin-top: 0px;
+}
+body.error .nav-menu li a {
+    color: black;
+}
+
+body.community .breadcrumbs {
+    font-size: 0.8em;
+    padding: 10px 25px;
+}
+body.community.wcm .header-container {
+    border: 0;
+    background: none;
+}
+body.community .header-container .sitelogo a,
+body.community .header-container .susermenu.nav-menu li a {
+   color: black;
+   border:0;
+}
+body.community .header-container .sitelogo .subscript {
+    background: orange;
+}
+body.community .header-container .communitylogo {
+    position: relative;
+    top: 28px;
+    font-size: 20px;
+    letter-spacing: 0.03em; 
+}
+body.community .header-container .communitylogo a {
+    color: black;
+}
+body.community.login .nav-menu ul {
+    font-size: 16px;
+    letter-spacing: 0;
+}
+body.community.login .nav-menu ul li {
+    line-height: 2.2;
+}
+body.community .nav-menu li {
+    float: none; 
+    position: relative;
+    display: inline-block;
+    margin-left:0;
+}
+
+body.community.login .page-container {
+    position: relative;
+    top: 38px;
+}
+body.community .header-container .susermenu.nav-menu ul li a {
+    color: #111;
+}
+body.community .header-container .susermenu.nav-menu .community-menu.active a {
+    text-decoration: underline;
+    color: red;
+}
+
+body.community #page_layout_view_page {
+    padding-top: 80px;
+}
+body.community #page_layout_view_page {
+    background: whitesmoke;
+}
+body.community .page-container {
+    top: 0;
+}
+body.community .page-layout .width-p-80 {
+    width: 78%;
+}
+
+body.community .page-content {
+    border: 0;
+    margin: 0;
+    margin-bottom: 80px;
+}
+body.community .page-content.main .main-view .heading  {
+    margin:0;
+    padding-top: 80px;
+}
+/* @todo To show background image, please prepare following images */
+/*
+body.community #questions_index_page .main-view .heading {
+    background-image: url(/images/background-questions.jpeg) !important;
+}
+body.community #tutorials_index_page .main-view .heading {
+    background-image: url(/images/background-tutorials.png) !important;
+}
+body.community #topics_page .main-view .heading {
+    background-image: url(/images/background-tags.gif) !important;
+}
+body.community #tutorial_series_page .main-view .heading {
+    background-image: url(/images/background-tutorial-series.jpeg) !important;
+}
+body.community #search_page .main-view .heading {
+    background-image: url(/images/background-community.jpeg) !important;
+}
+*/
+body.community .segment {
+    background-image: linear-gradient(bottom, #FFFFFF 39%, #FFFFFF 20%, #E9E9E9 100%);
+    background-image: -o-linear-gradient(bottom, #FFFFFF 39%, #FFFFFF 20%, #E9E9E9 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 39%, #FFFFFF 20%, #E9E9E9 100%);
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 39%, #FFFFFF 20%, #E9E9E9 100%);
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 39%, #FFFFFF 20%, #E9E9E9 100%);
+    /*background-image: url(/images/background-community.jpeg) !important;*/
+    padding-top: 80px;
+}
+body.community .main-view .body .list-box {
+    min-height: auto; 
+}
+body.community .spager a {
+    font-weight:100;
+    font-size: 0.9em;
+    color: lightgray;
+}
+body.community .main-view a, 
+body.community .main-view p a, 
+body.community .main-view li a, 
+body.community .main-view dt a,
+body.community .main-view #tutorial_list .list-box a {
+    text-decoration: none;
+    color: #0087CC;
+    font-weight: 100;
+}
+body.community .main-view p { 
+    line-height: 22px;
+}
+body.community .main-view li p { 
+    margin: 0px;
+}
+body.community .main-view blockquote { 
+    margin: 10px;
+    font-size:0.9em;
+}
+/* nested blockquote*/
+body.community .main-view blockquote blockquote{ 
+    border: 1px dotted lightgray;
+    padding: 5px 10px;
+    font-size:1em;
+}
+body.community .main-view blockquote blockquote p { 
+    line-height: 20px;
+}
+body.community .main-view table { 
+    border: 1px dotted lightgray;
+    padding: 5px 10px;
+}
+body.community .main-view .tip {
+    border-left: 5px solid #E0CB52;
+    padding-left:10px;
+    background: #FCFAEE;
+    overflow: auto;
+    clear: both;
+    margin:10px 0;
+    color: #555;
+    font-size: 0.9em;    
+}
+body.community .main-view .tip h4 {
+    margin: 10px 0px 5px;
+}
+body.community .main-view .tip.note {
+    background: #f6fafd;
+    border-left-color: #479ccf;
+}
+
+body.community .main-view h2 { 
+    font-weight: 400;
+    padding-top:50px;
+}
+body.community .main-view th,
+body.community .main-view td { 
+    min-width: 80px;
+    text-align: center;
+}
+body.community .main-view ul { 
+    padding: 0 25px;
+}
+body.community .main-view li { 
+    padding: 2px;
+}
+body.community .main-view ol li p { 
+    margin: 2px;
+    line-height: 20px;
+}
+body.community .main-view li h3 { 
+    margin: 3px;
+}
+body.community .main-view code {
+    font-size: 0.9em;
+}
+body.community .main-view code.field,
+body.community .main-view span.field {
+    background:#ededed;
+    font-weight: 100;
+    padding: 0px 2px 1px;
+}
+body.community .main-view code.status,
+body.community .main-view span.status {
+    font-size: 0.8em;
+}
+#tutorials_index_page.page,
+#questions_index_page.page,
+#tutorial_series_page.page,
+#topics_page.page,
+#tutorial_page.page,
+#question_page.page {
+    background: white;
+}
+body.community #tutorial_page.page,
+body.community #question_page.page {
+    margin: 20px 30px;
+}
+body.community #topics_page .heading,
+body.community #search_page .heading {
+    display:block;
+    width:auto;
+    margin: 0px;
+    padding: 80px 20px 20px;
+}
+body.community #topics_tab .items,
+body.community #topics_page .items {
+    padding-top:40px;
+}
+
+body.community .search-bar {
+    background: none;
+    border: 0;
+    padding-top: 20px;
+}
+body.community .main-view .heading .search-bar {
+    font-size: 15px;
+}
+body.community .community-search-bar .search-bar {
+    margin: 10px;
+}
+
+body.community .page-container .search-bar ul {
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid gray;
+    width: 95%;
+}
+body.community .page-container .search-bar ul li a {
+    color: black;
+}
+
+body.community .search-bar input {
+    background: none;
+    text-align: left;
+}
+body.community .search-bar ul li.search-text {
+    width:97%;
+}
+
+.page-sidebar {
+    margin-top: 30px;    
+    text-align: center;
+    color: black;
+}
+#tutorial_page_sidecol .avatar,
+#question_page_sidecol .avatar {
+    padding: 0;
+}
+
+#tutorial_page_sidecol .data-element .key,
+#question_page_sidecol .data-element .key {
+    display: block;
+    padding: 0px 0px;
+    color: darkgray;    
+}
+#tutorial_page_sidecol .data-element .value,
+#question_page_sidecol .data-element .value {
+    display: block;
+}
+
+#tutorial_page_sidecol .author.data-element .key,
+#question_page_sidecol .author.data-element .key,
+#question_page_sidecol .datetime.data-element .key {
+    padding: 1px 0px;
+}
+#tutorial_page_sidecol .author.data-element .value,
+#question_page_sidecol .author.data-element .value {
+    padding: 10px 0px;
+}
+
+#tutorial_page_sidecol .difficulty.data-element .key,
+#tutorial_page_sidecol .tags-content.data-element .key,
+#question_page_sidecol .tags-content.data-element .key {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+#tutorial_page_sidecol .difficulty.data-element .value {
+    padding: 10px 0px;
+}
+
+#tutorial_page_sidecol .tags-content.data-element .value ul,
+#question_page_sidecol .tags-content.data-element .value ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    display: inline-block;
+}
+#tutorial_page_sidecol .tags-content.data-element .value ul li,
+#question_page_sidecol .tags-content.data-element .value ul li {
+    padding: 2px 0px;
+    margin: 2px 0px;
+    border-bottom: 1px dotted black;    
+}
+/**
+ * @todo This is interim solution to set image rendered by HtmlPurifier to always have width 100%
+ * For tutorial content viewing
+ * @see Helper::purify
+ */
+#tutorial_page img,
+#question_page img {
+    width:100%;
+}
+
+#tutorial_page .main-view,
+#question_page .main-view {
+    margin:0px 25px;
+}
+
+#tutorial_page .main-view .body,
+#question_page .main-view .body {
+    overflow-x: scroll;
+    padding:0;
+    font-weight: 100;
+}
+
+#tutorial_page .main-view .heading .name-wrapper,
+#question_page .main-view .heading .name-wrapper {
+    margin: 10px 0px;    
+}
+.main-view .body .list-box .data .element .avatar {
+    padding-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.main-view .body .list-box .data .element ul li {
+    padding: 2px 0px;
+}
+.tags {
+    display: inline-block;
+    margin: 0;
+    padding: 0;   
+}
+.main-view .body .tags {
+    margin: 20px 0px 0px;
+    padding: 5px;
+}
+.main-view .body .list-box .data .element .tags {
+    padding:0;
+    margin-top:0px;
+}
+.tags li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px 3px;
+    border-radius: 0px;
+    background: inherit;
+    color: black;    
+}
+#tutorial_article .tags li a {
+    background: lightgoldenrodyellow;   
+    color: #444;
+    padding: 3px;
+    font-size: 0.85em;    
+}
+#tutorial_article .tags.series li a {
+    background: lavender;
+}
+
+.tag-label {
+    display: inline;
+}
+.tag-label:before{
+    content:", ";
+}
+
+.header-wrapper {
+    display:inline;
+    position: relative;
+}
+.header-wrapper .data-column {
+    display:inline-block;
+}
+.header-wrapper .header-name {
+    margin-left: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.header-wrapper .header-name h1 {
+    font-size: 1em;
+    margin: 0px;
+    font-weight: 100;
+}
+.header-wrapper .header-desc {
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.header-wrapper .fa-circle {
+    color:darkslateblue;
+}
+.header-wrapper.tutorial-series .fa-circle {
+    color:deepskyblue;
+}
+#questions_index_page .fa-circle {
+    color:lightseagreen;
+}
+.header-wrapper .header-button {
+    position: relative;
+    font-size: .5em;
+    margin: 20px 40px;
+    float: right;
+}
+.header-wrapper .header-button .ui-button {
+    height: 100%;
+    background: #1E90FF;
+    border: 3px solid #1E90FF;
+    color: white;
+}
+
+.tutorial-comments-wrapper,
+.question-answers-wrapper {
+    padding: 40px 0px;
+    font-size: 14px;
+}
+body.community .tutorial-comments-wrapper table,
+body.community .question-answers-wrapper table{
+    border: 0;
+}
+body.community .tutorial-comments-wrapper td,
+body.community .question-answers-wrapper td{
+    text-align: left;
+}
+.tutorial-comments-wrapper h2,
+.tutorial-comments-wrapper h3,
+.question-answers-wrapper h2,
+.question-answers-wrapper h3 {
+    font-weight: 100;
+    color: gray;
+}
+
+.comment-form-wrapper textarea {
+    width: 50%;
+    height: 100px;
+    font-size: 1.1em;
+}
+
+.comment-form-wrapper .ui-button {
+    display: block;
+    margin-top: 10px;
+    background: #1E90FF;
+    border: 3px solid #1E90FF;   
+    font-size: 1.1em;
+    color: white;
+    width: 100px;
+}
+
+.prevlink-comment {
+    text-align: left;
+    clear: both;
+    height:20px;
+}
+.prevlink-comment a {
+    text-decoration: none;
+    color: lightgray;
+}
+.comments, 
+.prevdata-comment {
+    text-align: left;
+    clear: both;
+}
+.comments .list-view, 
+.questions .list-view, 
+.prevdata-comment .list-view {
+    width: 81%;
+}
+.comment-loader-wrapper {
+    display:inline-block;
+    position:relative;
+    top:-25px;
+    font-size:0.6em;
+    vertical-align:bottom;
+}
+.comment {
+    background-color: whitesmoke;
+    margin: 10px 0px;
+    padding: 8px 10px;
+    text-indent: 0px;
+}
+.comment .avatar {
+    vertical-align:top;
+    width:10%;
+    padding-right: 10px;    
+}
+.comment .author {
+    font-weight: bold;
+}
+.comment .time {
+    color: lightgrey;
+    padding-left: 5px;
+    font-size: 0.9em;
+}
+#tutorial_page_sidecol .like-content.data-element .key,
+#question_page_sidecol .like-content.data-element .key {
+    padding: 0;
+}
+.like-counter-wrapper {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.like-counter-wrapper .like-button {
+    position: relative;
+    right: 46%;
+    font-size: 1.3em;
+    top: 5px;
+    min-height: 10px;    
+    max-height: 20px;    
+}
+.like-counter-wrapper .like-button .fa-heart-o {
+    color: orange;
+}
+
+#community_page .fa-stack {
+    font-size: 3em;
+}
+#community_page .fa-stack-2x {
+    font-size: 2em;
+}
+#community_page .fa-stack-1x {
+    font-size: 1em;
+}
+#community_page .callout{
+    display: inline-block;
+    width: 18%;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+#community_page .callout.tutorials,
+#community_page .callout.tutorials a {
+    color: darkslateblue;
+}
+#community_page .callout.tutorial-series,
+#community_page .callout.tutorial-series a {
+    color: deepskyblue;
+    vertical-align: top;
+}
+#community_page .callout.questions,
+#community_page .callout.questions a {
+    color: lightseagreen;
+    vertical-align: top;
+}
+#community_page .callout.topics,
+#community_page .callout.topics a {
+    color: lightsalmon;
+    vertical-align: top;
+}
+#community_page .callout h3 {
+    margin: 0;
+}
+#community_page .callout p {
+    color: black;
+}
+
+body.community .list-view .summary,
+body.community .list-view .empty {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.cTab ul.tabs
+{
+    padding: 0;
+    margin: 25px 20px;
+    font: lighter 15px Verdana, sans-serif;
+    border-bottom: 1px solid #EDEDED;
+    height: 40px;
+    float: left;
+    clear:both;
+    width:96%;
+}
+.cTab ul.tabs li
+{
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+
+.cTab ul.tabs a
+{
+    padding: 2px 0.5em;
+    margin: 0 0 0 5px;
+    border: 1px solid #EDEDED;
+    border-bottom: none;
+    background: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    height: 35px;
+    width: 200px;
+    float: left;
+}
+.cTab ul.tabs a:link, .yiiTab ul.tabs a:visited
+{
+    color: lightgray;
+}
+
+.cTab ul.tabs a:hover
+{
+    /*color: whitesmoke;*/
+    /*background: #E6F2FF;
+    border-color: #227;*/
+}
+
+.cTab ul.tabs a.active
+{
+    background: white;
+    border-top: 1px solid #EDEDED;
+    border-left: 1px solid #EDEDED;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid white;
+    /*font: normal 15px Verdana, sans-serif;*/
+    font-weight: lighter;
+    color : #111;
+}
+
+.cTab div.view {
+    margin: 10px 30px 50px;
+    clear:both;    
+}
+.cTab:after,.cTab div.view:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+
+.cTab .title
+{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.cTab .list-box {
+    border: 1px solid #EDEDED;
+    margin-bottom: 10px;
+    position: relative;
+}
+.cTab .list-box .status {
+    position:absolute;
+    top:5px;
+    right:0px;
+    font-size: 1.3em;
+}
+.cTab .list-box .action {
+    position:absolute;
+    top:30px;
+    right:0px;
+    font-size: 1.25em;
+    margin-right: 3px;
+}
+.cTab .list-box .image {
+    display:inline-block;
+    vertical-align:top;
+    margin-right:10px;
+    float:left;
+}
+.cTab .list-box .data {
+    display:inline-block;
+    padding: 5px;
+}
+body.community .list-box .data .heading-element {
+    padding: 5px 5px 5px 3px;
+    font-size: 1.2em;
+}
+body.community .list-box .data .element {
+    padding:3px;
+    color: gray;
+    font-weight: 100;
+    font-size: 13px;
+}
+body.community .list-box a,
+body.community .main-view .body .list-box a {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+}
+.cTab .list-box .data .element strong:first-child {
+    padding-left: 0px;
+}
+.cTab .list-box .data .element strong {
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.cTab .list-box .data .element ul {
+    list-style: none;
+}
+.cTab .list-box a:hover{
+    color: red;
+}
+.cTab .list-box .data .element .avatar {
+    padding-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+#tutorial_article .data .element ul li {
+    padding-bottom: 0px;
+}
+
+.tag-wrapper {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 1em;
+    border: 1px solid whitesmoke;
+    margin: 5px;
+    display: inline;
+    color: black;
+    font-weight: 100;
+}
+#topics_page {
+    margin-bottom: 80px;
+}
+#topics_page.search-results {
+    margin-bottom: 0px;
+}
+#topics_page .header-wrapper .fa-circle {
+    color: lightsalmon;
+}
+#topics_page .body .items a:hover div,
+#topics_tab .items a:hover div {
+    background:whitesmoke;
+}
+#topics_tab .items a {
+    text-decoration: none;
+}
+
+#question_page .main-view .body .question-answers-wrapper {
+    font-size: 0.85em;
+}
+#question_page .main-view .body i.fa-quote-left,
+#question_page .main-view .body i.fa-quote-right {
+    color: #CCC;
+    font-size: 1.2em;
+}
+#question_page .main-view .body i.fa-quote-left {
+    padding-right: 10px;
+}
+#question_page .main-view .body i.fa-quote-right {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#search_page #search_results .list-box {
+    background: inherit;
+    border: 1px solid whitesmoke;
+}
+#search_page #search_results .list-box .heading-element {
+    font-size: 1.8em;
+}
+#search_page #search_results .data .element ul li {
+    padding-bottom: 0;
+}
+
+#search_page #search_results .fa.big-font {
+    font-size: 5em;
+    color: lightgray;    
+}
+#search_page #search_results .image {
+    min-width: 60px;
+}
+
+#tutorial_page_sidecol .tags-content.data-element ul li a ,
+#question_page_sidecol .tags-content.data-element ul li a  {
+    text-decoration: none;
+    color: black;
+}
+
+.doc-end-line {
+    border: 0;
+    color: lightgray;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding: 10px;
+    margin: 50px 40%;
+    text-align: center;
+    font-size: 0.85em;
+}
+.main-view .body ul.tutorial-tags-wrapper.tags {
+    margin-top: 0px;
+}
+.main-view .body ul.tutorial-tags-wrapper.tags li {
+    padding: 0px;
+}
+.tutorial-series-wrapper {
+    margin-top: 10px;
+}
+.tutorial-series-linebreak {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+}
+.related-tutorial-series .series-name a {
+    text-decoration: none;
+    color: deepskyblue;
+    font-weight: 100;
+    cursor: pointer;
+}
+.tutorial-series-wrapper #tutorial_list{
+    font-size: 0.9em;
+    margin: 5px 10px 10px;
+}
+.tutorial-series-wrapper #tutorial_list .list-box  {
+    border:0;
+    margin:0;
+}
+.tutorial-series-wrapper #tutorial_list .list-box .data {
+    padding: 2px;
+}
+.tutorial-series-wrapper #tutorial_list a {
+    text-decoration: underline;
+    color: #999;
+}
+.tutorial-series-wrapper #tutorial_list a.active {
+    color: black;
+}
+#tutorial_page .tag {
+    background: lightskyblue;
+    padding: 2px 3px;
+    font-size: 0.8em;
+    width: 100%; 
+}
+#tutorial_page .tag:nth-child(odd) {
+    background: orange;
+    margin: 2px;
+}
+#tutorial_page .tag a {
+    color: white;
+}
+.main-view .body .search-heading {
+    padding: 0px 20px;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 0px;
+}
+body.community .heading .view-name {
+    width: 98%;
+}
+
+body.community #tutorial_list .list-box a {
+    font-size:0.85em;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px){
+    body.community .mobile-community {
+        padding: 10px;
+        background: none;
+        font-size: 30px;
+    }    
+    body.community .page-content.center {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        top: 60px;        
+    }
+    body.community .footer-container {
+        position: relative;
+        top: 100px;
+    }
+    body.community .page-content.main .main-view .heading,
+    body.community #topics_page .main-view .heading {
+        padding-top: 60px;
+    }
+    body.community .breadcrumbs {
+        padding: 0px 20px;
+    }
+    body.community .community-search-bar {
+        padding: 20px;
+    }
+    body.community #page_layout_view_page {
+        padding-top: 0px;
+    }
+    body.community .susermenu .community li.community-menu {
+        background: lightcoral;
+    }
+    body.community .susermenu .community li.community-menu.tags {
+        display: block;
+    }
+    body.community .header-container .sitelogo {
+        width: auto;
+        position: relative;
+    }
+    body.community .header-container .sitelogo .subscript {
+        float: left;
+        position: absolute;
+        left: 80%;
+    }
+    body.community .community-search-bar .search-bar {
+        margin:0px;
+    }
+    body.community .main-view .heading .search-bar {
+        padding: 0;
+    }
+    body.community .page-container .search-bar ul {
+        width: 94%;
+        border: 1px solid whitesmoke;
+        margin: 0;
+    }
+    body.community .page-container .search-bar ul li.search-text {
+        width: 88%;
+    }
+      
+    #community_menu {
+        display: none;
+    }    
+    #community_page {
+        padding-top:40px;
+    }
+    #community_page .callout{
+        width: 40%;
+        margin: 0px 10px;
+        padding-bottom: 0;
+        padding-top: 0px;        
+    }
+    #community_page .callout:nth-child(1),
+    #community_page .callout:nth-child(2){
+        padding-top: 30px;        
+    }
+    #community_tabs {
+        background: white;
+    }
+    #community_tabs .view {
+        padding-top: 10px;
+        margin: 10px 20px 50px;
+        clear: both;
+    }    
+    #community_tabs.cTab ul.tabs {
+        margin: 10px;
+    }    
+    #community_tabs.cTab ul.tabs a,
+    #search_tabs.cTab ul.tabs a{
+        max-width: 80px;
+        width:auto;
+        min-width: 50px;
+        font-size: 0.9em;
+    }
+    body.community .page-container .main-view .body .list-box .status,
+    .cTab .list-box .status {
+        top: -2px;
+        right: -1px;
+        font-size: 1em;
+    }    
+    body.community .page-content,
+    #topics_page {
+        margin-bottom: 0px;
+    }
+    #topics_tab .list-view .items,
+    #topics_page .list-view .items {
+        padding: 20px 0px;
+    }
+    #topics_tab .items a,
+    #topics_page .items a {
+        display: block;
+        margin-bottom: 30px;
+    }
+    body.community .page-container .header-wrapper .data-column {
+        width: 95%;
+    }
+    body.community .page-container .main-view .heading {
+        margin-top: 0;
+        font-size: 2em;
+    }    
+    body.community #tutorial_page.page, 
+    body.community #question_page.page {
+        margin:3%;
+    }
+    #questions_index_page .main-view .body,
+    #tutorials_index_page .main-view .body,
+    #tutorial_series_page .main-view .body {
+        padding: 5%;
+    }
+    #questions_index_page .main-view .heading .view-name,
+    #tutorials_index_page .main-view .heading .view-name,
+    #tutorial_series_page .main-view .heading .view-name {
+        margin-left: 0;
+    }
+    .header-wrapper .header-button {
+        float: none; 
+    }
+    .header-wrapper {
+        text-align: center;
+        display: block;
+        margin-top: 20px;
+    }
+    .header-wrapper .header-name {
+        margin: 10px;
+    }
+    .header-wrapper .header-name.width-p-62 {
+        width:80%;
+    }
+    .header-wrapper .header-button .ui-button {
+        width: 90%;
+    }       
+    #search_page .name-wrapper {
+        margin-top: 30px;
+    }
+    #search_page .main-view .body .list-box .data {
+        width: 78%;
+    }   
+    #search_page #search_results .fa.big-font {
+        font-size: 3em;
+    }  
+    .prevlink-comment a {
+        margin-left: 20px;
+    }    
+    .tutorial-comments-wrapper .list-view,
+    .question-answers-wrapper .list-view,
+    #question_page .list-view {
+        margin-top: 0;
+        width: 99%;
+        margin-left: 1%;
+    }   
+    .comment-form-wrapper .ui-button {
+        width: 97%;
+        margin: 1%;        
+    }
+    body.community .page-container .comment-form-wrapper textarea {
+        width: 95%;
+        margin: 1%;    
+        border: 1px solid lightgray;
+    }
+    
+    #tutorial_page .main-view, 
+    #question_page .main-view {
+        margin: 0 20px;
+    }    
+    #tutorial_page .main-view .heading,
+    #question_page .main-view .heading {
+        margin: 20px 0px;
+    } 
+    
+    #question_page_sidecol {
+        font-size: 0.8em;
+    }
+    #tutorial_page_sidecol .avatar,
+    #question_page_sidecol .avatar {
+        vertical-align: middle;
+        padding-right: 20px;
+    }
+    #tutorial_page_sidecol .avatar, 
+    #tutorial_page_sidecol .author,
+    #tutorial_page_sidecol .datetime ,
+    #tutorial_page_sidecol .like-content,
+    #question_page_sidecol .avatar, 
+    #question_page_sidecol .author,
+    #question_page_sidecol .datetime ,
+    #question_page_sidecol .like-content {
+        display: inline-block;
+        padding-top: 0px;
+    }
+    #tutorial_page_sidecol .datetime ,
+    #question_page_sidecol .datetime {
+        margin-left: 20px;
+    }
+    #tutorial_page_sidecol .like-content,
+    #question_page_sidecol .like-content {
+        float: right;
+        margin-top: 5px;
+    }
+    #tutorial_page_sidecol .difficulty {
+        display: inline-block;
+        margin-left: 50px;
+        vertical-align: top;
+    }
+    #tutorial_page_sidecol .tags-content,
+    #question_page_sidecol .tags-content {
+        display: inline-block;
+        margin-left: 50px;
+        vertical-align: top;
+    }
+    #tutorial_page_sidecol .avatar.data-element .key,
+    #tutorial_page_sidecol .datetime.data-element .key,
+    #tutorial_page_sidecol .like-content.data-element .key,
+    #tutorial_page_sidecol .difficulty.data-element .key,
+    #tutorial_page_sidecol .tags-content.data-element .key,
+    #question_page_sidecol .tags-content.data-element .key,
+    #question_page_sidecol .data-element .key {
+        padding: 0;
+    }
+    body.community .page-container #tutorial_page_sidecol .data-element .value,
+    body.community .page-container #question_page_sidecol .data-element .value {
+        display: inline-block;
+        padding: 0;
+    }
+    #tutorial_page_sidecol .avatar.data-element .value img,
+    #question_page_sidecol .avatar.data-element .value img {
+        width: 30px;
+    }
+    #tutorial_page_sidecol .tags-content.data-element ul li a ,
+    #question_page_sidecol .tags-content.data-element ul li a  {
+        text-decoration: none;
+    }
+    body.community .page-container #tutorial_page_sidecol .tags-content.data-element ul,
+    body.community .page-container #tutorial_page_sidecol .tags-content.data-element ul li,
+    body.community .page-container #question_page_sidecol .tags-content.data-element ul,
+    body.community .page-container #question_page_sidecol .tags-content.data-element ul li {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .like-counter-wrapper {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .doc-end-line {
+        margin: 50px 20%;
+    }    
+    body.community .main-view ol,
+    body.community .main-view ul {
+        padding-left:20px;
+    }
+    body.community .main-view blockquote {
+        margin: 10px 0px;
+    }    
+}
+
+@media screen and (max-width : 320px){
+    .cTab ul.tabs a {
+        width: 70px;
+    }  
+}

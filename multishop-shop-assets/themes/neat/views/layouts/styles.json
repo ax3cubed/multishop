@@ -1,0 +1,42 @@
+{
+    "common":{
+        "css": [
+            "neat.css",
+            "neat-products.css",
+            "neat-trends.css",
+            "neat-promotions.css",
+            "neat-modal.css"
+        ],
+        "js": [
+            "neat.js"
+        ]
+    },
+    "default":{
+        "name":{
+            "en_sg":"Line",
+            "zh_cn":"直线"
+        },
+        "css":[
+            "neat-default.css"
+        ],
+        "images": [
+            {"desktop":"neat-default-desktop.png"},
+            {"tablet":"neat-default-tablet.png"},
+            {"mobile":"neat-default-mobile.png"}
+        ]
+    },
+    "rectangle":{
+        "name":{
+            "en_sg":"Rectangle",
+            "zh_cn":"矩方"
+        },
+        "css":[
+            "neat-rectangle.css"
+        ],
+        "images": [
+            {"desktop":"neat-rectangle-desktop.png"},
+            {"tablet":"neat-rectangle-tablet.png"},
+            {"mobile":"neat-rectangle-mobile.png"}
+        ]
+    }
+}

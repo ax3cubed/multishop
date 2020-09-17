@@ -1,0 +1,13 @@
+.shop-layout.light.default {
+    margin: 0;
+}    
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+}
+
+@media screen and (max-width : 375px) { 
+}
+
+@media screen and (max-width : 320px) {
+}

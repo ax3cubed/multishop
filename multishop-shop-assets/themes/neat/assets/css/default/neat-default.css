@@ -1,0 +1,29 @@
+.shop-layout.neat.default {
+    margin: 0;
+    color:black;
+    background:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1em;
+}    
+
+.shop-layout.neat .row.footer {
+    border-top: 1px solid;
+}
+.shop-layout.neat .sgridfixtureblock.menu-bottom {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}    
+.shop-layout .sgridhtmlblock.announcement {
+    background:#444;
+    color:white;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+}
+
+@media screen and (max-width : 375px) { 
+}
+
+@media screen and (max-width : 320px) {
+}

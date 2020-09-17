@@ -1,0 +1,37 @@
+{
+    "app":{
+        "organization":"Multishop.org",
+        "name":"Multishop Chatbot"
+    },    
+    "system":{
+        "versionLabel":"Beta",
+        "backupDir":"C:\\backup",
+        "gitWorkTree":"",
+        "gitBranch":"master",
+        "gitDir":"",
+        "yii1Path":"C:\\xampp\\htdocs\\multishop\\vendor\\yiisoft\\yii",
+        "yii2Path":"C:\\xampp\\htdocs\\multishop",
+        "yiiDebug":true,
+        "yiiTraceLevel":8,
+        "yiiEnv":"dev"
+    },
+    "domain":{
+        "host":"localhost/multishop/multishop-chatbot",
+        "api":"localhost/multishop/multishop-api",
+        "shop":"localhost/multishop/multishop-shop"
+    },
+    "database":{
+        "dbhost":"localhost",
+        "dbname":"multishop",
+        "username":"ade",
+        "password":"adeolaade"
+    },
+    "elasticsearch":{
+        "host":"localhost",
+        "port":9200
+    },
+    "wit":{
+        "enable":false,
+        "accessToken":"<Please input server access token>"
+    }    
+}

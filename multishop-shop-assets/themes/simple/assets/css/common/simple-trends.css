@@ -1,0 +1,92 @@
+.trends-container .items {
+    margin: 20px;
+}    
+.trends-container .ias_trigger {
+   margin: 10px 0 50px; 
+}
+.trends-container .product {
+   width: 23%; 
+   display: inline-block;
+   margin: 10px;
+   position: relative;
+}
+.trends-container .product img {
+   width: 100%; 
+}
+.sgridhtmlblock.trends-menu{
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    margin: 10px 20px;
+    padding-bottom: 10px;
+}
+.trends-menu ul {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0;
+}
+.trends-menu li {
+    font-size: 14px;
+    list-style: none;
+    display: inline-block;    
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 5px 10px;
+}
+.shop-layout .trends-menu li a {
+    font-weight: 200;
+}
+.trends-menu li.active a {
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+}
+.most-counter {
+    position: absolute;
+    left: 85%;
+    top: 0;
+}
+.most-counter .fa-lg {
+    position: absolute;
+    top: -1px;
+}
+.most-counter .value {
+    position: absolute;
+    bottom: 7px;
+    font-size: .8em;
+    font-weight: 300;
+    color: white;
+}
+.most-counter .fa-bookmark {
+    color: pink;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 640px) {
+    .trends-container {
+        margin: 0;       
+    }
+    .trends-container .product {
+        width: 50%; 
+    }
+    #trends_page .shop-subpage,
+    .trends-container .items {
+        padding: 0;       
+        margin:10px;
+    }
+    .trends-menu {
+        margin:10px; 
+    }
+    .trends-menu li{
+        font-size: 13px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width : 375px) {
+ 
+}
+
+@media screen and (max-width : 320px) {
+    
+}
