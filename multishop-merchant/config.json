@@ -13,7 +13,9 @@
         "yii2Path":"C:\\xampp\\htdocs\\multishop",
         "yiiDebug":true,
         "yiiTraceLevel":8,
-        "yiiEnv":"dev"
+        "yiiEnv":"dev",
+        "shopThemePath":"C:\\xampp\\htdocs\\multishop\\multishop-shop-assets\\themes",
+        "shopWidgetPath":"C:\\xampp\\htdocs\\multishop\\multishop-shop-assets\\widgets"
     },
     "domain":{
         "host":"localhost/multishop/multishop-merchant/www",
