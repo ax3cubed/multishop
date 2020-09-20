@@ -1,0 +1,11 @@
+09/16/2020 05:42:41 pm *** BEGIN LOGGING *** 
+09/16/2020 05:42:52 pm *** BEGIN LOGGING *** 
+09/16/2020 05:42:52 pm     > execute file C:\xampp\htdocs\multishop\multishop-kernel\config/../../\multishop-schema\mysql\migrations.sql ... executing command:  SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+09/16/2020 05:48:08 pm *** BEGIN LOGGING *** 
+09/16/2020 05:48:16 pm *** BEGIN LOGGING *** 
+09/16/2020 05:48:25 pm *** BEGIN LOGGING *** 
+09/16/2020 05:48:25 pm     > execute file C:\xampp\htdocs\multishop\multishop-kernel\config/../../\multishop-schema\mysql\migrations.sql ... executing command:  SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+09/16/2020 06:18:14 pm *** BEGIN LOGGING *** 
+09/16/2020 06:18:27 pm *** BEGIN LOGGING *** 
