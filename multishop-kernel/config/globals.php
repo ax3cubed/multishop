@@ -475,8 +475,8 @@ function setYiiEnvironment()
     defined('YII2_FRAMEWORK_PATH') or define('YII2_FRAMEWORK_PATH',readConfig('system','yii2Path').'/vendor/yiisoft/yii2');
     defined('YII2ENGINE_PATH') or define('YII2ENGINE_PATH',KERNEL.'/yii2engine');    
     defined('YII_ENV') or define('YII_ENV', readConfig('system','yiiEnv'));//this is Yii2 env variable
-    require(YII1_FRAMEWORK_PATH . '\YiiBase.php'); // Yii 1.x
-    require(YII2_FRAMEWORK_PATH . '\BaseYii.php'); // Yii 2.x
+    require(YII1_FRAMEWORK_PATH . '/YiiBase.php'); // Yii 1.x
+    require(YII2_FRAMEWORK_PATH . '/BaseYii.php'); // Yii 2.x
 }
 /**
  * Default cross subdomain cookie settings
