@@ -1,0 +1,353 @@
+2020/09/18 21:06:46 [info] [application] *** start web request *** >> array (
+  'MIBDIRS' => 'C:/xampp/php/extras/mibs',
+  'MYSQL_HOME' => '\\xampp\\mysql\\bin',
+  'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf',
+  'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php',
+  'PHPRC' => '\\xampp\\php',
+  'TMP' => '\\xampp\\tmp',
+  'HTTP_HOST' => 'localhost',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_DNT' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'HTTP_SEC_FETCH_SITE' => 'same-origin',
+  'HTTP_SEC_FETCH_MODE' => 'navigate',
+  'HTTP_SEC_FETCH_USER' => '?1',
+  'HTTP_SEC_FETCH_DEST' => 'document',
+  'HTTP_REFERER' => 'http://localhost/multishop/multishop-chatbot/',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+  'HTTP_COOKIE' => '__tawkuuid=e::localhost::4Wk5imutHHVff8nhf2lDDvK1APxUyueJ3lhuYShek9Uu/LOs9R6aJc9GUkKJRTPR::2; __gads=ID=bb133e77f9bddefc-22df0fa6eda5000c:T=1598237577:RT=1598237577:S=ALNI_Mbbmi564FdcSBs40fFD3P9IbLy9YQ; easylogin_locale=en; APP_CSRF_TOKEN=a217470d5d7288012f064b6a09712a4623704f2as%3A88%3A%22RWdEODZsV2MyejdtdWNBRXVmT2RhTFE5STdiaWtaNHI6wyOIV5VibxXx_WqeR7GLJrlr---F-l-VszzZOM3zpQ%3D%3D%22%3B; PHPSESSID=tk2n5o8ao3tel8noc4btkkgv1b; 8fb8e23ee601236c43071fa3561b13dd=10e4d4b0aaf87b21d9a7b946e0bde17731584e0cs%3A114%3A%2263c419519fad81e514474c2bb5ba9b82670e36a6a%3A4%3A%7Bi%3A0%3Bs%3A1%3A%221%22%3Bi%3A1%3Bs%3A20%3A%22ajunior488%40gmail.com%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A0%3A%7B%7D%7D%22%3B',
+  'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Python38-32\\Scripts\\;C:\\Program Files (x86)\\Python38-32\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Polyspace\\R2019a\\runtime\\win64;C:\\Program Files\\Polyspace\\R2019a\\bin;C:\\Program Files\\Polyspace\\R2019a\\polyspace\\bin;C:\\Program Files\\dotnet\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\PuTTY\\;C:\\Users\\ADEOLA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ADEOLA\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADEOLA\\AppData\\Roaming\\npm;C:\\Users\\ADEOLA\\.dotnet\\tools;D:\\flutter_windows_1.17.5-stable\\flutter\\bin;C:\\xampps\\php;C:\\Users\\ADEOLA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\xampp\\php',
+  'SystemRoot' => 'C:\\WINDOWS',
+  'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+  'WINDIR' => 'C:\\WINDOWS',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at localhost Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '::1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '::1',
+  'DOCUMENT_ROOT' => 'C:/xampp/htdocs',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs',
+  'SERVER_ADMIN' => 'postmaster@localhost',
+  'SCRIPT_FILENAME' => 'C:/xampp/htdocs/multishop/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '53915',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600434406.665,
+  'REQUEST_TIME' => 1600434406,
+)
+in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php (203)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (2)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:06:46 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'localhost/multishop/multishop-chatbot/www',
+  'API_DOMAIN' => 'localhost/multishop/multishop-api/web',
+  'SHOP_DOMAIN' => 'localhost/multishop/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (455)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\SWebApp.php (44)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (5)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:06:46 [trace] [application] *** start loading dependencies ***
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (455)
+in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php (296)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\dependencies.php (122)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\SWebApp.php (46)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (5)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:06:46 [trace] [application] *** start loading modules ***
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (455)
+in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php (333)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\SWebApp.php (215)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (44)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:06:46 [error] [exception.CException] CException: CAssetManager.basePath "C:\xampp\htdocs\multishop\multishop-chatbot\www\assets" is invalid. Please make sure the directory exists and is writable by the Web server process. in C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\web\CAssetManager.php:138
+Stack trace:
+#0 C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 C:\xampp\htdocs\multishop\multishop-kernel\components\SAssetManager.php(234): CAssetManager->publish('C:\\xampp\\htdocs...', false, -1, false)
+#3 C:\xampp\htdocs\multishop\multishop-kernel\components\SAssetManager.php(217): SAssetManager->registerScriptInternal('css', 'C:\\xampp\\htdocs...', 'common.min.css')
+#4 C:\xampp\htdocs\multishop\multishop-kernel\components\behaviors\AssetLoaderBehavior.php(59): SAssetManager->registerAssets('css', 'common.assets.c...', 'common.css')
+#5 C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\base\CComponent.php(261): AssetLoaderBehavior->registerCssFile('common.assets.c...', 'common.css')
+#6 C:\xampp\htdocs\multishop\multishop-kernel\components\behaviors\AssetLoaderBehavior.php(224): CComponent->__call('registerCssFile', Array)
+#7 C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\base\CComponent.php(261): AssetLoaderBehavior->registerCommonFiles()
+#8 C:\xampp\htdocs\multishop\multishop-kernel\controllers\SSiteController.php(20): CComponent->__call('registerCommonF...', Array)
+#9 C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\web\CWebApplication.php(281): SSiteController->init()
+#10 C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php(7): CApplication->run()
+#13 {main}
+REQUEST_URI=/multishop/multishop-chatbot/www/
+HTTP_REFERER=http://localhost/multishop/multishop-chatbot/
+---
+2020/09/18 21:06:46 [info] [application] *** start web request *** >> array (
+  'MIBDIRS' => 'C:/xampp/php/extras/mibs',
+  'MYSQL_HOME' => '\\xampp\\mysql\\bin',
+  'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf',
+  'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php',
+  'PHPRC' => '\\xampp\\php',
+  'TMP' => '\\xampp\\tmp',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'localhost',
+  'SSL_SERVER_S_DN_CN' => 'localhost',
+  'SSL_SERVER_I_DN_CN' => 'localhost',
+  'SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.46',
+  'SSL_VERSION_LIBRARY' => 'OpenSSL/1.1.1g',
+  'SSL_PROTOCOL' => 'TLSv1.3',
+  'SSL_SECURE_RENEG' => 'false',
+  'SSL_COMPRESS_METHOD' => 'NULL',
+  'SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384',
+  'SSL_CIPHER_EXPORT' => 'false',
+  'SSL_CIPHER_USEKEYSIZE' => '256',
+  'SSL_CIPHER_ALGKEYSIZE' => '256',
+  'SSL_CLIENT_VERIFY' => 'NONE',
+  'SSL_SERVER_M_VERSION' => '1',
+  'SSL_SERVER_M_SERIAL' => 'B5C752C98781B503',
+  'SSL_SERVER_V_START' => 'Nov 10 23:48:47 2009 GMT',
+  'SSL_SERVER_V_END' => 'Nov  8 23:48:47 2019 GMT',
+  'SSL_SERVER_S_DN' => 'CN=localhost',
+  'SSL_SERVER_I_DN' => 'CN=localhost',
+  'SSL_SERVER_A_KEY' => 'rsaEncryption',
+  'SSL_SERVER_A_SIG' => 'sha1WithRSAEncryption',
+  'SSL_SESSION_ID' => '06ff208c9163ec8c815b74a9fa03cbd5a2307834a9c7fe11ffab4a67954964ec',
+  'SSL_SESSION_RESUMED' => 'Initial',
+  'HTTP_HOST' => 'localhost',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_DNT' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'HTTP_SEC_FETCH_SITE' => 'cross-site',
+  'HTTP_SEC_FETCH_MODE' => 'navigate',
+  'HTTP_SEC_FETCH_USER' => '?1',
+  'HTTP_SEC_FETCH_DEST' => 'document',
+  'HTTP_REFERER' => 'http://localhost/multishop/multishop-chatbot/',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+  'HTTP_COOKIE' => '__tawkuuid=e::localhost::4Wk5imutHHVff8nhf2lDDvK1APxUyueJ3lhuYShek9Uu/LOs9R6aJc9GUkKJRTPR::2; __gads=ID=bb133e77f9bddefc-22df0fa6eda5000c:T=1598237577:RT=1598237577:S=ALNI_Mbbmi564FdcSBs40fFD3P9IbLy9YQ; easylogin_locale=en; APP_CSRF_TOKEN=a217470d5d7288012f064b6a09712a4623704f2as%3A88%3A%22RWdEODZsV2MyejdtdWNBRXVmT2RhTFE5STdiaWtaNHI6wyOIV5VibxXx_WqeR7GLJrlr---F-l-VszzZOM3zpQ%3D%3D%22%3B; PHPSESSID=tk2n5o8ao3tel8noc4btkkgv1b; 8fb8e23ee601236c43071fa3561b13dd=10e4d4b0aaf87b21d9a7b946e0bde17731584e0cs%3A114%3A%2263c419519fad81e514474c2bb5ba9b82670e36a6a%3A4%3A%7Bi%3A0%3Bs%3A1%3A%221%22%3Bi%3A1%3Bs%3A20%3A%22ajunior488%40gmail.com%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A0%3A%7B%7D%7D%22%3B',
+  'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Python38-32\\Scripts\\;C:\\Program Files (x86)\\Python38-32\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Polyspace\\R2019a\\runtime\\win64;C:\\Program Files\\Polyspace\\R2019a\\bin;C:\\Program Files\\Polyspace\\R2019a\\polyspace\\bin;C:\\Program Files\\dotnet\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\PuTTY\\;C:\\Users\\ADEOLA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ADEOLA\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADEOLA\\AppData\\Roaming\\npm;C:\\Users\\ADEOLA\\.dotnet\\tools;D:\\flutter_windows_1.17.5-stable\\flutter\\bin;C:\\xampps\\php;C:\\Users\\ADEOLA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\xampp\\php',
+  'SystemRoot' => 'C:\\WINDOWS',
+  'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+  'WINDIR' => 'C:\\WINDOWS',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at localhost Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '::1',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '::1',
+  'DOCUMENT_ROOT' => 'C:/xampp/htdocs',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/xampp/htdocs/multishop/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '53938',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600434406.841,
+  'REQUEST_TIME' => 1600434406,
+)
+in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php (203)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (2)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:06:46 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'localhost/multishop/multishop-chatbot/www',
+  'API_DOMAIN' => 'localhost/multishop/multishop-api/web',
+  'SHOP_DOMAIN' => 'localhost/multishop/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (455)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\SWebApp.php (44)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (5)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:06:46 [trace] [application] *** start loading dependencies ***
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (455)
+in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php (296)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\dependencies.php (122)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\SWebApp.php (46)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (5)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:06:46 [trace] [application] *** start loading modules ***
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (455)
+in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php (333)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\SWebApp.php (215)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (44)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:07:19 [info] [application] *** start web request *** >> array (
+  'MIBDIRS' => 'C:/xampp/php/extras/mibs',
+  'MYSQL_HOME' => '\\xampp\\mysql\\bin',
+  'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf',
+  'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php',
+  'PHPRC' => '\\xampp\\php',
+  'TMP' => '\\xampp\\tmp',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'localhost',
+  'SSL_SERVER_S_DN_CN' => 'localhost',
+  'SSL_SERVER_I_DN_CN' => 'localhost',
+  'SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.46',
+  'SSL_VERSION_LIBRARY' => 'OpenSSL/1.1.1g',
+  'SSL_PROTOCOL' => 'TLSv1.3',
+  'SSL_SECURE_RENEG' => 'false',
+  'SSL_COMPRESS_METHOD' => 'NULL',
+  'SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384',
+  'SSL_CIPHER_EXPORT' => 'false',
+  'SSL_CIPHER_USEKEYSIZE' => '256',
+  'SSL_CIPHER_ALGKEYSIZE' => '256',
+  'SSL_CLIENT_VERIFY' => 'NONE',
+  'SSL_SERVER_M_VERSION' => '1',
+  'SSL_SERVER_M_SERIAL' => 'B5C752C98781B503',
+  'SSL_SERVER_V_START' => 'Nov 10 23:48:47 2009 GMT',
+  'SSL_SERVER_V_END' => 'Nov  8 23:48:47 2019 GMT',
+  'SSL_SERVER_S_DN' => 'CN=localhost',
+  'SSL_SERVER_I_DN' => 'CN=localhost',
+  'SSL_SERVER_A_KEY' => 'rsaEncryption',
+  'SSL_SERVER_A_SIG' => 'sha1WithRSAEncryption',
+  'SSL_SESSION_ID' => '056da9a2eef3f60cfe24ac71fbc1368382fc9b359fdc098827e40133cace0b10',
+  'SSL_SESSION_RESUMED' => 'Initial',
+  'HTTP_HOST' => 'localhost',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_DNT' => '1',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'HTTP_SEC_FETCH_SITE' => 'cross-site',
+  'HTTP_SEC_FETCH_MODE' => 'navigate',
+  'HTTP_SEC_FETCH_USER' => '?1',
+  'HTTP_SEC_FETCH_DEST' => 'document',
+  'HTTP_REFERER' => 'http://localhost/multishop/multishop-chatbot/',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+  'HTTP_COOKIE' => '__tawkuuid=e::localhost::4Wk5imutHHVff8nhf2lDDvK1APxUyueJ3lhuYShek9Uu/LOs9R6aJc9GUkKJRTPR::2; __gads=ID=bb133e77f9bddefc-22df0fa6eda5000c:T=1598237577:RT=1598237577:S=ALNI_Mbbmi564FdcSBs40fFD3P9IbLy9YQ; easylogin_locale=en; APP_CSRF_TOKEN=a217470d5d7288012f064b6a09712a4623704f2as%3A88%3A%22RWdEODZsV2MyejdtdWNBRXVmT2RhTFE5STdiaWtaNHI6wyOIV5VibxXx_WqeR7GLJrlr---F-l-VszzZOM3zpQ%3D%3D%22%3B; PHPSESSID=tk2n5o8ao3tel8noc4btkkgv1b; 8fb8e23ee601236c43071fa3561b13dd=10e4d4b0aaf87b21d9a7b946e0bde17731584e0cs%3A114%3A%2263c419519fad81e514474c2bb5ba9b82670e36a6a%3A4%3A%7Bi%3A0%3Bs%3A1%3A%221%22%3Bi%3A1%3Bs%3A20%3A%22ajunior488%40gmail.com%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A0%3A%7B%7D%7D%22%3B',
+  'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Python38-32\\Scripts\\;C:\\Program Files (x86)\\Python38-32\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Polyspace\\R2019a\\runtime\\win64;C:\\Program Files\\Polyspace\\R2019a\\bin;C:\\Program Files\\Polyspace\\R2019a\\polyspace\\bin;C:\\Program Files\\dotnet\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\PuTTY\\;C:\\Users\\ADEOLA\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ADEOLA\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADEOLA\\AppData\\Roaming\\npm;C:\\Users\\ADEOLA\\.dotnet\\tools;D:\\flutter_windows_1.17.5-stable\\flutter\\bin;C:\\xampps\\php;C:\\Users\\ADEOLA\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\xampp\\php',
+  'SystemRoot' => 'C:\\WINDOWS',
+  'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW',
+  'WINDIR' => 'C:\\WINDOWS',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at localhost Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '::1',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '::1',
+  'DOCUMENT_ROOT' => 'C:/xampp/htdocs',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/xampp/htdocs/multishop/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '53941',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600434439.228,
+  'REQUEST_TIME' => 1600434439,
+)
+in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php (203)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (2)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:07:19 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'localhost/multishop/multishop-chatbot/www',
+  'API_DOMAIN' => 'localhost/multishop/multishop-api/web',
+  'SHOP_DOMAIN' => 'localhost/multishop/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (455)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\SWebApp.php (44)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (5)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:07:19 [trace] [application] *** start loading dependencies ***
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (455)
+in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php (296)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\dependencies.php (122)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\SWebApp.php (46)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (5)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/18 21:07:19 [trace] [application] *** start loading modules ***
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (455)
+in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php (333)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\SWebApp.php (215)
+in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (44)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
+in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
+in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)

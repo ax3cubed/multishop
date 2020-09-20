@@ -1,0 +1,196 @@
+2020-09-18 20:59:41 [::1][1][-][trace][application] SWebApp::__construct start webapp "multishop-api" params >> array (
+  'SITE_NAME' => 'API',
+  'HOST_DOMAIN' => 'localhost/multishop/multishop-api/web',
+  'MERCHANT_DOMAIN' => 'localhost/multishop/multishop-merchant/www',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+2020-09-18 20:59:41 [::1][1][-][trace][application] *** start loading dependencies ***
+2020-09-18 20:59:41 [::1][1][-][trace][application] *** start loading modules ***
+2020-09-18 20:59:41 [::1][1][-][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2020-09-18 20:59:41 [::1][1][-][trace][yii\base\Module::getModule] Loading module: oauth2
+2020-09-18 20:59:41 [::1][1][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2020-09-18 20:59:41 [::1][1][-][trace][yii\base\Controller::runAction] Route to run: oauth2/admin/index
+2020-09-18 20:59:41 [::1][1][-][trace][multishop-api] SModule::preinit *** start module accounts ***
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:248
+    in C:\xampp\htdocs\multishop\multishop-kernel\components\SModule.php:47
+    in C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\base\CModule.php:84
+    in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii2.php:97
+    in C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\base\CModule.php:282
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:40
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:54
+2020-09-18 20:59:42 [::1][1][-][trace][multishop-api] AccountManagerTrait::authenticate Yii::app()->user = ApiUser >> 'IdentityAdmin'
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:248
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:49
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:40
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:54
+2020-09-18 20:59:42 [::1][1][-][trace][multishop-api] NestedPDO::beginTransaction 1600433982 SAVEPOINT LEVEL 0
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:248
+    in C:\xampp\htdocs\multishop\multishop-kernel\components\NestedPDO.php:33
+    in C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\db\CDbConnection.php:522
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\ServiceManager.php:154
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:64
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:40
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:54
+2020-09-18 20:59:42 [::1][1][-][info][multishop-api] ServiceManager::execute operation[Account.recordActivity] start
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:237
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\ServiceManager.php:159
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:64
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:40
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:54
+2020-09-18 20:59:42 [::1][1][-][trace][multishop-api] ActivityBehavior::recordActivity ok >> [
+    'obj_type' => 's_account'
+    'obj_id' => '1'
+    'location' => 'multishop-api'
+    'event' => 'login'
+    'description' => 'user_name=SUPERUSER, site=multishop-api, ip=::1, user_agent='
+    'account_id' => '1'
+    'obj_url' => 'http://localhost/multishop/multishop-api/web/index.php?r=users/admin/view/id/1'
+    'icon_url' => '<i class=\"fa fa-user fa-fw\"></i>'
+    'create_time' => 1600433982
+    'id' => '1'
+]
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:248
+    in C:\xampp\htdocs\multishop\multishop-kernel\modules\activities\behaviors\ActivityBehavior.php:98
+    in C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\base\CComponent.php:261
+    in C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\db\ar\CActiveRecord.php:229
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\ServiceManager.php:222
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:64
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:40
+2020-09-18 20:59:42 [::1][1][-][info][multishop-api] ServiceManager::execute operation[Account.recordActivity] end
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:237
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\ServiceManager.php:225
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:64
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:40
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:54
+2020-09-18 20:59:42 [::1][1][-][trace][multishop-api] NestedPDO::commit 1600433982 physical commit SAVEPOINT LEVEL 0
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:248
+    in C:\xampp\htdocs\multishop\multishop-kernel\components\NestedPDO.php:48
+    in C:\xampp\htdocs\multishop\vendor\yiisoft\yii\framework\db\CDbTransaction.php:64
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\ServiceManager.php:228
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:64
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:40
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:54
+2020-09-18 20:59:42 [::1][1][-][info][multishop-api] ServiceManager::execute ok
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:237
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\ServiceManager.php:230
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:64
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:40
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:54
+2020-09-18 20:59:42 [::1][1][-][info][multishop-api] AccountManagerTrait::authenticate ok
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:237
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:67
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:40
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:54
+2020-09-18 20:59:42 [::1][1][-][info][multishop-api] app\models\User::findUser login as \IdentityAdmin user=1
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:237
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:42
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:54
+2020-09-18 20:59:42 [::1][1][-][trace][yii\base\InlineAction::runWithParams] Running action: app\modules\oauth2server\controllers\AdminController::actionIndex()
+2020-09-18 20:59:42 [::1][1][-][trace][multishop-api] app\modules\oauth2server\controllers\LoginController::contructTokenRequest grant_type password ok
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:248
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:103
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:70
+2020-09-18 20:59:42 [::1][1][-][trace][multishop-api] app\models\User::findByUsername found! >> [
+    'id' => '1'
+    'username' => 'SUPERUSER'
+    'identityType' => 'IdentityAdmin'
+    'roles' => [
+        0 => 'Administrator'
+        1 => 'Customer'
+        2 => 'Merchant'
+        3 => 'SUPERUSER'
+        4 => 'User'
+    ]
+    'activate' => false
+]
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:248
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:106
+    in C:\xampp\htdocs\multishop\multishop-api\components\ApiUserCredentials.php:64
+    in C:\xampp\htdocs\multishop\multishop-api\components\ApiUserCredentials.php:26
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php:41
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:124
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:49
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php:259
+2020-09-18 20:59:43 [::1][1][-][trace][multishop-api] AccountManagerTrait::authenticate Yii::app()->user = ApiUser >> 'IdentityAdmin'
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:248
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:49
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:121
+    in C:\xampp\htdocs\multishop\multishop-api\components\ApiUserCredentials.php:30
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php:41
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:124
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:49
+2020-09-18 20:59:43 [::1][1][-][info][multishop-api] AccountManagerTrait::authenticate ok
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:237
+    in C:\xampp\htdocs\multishop\multishop-kernel\services\AccountManagerTrait.php:67
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:229
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:121
+    in C:\xampp\htdocs\multishop\multishop-api\components\ApiUserCredentials.php:30
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php:41
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:124
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:49
+2020-09-18 20:59:43 [::1][1][-][info][multishop-api] app\models\User::validatePassword passed! for IdentityAdmin user=1
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:237
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:122
+    in C:\xampp\htdocs\multishop\multishop-api\components\ApiUserCredentials.php:30
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php:41
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:124
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:49
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php:259
+    in C:\xampp\htdocs\multishop\vendor\filsh\yii2-oauth2-server\src\Server.php:39
+2020-09-18 20:59:43 [::1][1][-][trace][multishop-api] app\models\User::findByUsername found! >> [
+    'id' => '1'
+    'username' => 'SUPERUSER'
+    'identityType' => 'IdentityAdmin'
+    'roles' => [
+        0 => 'Administrator'
+        1 => 'Customer'
+        2 => 'Merchant'
+        3 => 'SUPERUSER'
+        4 => 'User'
+    ]
+    'activate' => false
+]
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:248
+    in C:\xampp\htdocs\multishop\multishop-api\models\User.php:106
+    in C:\xampp\htdocs\multishop\multishop-api\components\ApiUserCredentials.php:64
+    in C:\xampp\htdocs\multishop\multishop-api\components\ApiUserCredentials.php:48
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\GrantType\UserCredentials.php:47
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:124
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php:49
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php:259
+2020-09-18 20:59:43 [::1][1][-][info][multishop-api] app\modules\oauth2server\controllers\LoginController::actionIndex login status >> OAuth2\Response#1
+(
+    [version] => '1.1'
+    [*:statusCode] => 200
+    [*:statusText] => 'OK'
+    [*:parameters] => [
+        'access_token' => '74e7c1c8dbaa69c4bc6d28ed2be1b5cc255eadc2'
+        'expires_in' => 28800
+        'token_type' => 'Bearer'
+        'scope' => null
+        'refresh_token' => 'ccb1bf285d1e5bee9874343bb9f9c0068682e29a'
+    ]
+    [*:httpHeaders] => [
+        'Cache-Control' => 'no-store'
+        'Pragma' => 'no-cache'
+    ]
+)
+    in C:\xampp\htdocs\multishop\multishop-kernel\config\globals.php:237
+    in C:\xampp\htdocs\multishop\multishop-api\modules\oauth2server\controllers\LoginController.php:72
