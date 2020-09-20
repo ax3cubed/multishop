@@ -5,12 +5,12 @@
     },    
     "system":{
         "versionLabel":"Beta",
-        "backupDir":"C:\\backup",
+        "backupDir":"/home/adeola/backup",
         "gitWorkTree":"",
         "gitBranch":"master",
         "gitDir":"",
-        "yii1Path":"C:\\xampp\\htdocs\\multishop\\vendor\\yiisoft\\yii",
-        "yii2Path":"C:\\xampp\\htdocs\\multishop",
+        "yii1Path":"/var/www/moneymag.ml/vendor/yiisoft/yii",
+        "yii2Path":"/var/www/moneymag.ml",
         "yiiDebug":true,
         "yiiTraceLevel":8,
         "yiiEnv":"dev"
@@ -23,13 +23,13 @@
     "database":{
         "dbhost":"localhost",
         "dbname":"multishop",
-        "username":"ade",
-        "password":"adeolaade"
+        "username":"adeola",
+        "password":"nt&R+F]NP!3R"
     },
     "storage":{
         "media":{
-            "mount_point_1":"C:\\xampp\\htdocs\\multishop\\media-1",
-            "mount_point_2":"C:\\xampp\\htdocs\\multishop\\media-2"
+            "mount_point_1":"/var/www/moneymag.ml/media-1",
+            "mount_point_2":"/var/www/moneymag.ml/media-2"
         }
     },
     "email":{

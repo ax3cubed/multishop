@@ -471,9 +471,9 @@ function setYiiEnvironment()
 {
     defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',readConfig('system','yiiTraceLevel'));//specify how many levels of call stack should be shown in each log message
     defined('YII_DEBUG') or define('YII_DEBUG',readConfig('system','yiiDebug'));//set to false when in production mode
-    defined('YII1_FRAMEWORK_PATH') or define('YII1_FRAMEWORK_PATH',readConfig('system','yii1Path').'\framework');
-    defined('YII2_FRAMEWORK_PATH') or define('YII2_FRAMEWORK_PATH',readConfig('system','yii2Path').'\vendor\yiisoft\yii2');
-    defined('YII2ENGINE_PATH') or define('YII2ENGINE_PATH',KERNEL.'\yii2engine');    
+    defined('YII1_FRAMEWORK_PATH') or define('YII1_FRAMEWORK_PATH',readConfig('system','yii1Path').'/framework');
+    defined('YII2_FRAMEWORK_PATH') or define('YII2_FRAMEWORK_PATH',readConfig('system','yii2Path').'/vendor/yiisoft/yii2');
+    defined('YII2ENGINE_PATH') or define('YII2ENGINE_PATH',KERNEL.'/yii2engine');    
     defined('YII_ENV') or define('YII_ENV', readConfig('system','yiiEnv'));//this is Yii2 env variable
     require(YII1_FRAMEWORK_PATH . '\YiiBase.php'); // Yii 1.x
     require(YII2_FRAMEWORK_PATH . '\BaseYii.php'); // Yii 2.x

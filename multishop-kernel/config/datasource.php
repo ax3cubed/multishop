@@ -1,9 +1,9 @@
 <?php
 return array(
   
-            'connectionString' =>"mysql:host=".readConfig("database","dbhost").";port=3306;dbname=multishop",
-            'username' => "root",
-            // 'password' => readDBConfig("password"),
+            'connectionString' =>"mysql:host=".readConfig("database","dbhost").";dbname=multishop",
+            'username' => "adeola",
+            'password' => "nt&R+F]NP!3R",
             'charset' => "utf8",
             'pdoClass' => "NestedPDO",
             'enableProfiling'=>true,
