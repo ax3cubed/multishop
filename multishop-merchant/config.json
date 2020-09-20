@@ -18,10 +18,10 @@
         "shopWidgetPath":"/var/www/moneymag.ml/multishop-shop-assets/widgets"
     },
     "domain":{
-        "host":"moneymag.ml/multishop/multishop-merchant/www",
-        "api":"moneymag.ml/multishop/multishop-api/web",
-        "shop":"moneymag.ml/multishop/multishop-shop/www",
-        "bot":"moneymag.ml/multishop/multishop-chatbot/www"
+        "host":"moneymag.ml/multishop-merchant/www",
+        "api":"moneymag.ml/multishop-api/web",
+        "shop":"moneymag.ml/multishop-shop/www",
+        "bot":"moneymag.ml/multishop-chatbot/www"
     },
     "database":{
         "dbhost":"localhost",
