@@ -16,10 +16,10 @@
         "yiiEnv":"dev"
     },
     "domain":{
-        "host":"localhost",
-        "shop":"localhost/multishop/multishop-shop/www",
-        "merchant":"localhost/multishop/multishop-merchant/www",
-        "api":"localhost/multishop/multishop-api/web"
+        "host":"moneymag.ml",
+        "shop":"moneymag.ml/multishop/multishop-shop/www",
+        "merchant":"moneymag.ml/multishop/multishop-merchant/www",
+        "api":"moneymag.ml/multishop/multishop-api/web"
     },
     "database":{
         "dbhost":"localhost",

@@ -16,9 +16,9 @@
         "yiiEnv":"dev"
     },
     "domain":{
-        "host":"localhost/multishop/multishop-chatbot/www",
-        "api":"localhost/multishop/multishop-api/web",
-        "shop":"localhost/multishop/multishop-shop/www"
+        "host":"moneymag.ml/multishop/multishop-chatbot/www",
+        "api":"moneymag.ml/multishop/multishop-api/web",
+        "shop":"moneymag.ml/multishop/multishop-shop/www"
     },
     "database":{
         "dbhost":"localhost",
@@ -27,7 +27,7 @@
         "password":"adeolaade"
     },
     "elasticsearch":{
-        "host":"localhost",
+        "host":"moneymag.ml",
         "port":9200
     },
     "wit":{
