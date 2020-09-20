@@ -5,11 +5,11 @@
     },    
     "system":{
         "versionLabel":"Beta",
-        "backupDir":"C:\\backup",
+        "backupDir":"/home/adeola/backup",
         "gitWorkTree":"",
         "gitBranch":"master",
         "gitDir":"",
-        "yii1Path":"/var/www/moneymag.ml/vendor\\yiisoft\\yii",
+        "yii1Path":"/var/www/moneymag.ml/vendor/yiisoft/yii",
         "yii2Path":"/var/www/moneymag.ml",
         "yiiDebug":true,
         "yiiTraceLevel":8,
