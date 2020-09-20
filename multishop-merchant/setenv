@@ -28,6 +28,7 @@ echo "--------------------------------------------\n";
 echo "Multishop Environment Initialization Tool v1.0\n";
 echo "--------------------------------------------\n";
 $appBasePath = dirname(__FILE__);
+$appBasePath = $appBasePath.'/www';
 echo "App base path: ".$appBasePath."\n\n";
 
 $userGroup = getInput('Please enter user group (e.g. _www or www-data) : ');
