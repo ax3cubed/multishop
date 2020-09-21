@@ -9,7 +9,7 @@
         "gitWorkTree":"",
         "gitBranch":"master",
         "gitDir":"",
-        "yii1Path":"/var/www/moneymag.ml/vendor/yiisof/yii",
+        "yii1Path":"/var/www/moneymag.ml/vendor/yiisoft/yii",
         "yii2Path":"/var/www/moneymag.ml",
         "yiiDebug":true,
         "yiiTraceLevel":8,
