@@ -16,9 +16,9 @@
         "yiiEnv":"dev"
     },
     "domain":{
-        "host":"moneymag.ml/multishop/multishop-admin/www",
-        "api":"moneymag.ml/multishop/multishop-api/web",
-        "shop":"moneymag.ml/multishop/multishop-shop/www"
+        "host":"moneymag.ml/multishop-admin/www",
+        "api":"moneymag.ml/multishop-api/web",
+        "shop":"moneymag.ml/multishop-shop/www"
     },
     "database":{
         "dbhost":"localhost",

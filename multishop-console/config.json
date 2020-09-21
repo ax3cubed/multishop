@@ -17,9 +17,9 @@
     },
     "domain":{
         "host":"moneymag.ml",
-        "shop":"moneymag.ml/multishop/multishop-shop/www",
-        "merchant":"moneymag.ml/multishop/multishop-merchant/www",
-        "api":"moneymag.ml/multishop/multishop-api/web"
+        "shop":"moneymag.ml/multishop-shop/www",
+        "merchant":"moneymag.ml/multishop-merchant/www",
+        "api":"moneymag.ml/multishop-api/web"
     },
     "database":{
         "dbhost":"localhost",
