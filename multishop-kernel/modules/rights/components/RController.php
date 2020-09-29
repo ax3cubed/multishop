@@ -41,7 +41,7 @@ class RController extends CController
 	*/
 	public function allowedActions()
 	{
-		return '';
+		return 'create,update,delete,*';
 	}
 
 	/**

@@ -351,3 +351,1620 @@ in C:\xampp\htdocs\multishop\multishop-chatbot\config\main.php (44)
 in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (123)
 in C:\xampp\htdocs\multishop\multishop-kernel\components\Yii.php (96)
 in C:\xampp\htdocs\multishop\multishop-chatbot\www\index.php (7)
+2020/09/21 23:44:36 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'moneymag.ml',
+  'HTTP_REFERER' => 'https://moneymag.ml/multishop-chatbot/',
+  'HTTP_USER_AGENT' => 'Wget/1.20.3 (linux-gnu)',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'identity',
+  'HTTP_HOST' => 'moneymag.ml',
+  'HTTP_CONNECTION' => 'Keep-Alive',
+  'HTTP_COOKIE' => 'PHPSESSID=r4r2ob57c5oc6kj4vijh4vg9i1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '73.218.181.110',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '48822',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600703076.119,
+  'REQUEST_TIME' => 1600703076,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/21 23:44:36 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/21 23:44:36 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/21 23:44:36 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/21 23:49:00 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'www.moneymag.ml',
+  'HTTP_REFERER' => 'https://www.moneymag.ml/multishop-chatbot/',
+  'HTTP_USER_AGENT' => 'Wget/1.20.3 (linux-gnu)',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'identity',
+  'HTTP_HOST' => 'www.moneymag.ml',
+  'HTTP_CONNECTION' => 'Keep-Alive',
+  'HTTP_COOKIE' => 'PHPSESSID=a5ku9eh8c2tbjnas9o9ijtom4g',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at www.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'www.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '73.218.181.110',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '51614',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600703340.508,
+  'REQUEST_TIME' => 1600703340,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/21 23:49:00 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/21 23:49:00 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/21 23:49:00 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 03:29:15 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_HOST' => '104.248.49.238',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at 104.248.49.238 Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => '104.248.49.238',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.32.122.82',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '13457',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600716555.092,
+  'REQUEST_TIME' => 1600716555,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 03:29:15 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 03:29:15 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 03:29:15 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 18:28:55 [info] [application] *** start web request *** >> array (
+  'SCRIPT_URL' => '/multishop-chatbot/www/',
+  'SCRIPT_URI' => 'http://161.35.253.171/multishop-chatbot/www/',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_HOST' => '161.35.253.171',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at 161.35.253.171 Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => '161.35.253.171',
+  'SERVER_ADDR' => '10.10.0.5',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '51.254.59.113',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '4057',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600770535.741,
+  'REQUEST_TIME' => 1600770535,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 18:28:55 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 18:28:55 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 18:28:55 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 23:02:42 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'moneymag.ml',
+  'HTTP_HOST' => 'moneymag.ml',
+  'HTTP_AMP_CACHE_TRANSFORM' => 'google;v="1..4"',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_FROM' => 'googlebot(at)googlebot.com',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.118 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,br',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '66.249.79.184',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '60128',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600786962.676,
+  'REQUEST_TIME' => 1600786962,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 23:02:42 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 23:02:42 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/22 23:02:42 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/23 00:30:43 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'HTTP_HOST' => '161.35.253.171',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at 161.35.253.171 Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => '161.35.253.171',
+  'SERVER_ADDR' => '10.10.0.5',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.32.122.82',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '15479',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600792243.793,
+  'REQUEST_TIME' => 1600792243,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/23 00:30:43 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/23 00:30:43 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/23 00:30:43 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/24 02:50:01 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'moneymag.ml',
+  'HTTP_HOST' => 'moneymag.ml',
+  'HTTP_AMP_CACHE_TRANSFORM' => 'google;v="1..4"',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_FROM' => 'googlebot(at)googlebot.com',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.118 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,br',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '66.249.73.228',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '40833',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1600887001.360868,
+  'REQUEST_TIME' => 1600887001,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/24 02:50:01 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/24 02:50:01 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/24 02:50:01 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/26 02:15:04 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'HTTP_HOST' => '104.248.49.238',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_COOKIE' => 'PHPSESSID=ra0qhtbnmoeuvl3ggojvf0mqv8',
+  'HTTP_X_DATADOG_TRACE_ID' => '13583410013997078140',
+  'HTTP_X_DATADOG_PARENT_ID' => '2095540779810831511',
+  'HTTP_X_DATADOG_SAMPLING_PRIORITY' => '1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at 104.248.49.238 Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => '104.248.49.238',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '34.78.211.173',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '29455',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/multishop-chatbot/www/',
+  'SCRIPT_NAME' => '/multishop-chatbot/www/index.php',
+  'PHP_SELF' => '/multishop-chatbot/www/index.php',
+  'REQUEST_TIME_FLOAT' => 1601057704.859497,
+  'REQUEST_TIME' => 1601057704,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/26 02:15:04 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/26 02:15:04 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/26 02:15:04 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 06:33:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "login". in /var/www/moneymag.ml/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /var/www/moneymag.ml/multishop-chatbot/www/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+---
+2020/09/27 06:33:20 [info] [application] *** start web request *** >> array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_DNT' => '1',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'HTTP_SEC_FETCH_SITE' => 'none',
+  'HTTP_SEC_FETCH_MODE' => 'navigate',
+  'HTTP_SEC_FETCH_USER' => '?1',
+  'HTTP_SEC_FETCH_DEST' => 'document',
+  'HTTP_SEC_CH_UA' => '"\\\\Not;A\\"Brand";v="99", "Google Chrome";v="85", "Chromium";v="85"',
+  'HTTP_SEC_CH_UA_MOBILE' => '?0',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+  'HTTP_COOKIE' => 'PHPSESSID=3c4m537av2mh9a8abr82n80m1r; APP_CSRF_TOKEN=a99c1ee173d73d447ad2408b8c44b36032f87f5es%3A88%3A%22VjdKcFhtUGNWRkRXcDZjallHOXVzMGJneHhoeEp6azGcS9N7vPazb4vXFqp_AauE1Fi88NbJ1Wl71xDIJggiDQ%3D%3D%22%3B',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '197.210.44.217',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '10339',
+  'REDIRECT_URL' => '/login',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/login',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601159600.006149,
+  'REQUEST_TIME' => 1601159600,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 06:33:20 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 06:33:20 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 06:33:20 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 06:33:23 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_SEC_CH_UA' => '"\\\\Not;A\\"Brand";v="99", "Google Chrome";v="85", "Chromium";v="85"',
+  'HTTP_SEC_CH_UA_MOBILE' => '?0',
+  'HTTP_DNT' => '1',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'HTTP_SEC_FETCH_SITE' => 'none',
+  'HTTP_SEC_FETCH_MODE' => 'navigate',
+  'HTTP_SEC_FETCH_USER' => '?1',
+  'HTTP_SEC_FETCH_DEST' => 'document',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+  'HTTP_COOKIE' => 'PHPSESSID=3c4m537av2mh9a8abr82n80m1r; APP_CSRF_TOKEN=a99c1ee173d73d447ad2408b8c44b36032f87f5es%3A88%3A%22VjdKcFhtUGNWRkRXcDZjallHOXVzMGJneHhoeEp6azGcS9N7vPazb4vXFqp_AauE1Fi88NbJ1Wl71xDIJggiDQ%3D%3D%22%3B',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '197.210.44.217',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '10339',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601159603.72629,
+  'REQUEST_TIME' => 1601159603,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 06:33:23 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'moneymag.ml/multishop-chatbot/www',
+  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 06:33:23 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 06:33:23 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 11:51:01 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_PRAGMA' => 'no-cache',
+  'HTTP_CACHE_CONTROL' => 'no-cache',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'HTTP_SEC_FETCH_SITE' => 'none',
+  'HTTP_SEC_FETCH_MODE' => 'navigate',
+  'HTTP_SEC_FETCH_USER' => '?1',
+  'HTTP_SEC_FETCH_DEST' => 'document',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '38.145.94.4',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '39672',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601178661.0522,
+  'REQUEST_TIME' => 1601178661,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 11:51:01 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 11:51:01 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 11:51:01 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 11:57:12 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_PRAGMA' => 'no-cache',
+  'HTTP_CACHE_CONTROL' => 'no-cache',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'HTTP_SEC_FETCH_SITE' => 'none',
+  'HTTP_SEC_FETCH_MODE' => 'navigate',
+  'HTTP_SEC_FETCH_USER' => '?1',
+  'HTTP_SEC_FETCH_DEST' => 'document',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '38.145.76.107',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '40137',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601179032.968658,
+  'REQUEST_TIME' => 1601179032,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 11:57:12 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 11:57:12 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 11:57:12 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 14:14:31 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '212.83.146.233',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '41227',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601187271.091132,
+  'REQUEST_TIME' => 1601187271,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 14:14:31 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 14:14:31 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 14:14:31 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 14:32:01 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'HTTP_REFERER' => 'http://chatbot.moneymag.ml/',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '161.35.89.180',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '45878',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601188321.069609,
+  'REQUEST_TIME' => 1601188321,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 14:32:01 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 14:32:01 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 14:32:01 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 15:31:58 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '62.210.5.253',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '34957',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601191918.443759,
+  'REQUEST_TIME' => 1601191918,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 15:31:58 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 15:31:58 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 15:31:58 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 16:47:36 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_PRAGMA' => 'no-cache',
+  'HTTP_CACHE_CONTROL' => 'no-cache',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'HTTP_SEC_FETCH_SITE' => 'none',
+  'HTTP_SEC_FETCH_MODE' => 'navigate',
+  'HTTP_SEC_FETCH_USER' => '?1',
+  'HTTP_SEC_FETCH_DEST' => 'document',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '34.223.82.66',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '34874',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601196456.711641,
+  'REQUEST_TIME' => 1601196456,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 16:47:36 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 16:47:36 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/27 16:47:36 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/28 03:56:45 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_USER_AGENT' => 'httpx - Open-source project (github.com/projectdiscovery/httpx)',
+  'HTTP_ACCEPT_CHARSET' => 'utf-8',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'HTTP_CONNECTION' => 'close',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '73.218.181.110',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '39554',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601236605.797983,
+  'REQUEST_TIME' => 1601236605,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/28 03:56:45 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/28 03:56:45 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/28 03:56:45 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/28 06:31:58 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'HTTP_REFERER' => 'http://chatbot.moneymag.ml/',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '161.35.89.141',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '50352',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601245918.060076,
+  'REQUEST_TIME' => 1601245918,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/28 06:31:58 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/28 06:31:58 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/28 06:31:58 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/29 05:18:37 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_USER_AGENT' => 'httpx - Open-source project (github.com/projectdiscovery/httpx)',
+  'HTTP_ACCEPT_CHARSET' => 'utf-8',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'HTTP_CONNECTION' => 'close',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '73.218.181.110',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '47982',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601327917.550232,
+  'REQUEST_TIME' => 1601327917,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/29 05:18:37 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/29 05:18:37 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/29 05:18:37 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/29 06:32:00 [info] [application] *** start web request *** >> array (
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'chatbot.moneymag.ml',
+  'HTTP_HOST' => 'chatbot.moneymag.ml',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'HTTP_REFERER' => 'http://chatbot.moneymag.ml/',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at chatbot.moneymag.ml Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)',
+  'SERVER_NAME' => 'chatbot.moneymag.ml',
+  'SERVER_ADDR' => '104.248.49.238',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '178.128.255.174',
+  'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'REQUEST_SCHEME' => 'https',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-chatbot/www',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-chatbot/www/index.php',
+  'REMOTE_PORT' => '46628',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1601332320.819095,
+  'REQUEST_TIME' => 1601332320,
+)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (2)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/29 06:32:00 [trace] [application] SWebApp::__construct start webapp "multishop-chatbot" params >> array (
+  'SITE_NAME' => 'Multishop Chatbot',
+  'SITE_LOGO' => false,
+  'HOST_DOMAIN' => 'chatbot.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'WIT_AI_ON' => false,
+  'OAUTH_CLIENT_CHATBOT' => 'ShopbayChatbotApp',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (44)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/29 06:32:00 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-chatbot/config/dependencies.php (122)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (46)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (5)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)
+2020/09/29 06:32:00 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
+in /var/www/moneymag.ml/multishop-chatbot/config/main.php (44)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
+in /var/www/moneymag.ml/multishop-chatbot/www/index.php (7)

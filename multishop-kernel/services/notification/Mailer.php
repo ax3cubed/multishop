@@ -71,8 +71,8 @@ class Mailer
         $this->_mailer->SMTPSecure = readConfig('email','smtp_secure');//either tls or ssl
         $this->_mailer->Host       = readConfig('email','smtp_host');//tls uses 587, ssl uses 465
         $this->_mailer->Port       = readConfig('email','smtp_port');
-        $this->_mailer->Username   = SSecurityManager::decryptData(readConfig('email','smtp_username'));
-        $this->_mailer->Password   = SSecurityManager::decryptData(readConfig('email','smtp_password'));
+        $this->_mailer->Username   = readConfig('email','smtp_username');
+        $this->_mailer->Password   = readConfig('email','smtp_password');
         $this->_mailer->WordWrap   = 50; // set word wrap
         $this->_mailer->AltBody    = Sii::t('sii','You need an email client supports html to view this message.');
         $this->_mailer->IsHTML(true); // send as HTML

@@ -20,7 +20,7 @@ class SiteController extends SSiteController
     {
         return array_merge([
             ['allow',
-                'actions'=>['index'],
+                'actions'=>array('admin','delete', 'view', 'index'),
                 'users'=>['*'],
             ],
         ],parent::accessRules());//parent access rules has to put at last

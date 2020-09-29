@@ -427,7 +427,7 @@ function readConfig($level1, $level2,$jsonFilePath=null)
 
 function readDBConfig($field)
 {
-    return SSecurityManager::decryptData(readConfig('database', $field));    
+    return readConfig('database', $field);    
 }
 
 function bootstrap()

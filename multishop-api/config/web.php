@@ -57,9 +57,9 @@ $config = [
                'application/json' => 'yii\web\JsonParser',
             ],
             'enableCsrfValidation'=>false,
-            'enableCookieValidation' => false,
+            'enableCookieValidation' => true,
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'INPUT_ANY_VALUE',//input any value
+            'cookieValidationKey' => 'adsf:lkj',//input any value
         ],
         'response' => [
             'format' => yii\web\Response::FORMAT_JSON,
