@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of Multishop.org (http://multishop.org)
  * For the full copyright and license information, please view the LICENSE
@@ -35,11 +36,11 @@ class ApiCreateAction extends CreateAction implements ApiActionInterface
         $this->httpVerb = $this->verb;
         $this->httpPostField = true;
         $this->traitInit();
-    }    
+    }
     /**
      * Run in "api" mode 
      */
-    public function callApi() 
+    public function callApi()
     {
         if (isset($this->createModelMethod))
             $this->setApiModel($this->controller->{$this->createModelMethod}());
@@ -47,49 +48,46 @@ class ApiCreateAction extends CreateAction implements ApiActionInterface
             $this->setApiModel(new $this->model);
 
         $this->controller->pageTitle = $this->getPageTitle($this->apiModel);
-        
-        if(isset($_POST[$this->model])){
+
+        if (isset($_POST[$this->model])) {
 
             try {
-                        
+
                 if (isset($this->setAttributesMethod))
                     $this->setApiModel($this->controller->{$this->setAttributesMethod}($this->apiModel));
-                else 
+                else
                     $this->apiModel->attributes = $_POST[$this->model];
 
-                logTrace(__METHOD__.' attributes',$this->apiModel->attributes);
-                
+                logTrace(__METHOD__ . ' attributes', $this->apiModel->attributes);
+
                 $this->findAccessToken();
                 $this->execCurl($this->getAuthBearerHeader());
-                
             } catch (CException $e) {
-                
-                $this->setErrorFlash($this->apiModel,$e);
+
+                $this->setErrorFlash($this->apiModel, $e);
             }
         }
-        
+
         if (isset($this->beforeRender))
             $this->setApiModel($this->controller->{$this->beforeRender}($this->apiModel));
-            
+
         $this->renderPage($this->apiModel);
-        
-    }     
-    
-    public function onSuccess($response,$httpCode)
+    }
+
+    public function onSuccess($response, $httpCode)
     {
         if (isset($this->flashIdOnSuccess))
             $this->flashId = $this->flashIdOnSuccess;
-        
+
         $this->setSuccessFlash($this->apiModel);
         unset($_POST);
-        $this->refreshApiModel($response,['id']);
+        $this->refreshApiModel($response, ['id']);
         $this->controller->redirect($this->getRedirectUrl($this->apiModel));
         Yii::app()->end();
     }
 
-    public function onError($error, $httpCode) 
+    public function onError($error, $httpCode)
     {
         $this->setResponseErrorFlash($error, $httpCode);
     }
-
 }

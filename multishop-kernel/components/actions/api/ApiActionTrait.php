@@ -225,16 +225,16 @@ trait ApiActionTrait
                 
                 break;//no break, and go to default to get error flash
             case 422:
-                user()->setFlash(isset($this->flashId)?$this->flashId:get_class($this->getApiModel()),array(
+                user()->setFlash(isset($this->flashId)?$this->flashId:get_class($this->apiModel),array(
                     'message'=>$error->details!=null?Helper::htmlErrors($error->details):$error->name,
                     'type'=>'error',
                     'title'=>$error->message,
                 ));
                 if (isset($error->details))
-                    $this->getApiModel()->addErrors($error->details);
+                    $this->apiModel->addErrors($error->details);
                 break;
             default:
-                user()->setFlash(isset($this->flashId)?$this->flashId:get_class($this->getApiModel()),array(
+                user()->setFlash(isset($this->flashId)?$this->flashId:get_class($this->apiModel),array(
                     'message'=>$error->message,
                     'type'=>'error',
                     'title'=>$error->name,
@@ -251,9 +251,9 @@ trait ApiActionTrait
     {
         foreach (json_decode($response,true) as $field => $value) {
             if (in_array($field,$attributes) || empty($attributes) || in_array($field,$extraAttributes))
-                $this->getApiModel()->$field = $value;
+                $this->apiModel->$field = $value;
         }
-        logTrace(__METHOD__.' '.$this->model.' refreshed',$this->getApiModel()->attributes);
+        logTrace(__METHOD__.' '.$this->model.' refreshed',$this->apiModel->attributes);
     }
     
     protected function parsePostFields() 
@@ -261,8 +261,8 @@ trait ApiActionTrait
         if (!isset($this->postFields)){
             $rawBody = [];
             foreach ($_POST[$this->model] as $field => $value) {//scan through submitted fields in $_POST
-                if (isset($this->getApiModel()->$field))
-                    $rawBody[$field] = $this->getApiModel()->$field;
+                if (isset($this->apiModel->$field))
+                    $rawBody[$field] = $this->apiModel->$field;
             }
             $this->postFields = json_encode($rawBody);
         }
