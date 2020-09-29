@@ -35,11 +35,11 @@ class LogoutController extends Controller
             'authenticator' => [
                 'class' => ResourceAuth::className(),
                 'authMethods' => [
-                    ['class' => HttpBearerAuth::className()],
+                    ['class' => HttpBearerAuth::class],
                 ]
             ],
             'exceptionFilter' => [
-                'class' => ErrorToExceptionFilter::className()
+                'class' => ErrorToExceptionFilter::class
             ],
         ]);
     }   

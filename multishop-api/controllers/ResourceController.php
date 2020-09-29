@@ -86,14 +86,14 @@ abstract class ResourceController extends Controller
     {
         return \yii\helpers\ArrayHelper::merge(parent::behaviors(), [
             'authenticator' => [
-                'class' => ResourceAuth::className(),
+                'class' => ResourceAuth::class,
                 'authMethods' => [
-                    ['class' => HttpBearerAuth::className()],
+                    ['class' => HttpBearerAuth::class],
                     //['class' => QueryParamAuth::className(), 'tokenParam' => 'access_token'],
                 ]
             ],
             'exceptionFilter' => [
-                'class' => ErrorToExceptionFilter::className()
+                'class' => ErrorToExceptionFilter::class
             ],
         ]);
     }    
