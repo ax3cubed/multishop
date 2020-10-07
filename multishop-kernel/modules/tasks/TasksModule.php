@@ -86,6 +86,9 @@ class TasksModule extends SModule
                 'tutorials'=>array(
                     'common.modules.tutorials.models.Tutorial',
                 ),
+                'pages'=>array(
+                    'common.modules.pages.models.Page',
+                )
             ),
             'views'=>array(
                 'processhistory'=>'common.modules.tasks.views.common._process_history',
@@ -120,7 +123,9 @@ class TasksModule extends SModule
                 //items view
                 'receiveform'=>'items.receiveform',
                 'item' => 'items.itemview',
-            ),
+                //pages view
+                 
+          ),
             'classes'=>array(
                 'listview'=>'common.widgets.SListView',
                 'gridview'=>'common.widgets.SGridView',

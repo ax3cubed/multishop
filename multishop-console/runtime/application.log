@@ -1,8 +1,8 @@
-2020/09/23 09:09:23 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+2020/10/01 04:42:42 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
   'BACKUP_PATH' => '/home/adeola/backup',
   'ORG_NAME' => 'Multishop.org',
   'APP_VERSION' => 'Beta',
@@ -18,7 +18,7 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (17)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:09:23 [trace] [application] *** start loading dependencies ***
+2020/10/01 04:42:42 [trace] [application] *** start loading dependencies ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
 in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
@@ -26,58 +26,24 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (21)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:09:23 [trace] [application] *** start loading modules ***
+2020/10/01 04:42:42 [trace] [application] *** start loading modules ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
 in /var/www/moneymag.ml/multishop-console/config/main.php (50)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:09:38 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:09:38 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:09:38 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:09:38 [info] [application] Run sii command for /var/www/moneymag.ml/multishop-console/../sii/all/config.php
+2020/10/01 04:42:42 [info] [application] PlanMigration::install
 in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
-in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (28)
-in /var/www/moneymag.ml/multishop-console/commands/SiiCommand.php (88)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
 in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:10:03 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+2020/10/01 04:43:04 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
   'BACKUP_PATH' => '/home/adeola/backup',
   'ORG_NAME' => 'Multishop.org',
   'APP_VERSION' => 'Beta',
@@ -93,7 +59,7 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (17)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:03 [trace] [application] *** start loading dependencies ***
+2020/10/01 04:43:04 [trace] [application] *** start loading dependencies ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
 in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
@@ -101,58 +67,24 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (21)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:03 [trace] [application] *** start loading modules ***
+2020/10/01 04:43:04 [trace] [application] *** start loading modules ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
 in /var/www/moneymag.ml/multishop-console/config/main.php (50)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:08 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:08 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:08 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:08 [info] [application] Run sii command for /var/www/moneymag.ml/multishop-console/../sii/all/config.php
+2020/10/01 04:43:04 [info] [application] PlanMigration::install
 in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
-in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (28)
-in /var/www/moneymag.ml/multishop-console/commands/SiiCommand.php (88)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
 in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:10:41 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+2020/10/01 04:43:28 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
   'BACKUP_PATH' => '/home/adeola/backup',
   'ORG_NAME' => 'Multishop.org',
   'APP_VERSION' => 'Beta',
@@ -168,7 +100,7 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (17)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:41 [trace] [application] *** start loading dependencies ***
+2020/10/01 04:43:28 [trace] [application] *** start loading dependencies ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
 in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
@@ -176,112 +108,30 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (21)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:41 [trace] [application] *** start loading modules ***
+2020/10/01 04:43:28 [trace] [application] *** start loading modules ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
 in /var/www/moneymag.ml/multishop-console/config/main.php (50)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:58 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:58 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:10:58 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:11:06 [error] [application] error: #0 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
-#1 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
-#2 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/base/CModule.php(394): CDbConnection->init()
-#3 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/base/CApplication.php(459): CModule->getComponent('db')
-#4 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(639): CApplication->getDb()
-#5 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(672): CActiveRecord->getDbConnection()
-#6 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/db/ar/CActiveRecord.php(1477): CActiveRecord->getCommandBuilder()
-#7 /var/www/moneymag.ml/multishop-console/commands/InventoryCommand.php(45): CActiveRecord->findAll()
-#8 [internal function]: InventoryCommand->actionScan()
-#9 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(178): ReflectionMethod->invokeArgs(Object(InventoryCommand), Array)
-#10 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
-#11 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
-#12 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
-#13 /var/www/moneymag.ml/multishop-console/console(42): CApplication->run()
-#14 {main}
+2020/10/01 04:43:28 [info] [application] PlanMigration::install
 in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
-in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (23)
-in /var/www/moneymag.ml/multishop-console/commands/InventoryCommand.php (67)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
 in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:11:06 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:11:06 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:11:06 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:11:06 [info] [application] InventoryCommand::actionScan start..
+2020/10/01 04:43:28 [info] [application] Error! Feature file /var/www/moneymag.ml/multishop-admin/modules/plans/models/features/free_trial_features.ph does not exist. 
 in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
-in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (28)
-in /var/www/moneymag.ml/multishop-console/commands/InventoryCommand.php (39)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (166)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
 in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:12:55 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+2020/10/01 04:43:32 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
   'BACKUP_PATH' => '/home/adeola/backup',
   'ORG_NAME' => 'Multishop.org',
   'APP_VERSION' => 'Beta',
@@ -297,7 +147,7 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (17)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:12:55 [trace] [application] *** start loading dependencies ***
+2020/10/01 04:43:32 [trace] [application] *** start loading dependencies ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
 in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
@@ -305,29 +155,65 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (21)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:12:55 [trace] [application] *** start loading modules ***
+2020/10/01 04:43:32 [trace] [application] *** start loading modules ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
 in /var/www/moneymag.ml/multishop-console/config/main.php (50)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:12:55 [info] [application] InventoryCommand::actionScan start..
+2020/10/01 04:43:32 [info] [application] PlanMigration::install
 in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
-in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (28)
-in /var/www/moneymag.ml/multishop-console/commands/InventoryCommand.php (39)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
 in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:12:55 [info] [application] InventoryCommand::_print Completed
+2020/10/01 04:56:47 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/01 04:56:47 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/01 04:56:47 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/01 04:56:47 [info] [application] PlanMigration::install
 in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
-in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (28)
-in /var/www/moneymag.ml/multishop-console/commands/InventoryCommand.php (134)
-in /var/www/moneymag.ml/multishop-console/commands/InventoryCommand.php (62)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
 in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:13:07 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+2020/10/01 05:08:24 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
   'BACKUP_PATH' => '/home/adeola/backup',
   'ORG_NAME' => 'Multishop.org',
   'APP_VERSION' => 'Beta',
@@ -343,7 +229,7 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (17)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:07 [trace] [application] *** start loading dependencies ***
+2020/10/01 05:08:24 [trace] [application] *** start loading dependencies ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
 in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
@@ -351,192 +237,257 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (21)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:07 [trace] [application] *** start loading modules ***
+2020/10/01 05:08:24 [trace] [application] *** start loading modules ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
 in /var/www/moneymag.ml/multishop-console/config/main.php (50)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:12 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:12 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:12 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:25 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:25 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:25 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:39 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:39 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:39 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:55 [warning] [application] no user object: CConsoleApplication and its behaviors do not have a method or closure named "getUser".
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (64)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (70)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
-in /var/www/moneymag.ml/multishop-kernel/components/SModule.php (47)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (204)
-in /var/www/moneymag.ml/multishop-console/commands/ElasticSearchCommand.php (25)
+2020/10/01 05:08:24 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
 in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:13:55 [error] [php] Undefined index: elasticsearch (/var/www/moneymag.ml/multishop-kernel/config/globals.php:425)
+2020/10/01 05:08:37 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/01 05:08:37 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/01 05:08:37 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/01 05:08:37 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/01 05:46:10 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/01 05:46:10 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/01 05:46:10 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/01 05:46:10 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:26:00 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:26:00 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:26:00 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:27:39 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:27:39 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:27:39 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:27:39 [info] [application] PlanMigration::uninstall
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (177)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (65)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:27:39 [info] [application] Safe to uninstall...
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (182)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (65)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:27:57 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:27:57 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:27:57 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:27:57 [info] [application] PlanMigration::uninstall
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (177)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (65)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:27:57 [info] [application] Safe to uninstall...
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (182)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (65)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:30:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'SubscriptionRule' for key 's_rbac_rule.PRIMARY'. The SQL statement executed was: INSERT INTO `s_rbac_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES (:name, :data, :created_at, :updated_at). Bound with :name='SubscriptionRule', :data='O:36:"app\\components\\rbac\\SubscriptionRule":3:{s:4:"name";s:16:"SubscriptionRule";s:9:"createdAt";i:1454398312;s:9:"updatedAt";i:1454398312;}', :created_at=1601735422, :updated_at=1601735422.
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (270)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (191)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (170)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:30:22 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'SubscriptionRule' for key 's_rbac_rule.PRIMARY'. The SQL statement executed was: INSERT INTO `s_rbac_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES (:name, :data, :created_at, :updated_at). Bound with :name='SubscriptionRule', :data='O:36:"app\\components\\rbac\\SubscriptionRule":3:{s:4:"name";s:16:"SubscriptionRule";s:9:"createdAt";i:1454398312;s:9:"updatedAt";i:1454398312;}', :created_at=1601735422, :updated_at=1601735422 in /var/www/moneymag.ml/yii/framework/db/CDbCommand.php:358
 Stack trace:
-#0 /var/www/moneymag.ml/multishop-kernel/modules/search/components/ElasticSearch.php(26): bootstrapYii2Engine()
-#1 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/base/CModule.php(394): ElasticSearch->init()
-#2 /var/www/moneymag.ml/multishop-kernel/modules/search/SearchModule.php(85): SearchModule->getComponent()
-#3 /var/www/moneymag.ml/multishop-console/commands/ElasticSearchCommand.php(26): SearchModule->getElasticSearch()
-#4 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(70): ElasticSearchCommand->init()
-#5 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
-#6 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
-#7 /var/www/moneymag.ml/multishop-console/console(42): CConsoleApplication->run()
-
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (425)
-in /var/www/moneymag.ml/multishop-kernel/yii2engine/config/web.php (48)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (395)
-in /var/www/moneymag.ml/multishop-kernel/modules/search/components/ElasticSearch.php (26)
-in /var/www/moneymag.ml/multishop-kernel/modules/search/SearchModule.php (85)
-in /var/www/moneymag.ml/multishop-console/commands/ElasticSearchCommand.php (26)
-in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:13:55 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:55 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:13:55 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:14:47 [error] [exception.Error] Error: Cannot instantiate abstract class NotificationBaseCommand in /var/www/moneymag.ml/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php:170
-Stack trace:
-#0 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
-#1 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
-#2 /var/www/moneymag.ml/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
-#3 /var/www/moneymag.ml/multishop-console/console(42): CApplication->run()
-#4 {main}
+#0 /var/www/moneymag.ml/yii/framework/db/CDbCommand.php(1278): CDbCommand->execute()
+#1 /var/www/moneymag.ml/yii/framework/db/CDbMigration.php(178): CDbCommand->insert()
+#2 /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php(270): CDbMigration->insert()
+#3 /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php(191): PlanMigration->migrateRbacRuleUp()
+#4 /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php(170): PlanMigration->safeUp()
+#5 /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php(49): PlanMigration->install()
+#6 [internal function]: PlanCommand->actionInstall()
+#7 /var/www/moneymag.ml/yii/framework/console/CConsoleCommand.php(178): ReflectionMethod->invokeArgs()
+#8 /var/www/moneymag.ml/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#9 /var/www/moneymag.ml/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#10 /var/www/moneymag.ml/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#11 /var/www/moneymag.ml/multishop-console/console(42): CApplication->run()
+#12 {main}
 ---
-2020/09/23 09:14:47 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+2020/10/03 22:30:22 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
   'BACKUP_PATH' => '/home/adeola/backup',
   'ORG_NAME' => 'Multishop.org',
   'APP_VERSION' => 'Beta',
@@ -552,7 +503,7 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (17)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:14:47 [trace] [application] *** start loading dependencies ***
+2020/10/03 22:30:22 [trace] [application] *** start loading dependencies ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
 in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
@@ -560,203 +511,24 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (21)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:14:47 [trace] [application] *** start loading modules ***
+2020/10/03 22:30:22 [trace] [application] *** start loading modules ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
 in /var/www/moneymag.ml/multishop-console/config/main.php (50)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:00 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:00 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:00 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:24 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:24 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:24 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:44 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:44 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:44 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:53 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:53 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:15:53 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:16:05 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
-  'BACKUP_PATH' => '/home/adeola/backup',
-  'ORG_NAME' => 'Multishop.org',
-  'APP_VERSION' => 'Beta',
-  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
-  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
-  'LOCALE_DEFAULT' => 'en_sg',
-  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
-  'DATE_FORMAT' => 'd/M/yy',
-  'BOWER_ASSET_DIR' => 'bower-asset',
-)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-console/config/main.php (17)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:16:05 [trace] [application] *** start loading dependencies ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
-in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
-in /var/www/moneymag.ml/multishop-console/config/main.php (21)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:16:05 [trace] [application] *** start loading modules ***
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
-in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
-in /var/www/moneymag.ml/multishop-console/config/main.php (50)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
-in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
-in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:16:05 [info] [application] Start scanning..
+2020/10/03 22:30:22 [info] [application] PlanMigration::install
 in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
 in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
-in /var/www/moneymag.ml/multishop-console/commands/SubscriptionCommand.php (39)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
 in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:16:05 [info] [application] Completed
-in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
-in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
-in /var/www/moneymag.ml/multishop-console/commands/SubscriptionCommand.php (62)
-in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:16:16 [trace] [application] params >> array (
-  'HOST_DOMAIN' => 'moneymag.ml',
-  'MERCHANT_DOMAIN' => 'moneymag.ml/multishop-merchant/www',
-  'SHOP_DOMAIN' => 'moneymag.ml/multishop-shop/www',
-  'API_DOMAIN' => 'moneymag.ml/multishop-api/web',
+2020/10/03 22:30:44 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
   'BACKUP_PATH' => '/home/adeola/backup',
   'ORG_NAME' => 'Multishop.org',
   'APP_VERSION' => 'Beta',
@@ -772,7 +544,7 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (17)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:16:16 [trace] [application] *** start loading dependencies ***
+2020/10/03 22:30:44 [trace] [application] *** start loading dependencies ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
 in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
@@ -780,20 +552,975 @@ in /var/www/moneymag.ml/multishop-console/config/main.php (21)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:16:16 [trace] [application] *** start loading modules ***
+2020/10/03 22:30:44 [trace] [application] *** start loading modules ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
 in /var/www/moneymag.ml/multishop-console/config/main.php (50)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
 in /var/www/moneymag.ml/multishop-console/console (35)
-2020/09/23 09:16:16 [info] [application] Start scanning..
+2020/10/03 22:30:44 [info] [application] PlanMigration::uninstall
 in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
 in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
-in /var/www/moneymag.ml/multishop-console/commands/SubscriptionCommand.php (78)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (177)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (65)
 in /var/www/moneymag.ml/multishop-console/console (42)
-2020/09/23 09:16:16 [info] [application] Completed
+2020/10/03 22:30:44 [info] [application] There are active subscriptions! Action not allowed.
 in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
 in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
-in /var/www/moneymag.ml/multishop-console/commands/SubscriptionCommand.php (92)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (179)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (65)
 in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:30:48 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:30:48 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:30:48 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:30:48 [info] [application] PlanMigration::uninstall
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (177)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (65)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:30:48 [info] [application] Safe to uninstall...
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (182)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (65)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:30:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'SubscriptionRule' for key 's_rbac_rule.PRIMARY'. The SQL statement executed was: INSERT INTO `s_rbac_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES (:name, :data, :created_at, :updated_at). Bound with :name='SubscriptionRule', :data='O:36:"app\\components\\rbac\\SubscriptionRule":3:{s:4:"name";s:16:"SubscriptionRule";s:9:"createdAt";i:1454398312;s:9:"updatedAt";i:1454398312;}', :created_at=1601735452, :updated_at=1601735452.
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (270)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (191)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (170)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:30:52 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'SubscriptionRule' for key 's_rbac_rule.PRIMARY'. The SQL statement executed was: INSERT INTO `s_rbac_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES (:name, :data, :created_at, :updated_at). Bound with :name='SubscriptionRule', :data='O:36:"app\\components\\rbac\\SubscriptionRule":3:{s:4:"name";s:16:"SubscriptionRule";s:9:"createdAt";i:1454398312;s:9:"updatedAt";i:1454398312;}', :created_at=1601735452, :updated_at=1601735452 in /var/www/moneymag.ml/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/moneymag.ml/yii/framework/db/CDbCommand.php(1278): CDbCommand->execute()
+#1 /var/www/moneymag.ml/yii/framework/db/CDbMigration.php(178): CDbCommand->insert()
+#2 /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php(270): CDbMigration->insert()
+#3 /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php(191): PlanMigration->migrateRbacRuleUp()
+#4 /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php(170): PlanMigration->safeUp()
+#5 /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php(49): PlanMigration->install()
+#6 [internal function]: PlanCommand->actionInstall()
+#7 /var/www/moneymag.ml/yii/framework/console/CConsoleCommand.php(178): ReflectionMethod->invokeArgs()
+#8 /var/www/moneymag.ml/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#9 /var/www/moneymag.ml/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#10 /var/www/moneymag.ml/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#11 /var/www/moneymag.ml/multishop-console/console(42): CApplication->run()
+#12 {main}
+---
+2020/10/03 22:30:51 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:30:51 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:30:51 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:30:52 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:32:30 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:32:30 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:32:30 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:32:30 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:32:56 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:32:56 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:32:56 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:32:56 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:35:53 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:35:53 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:35:53 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:35:53 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:36:55 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:36:55 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:36:55 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:36:55 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:41:32 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:41:32 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:41:32 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:41:32 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:43:57 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:43:57 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:43:57 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:43:57 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:45:00 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:45:00 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:45:00 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:45:00 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:45:00 [info] [application] There are already features installed! Action not allowed.
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (161)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:45:17 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:45:17 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:45:17 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:45:17 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:47:04 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:47:04 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:47:04 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:47:05 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:47:05 [info] [application] There are already features installed! Action not allowed.
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (161)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:48:28 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:48:28 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:48:28 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:48:28 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:48:28 [info] [application] There are already features installed! Action not allowed.
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (161)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:48:36 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:48:36 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:48:36 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:48:36 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:48:36 [info] [application] There are already features installed! Action not allowed.
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (161)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:50:30 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:50:30 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:50:30 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:50:30 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 22:54:32 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:54:32 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:54:32 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 22:54:32 [info] [application] PlanMigration::install
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (159)
+in /var/www/moneymag.ml/multishop-console/commands/PlanCommand.php (49)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 23:48:21 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:48:21 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:48:21 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:48:29 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:48:29 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:48:29 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:48:29 [info] [application] Run sii command for /var/www/moneymag.ml/multishop-console/../sii/all/config.php
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (28)
+in /var/www/moneymag.ml/multishop-console/commands/SiiCommand.php (88)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 23:49:53 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:49:53 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:49:53 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:50:05 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:50:05 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:50:05 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:53:00 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:53:00 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:53:00 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:56:26 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:56:26 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:56:26 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/03 23:56:26 [info] [application] BraintreeWebhookCommand::triggerSubscriptionNotification start.. subscription_charged_successfully
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (59)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (34)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 23:56:26 [info] [application] BraintreeWebhookCommand::sendCurl url https://merchant.moneymag.ml/billings/braintree/webhook
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (28)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (68)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (61)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (34)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 23:56:26 [info] [application] 
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (45)
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (28)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (68)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (61)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (34)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 23:56:26 [info] [application] BraintreeWebhookCommand::sendCurl cURL response
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (38)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (35)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (96)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (61)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (34)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/03 23:56:26 [info] [application] 
+in /var/www/moneymag.ml/multishop-kernel/components/SCommand.php (45)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (30)
+in /var/www/moneymag.ml/multishop-console/components/CommandLogFileTrait.php (35)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (96)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (61)
+in /var/www/moneymag.ml/multishop-console/commands/BraintreeWebhookCommand.php (34)
+in /var/www/moneymag.ml/multishop-console/console (42)
+2020/10/04 22:08:23 [trace] [application] params >> array (
+  'HOST_DOMAIN' => 'console.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'SHOP_DOMAIN' => 'shop.moneymag.ml',
+  'API_DOMAIN' => 'api.moneymag.ml',
+  'BACKUP_PATH' => '/home/adeola/backup',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-console/config/main.php (17)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/04 22:08:23 [trace] [application] *** start loading dependencies ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
+in /var/www/moneymag.ml/multishop-console/config/dependencies.php (69)
+in /var/www/moneymag.ml/multishop-console/config/main.php (21)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)
+2020/10/04 22:08:23 [trace] [application] *** start loading modules ***
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
+in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
+in /var/www/moneymag.ml/multishop-console/config/main.php (50)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
+in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (111)
+in /var/www/moneymag.ml/multishop-console/console (35)

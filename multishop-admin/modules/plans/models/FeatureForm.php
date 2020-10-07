@@ -28,9 +28,9 @@ class FeatureForm extends CFormModel
     public function rules()
     {
         return array(
-            array('name, group, rbacRule', 'required'),
+            array(' name, group, rbacRule', 'required'),
             array('name, group', 'length', 'max'=>255),
-            array('params', 'length', 'max'=>500),
+            array('params', 'length','max'=>500),
         );
     }
     

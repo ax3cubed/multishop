@@ -4,4 +4,4 @@ read eshome
 export ES_HOME=$eshome
 echo -n "ES_HOME = $eshome"
 
-$ES_HOME/bin/elasticsearch -d --config=config/elasticsearch.yml
+$ES_HOME/bin/elasticsearch -d -v -Econfig=config/elasticsearch.yml

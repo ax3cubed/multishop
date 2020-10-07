@@ -9,17 +9,17 @@
         "gitWorkTree":"",
         "gitBranch":"master",
         "gitDir":"",
-        "yii1Path":"/var/www/moneymag.ml/vendor/yii",
+        "yii1Path":"/var/www/moneymag.ml/yii",
         "yii2Path":"/var/www/moneymag.ml/yii2",
         "yiiDebug":true,
         "yiiTraceLevel":8,
         "yiiEnv":"dev"
     },
     "domain":{
-        "host":"moneymag.ml",
-        "shop":"moneymag.ml/multishop-shop/www",
-        "merchant":"moneymag.ml/multishop-merchant/www",
-        "api":"moneymag.ml/multishop-api/web"
+        "host":"console.moneymag.ml",
+        "shop":"shop.moneymag.ml",
+        "merchant":"merchant.moneymag.ml",
+        "api":"api.moneymag.ml"
     },
     "database":{
         "dbhost":"localhost",

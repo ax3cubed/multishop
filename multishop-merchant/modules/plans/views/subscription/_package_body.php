@@ -13,7 +13,7 @@ $planCardWidth = ($total < 4) ? round(100 / ($total + 1)) : 24;//max is 4 cards 
 
         <?php if ($data->showPricing):?>
             <div class="plan-price">
-                <span class="currency"><?= $mainRate->currency;?></span><?= $mainRate->dollar;?>
+                <span class="currency"><?php echo $mainRate->currency;?></span><?php echo $mainRate->$dollar;?>
                 <?php if ($mainRate->dollar>0):?>
                     <span class="cents"><?= $mainRate->cents;?></span>
                 <?php endif;?>
