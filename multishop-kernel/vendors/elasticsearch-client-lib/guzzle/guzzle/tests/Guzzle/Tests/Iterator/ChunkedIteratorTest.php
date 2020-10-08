@@ -7,7 +7,7 @@ use Guzzle\Iterator\ChunkedIterator;
 /**
  * @covers Guzzle\Iterator\ChunkedIterator
  */
-class ChunkedIteratorTest extends \PHPUnit_Framework_TestCase
+class ChunkedIteratorTest extends \PHPUnit\Framework\TestCase
 {
     public function testChunksIterator()
     {

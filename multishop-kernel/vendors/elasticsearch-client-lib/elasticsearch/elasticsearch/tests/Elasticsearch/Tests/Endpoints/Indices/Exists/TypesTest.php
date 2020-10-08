@@ -19,7 +19,7 @@ use Mockery as m;
  * @license http://www.apache.org/licenses/LICENSE-2.0 Apache2
  * @link    http://elasticsearch.org
  */
-class TypesTest extends \PHPUnit_Framework_TestCase
+class TypesTest extends \PHPUnit\Framework\TestCase
 {
     public function tearDown() {
         m::close();

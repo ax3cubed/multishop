@@ -19,7 +19,7 @@ use Mockery as m;
  * @license http://www.apache.org/licenses/LICENSE-2.0 Apache2
  * @link    http://Elasticsearch.org
  */
-class ScrollTest extends \PHPUnit_Framework_TestCase
+class ScrollTest extends \PHPUnit\Framework\TestCase
 {
 
     public function tearDown() {

@@ -7,7 +7,7 @@ use Guzzle\Iterator\MapIterator;
 /**
  * @covers Guzzle\Iterator\MapIterator
  */
-class MapIteratorTest extends \PHPUnit_Framework_TestCase
+class MapIteratorTest extends \PHPUnit\Framework\TestCase
 {
     public function testFiltersValues()
     {

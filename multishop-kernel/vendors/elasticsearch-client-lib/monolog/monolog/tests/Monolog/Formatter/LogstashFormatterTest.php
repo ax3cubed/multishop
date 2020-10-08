@@ -14,7 +14,7 @@ namespace Monolog\Formatter;
 use Monolog\Logger;
 use Monolog\Formatter\LogstashFormatter;
 
-class LogstashFormatterTest extends \PHPUnit_Framework_TestCase
+class LogstashFormatterTest extends \PHPUnit\Framework\TestCase
 {
 
     /**

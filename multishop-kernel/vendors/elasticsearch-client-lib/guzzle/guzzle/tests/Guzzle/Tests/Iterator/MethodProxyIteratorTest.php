@@ -8,7 +8,7 @@ use Guzzle\Iterator\ChunkedIterator;
 /**
  * @covers Guzzle\Iterator\MethodProxyIterator
  */
-class MethodProxyIteratorTest extends \PHPUnit_Framework_TestCase
+class MethodProxyIteratorTest extends \PHPUnit\Framework\TestCase
 {
     public function testProxiesMagicCallsToInnermostIterator()
     {

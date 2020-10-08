@@ -16,7 +16,7 @@ use Symfony\Component\EventDispatcher\GenericEvent;
 /**
  * Test class for Event.
  */
-class GenericEventTest extends \PHPUnit_Framework_TestCase
+class GenericEventTest extends \PHPUnit\Framework\TestCase
 {
 
     /**

@@ -21,7 +21,7 @@ use Mockery as m;
  * @link    http://elasticsearch.org
  */
 
-class PutTest extends \PHPUnit_Framework_TestCase
+class PutTest extends \PHPUnit\Framework\TestCase
 {
     public function tearDown() {
         m::close();

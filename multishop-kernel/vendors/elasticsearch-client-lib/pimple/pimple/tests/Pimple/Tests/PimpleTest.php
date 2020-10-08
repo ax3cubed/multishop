@@ -34,7 +34,7 @@ use Pimple;
  * @package pimple
  * @author  Igor Wiedler <igor@wiedler.ch>
  */
-class PimpleTest extends \PHPUnit_Framework_TestCase
+class PimpleTest extends \PHPUnit\Framework\TestCase
 {
     public function testWithString()
     {

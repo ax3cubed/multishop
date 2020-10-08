@@ -7,7 +7,7 @@ use Guzzle\Iterator\FilterIterator;
 /**
  * @covers Guzzle\Iterator\FilterIterator
  */
-class FilterIteratorTest extends \PHPUnit_Framework_TestCase
+class FilterIteratorTest extends \PHPUnit\Framework\TestCase
 {
     public function testFiltersValues()
     {

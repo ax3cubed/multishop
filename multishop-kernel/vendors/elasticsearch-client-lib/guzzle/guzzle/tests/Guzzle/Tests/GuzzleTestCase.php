@@ -19,7 +19,7 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 /**
  * Base testcase class for all Guzzle testcases.
  */
-abstract class GuzzleTestCase extends \PHPUnit_Framework_TestCase
+abstract class GuzzleTestCase extends \PHPUnit\Framework\TestCase
 {
     protected static $mockBasePath;
     public static $serviceBuilder;

@@ -18,7 +18,7 @@ use Mockery as m;
  * @license http://www.apache.org/licenses/LICENSE-2.0 Apache2
  * @link    http://elasticsearch.org
  */
-class AnalyzeTest extends \PHPUnit_Framework_TestCase
+class AnalyzeTest extends \PHPUnit\Framework\TestCase
 {
 
     public function tearDown() {

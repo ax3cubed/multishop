@@ -19,7 +19,7 @@ use Mockery as m;
  * @link    http://elasticsearch.org
  */
 
-class ClearTest extends \PHPUnit_Framework_TestCase
+class ClearTest extends \PHPUnit\Framework\TestCase
 {
     public function tearDown() {
         m::close();

@@ -20,7 +20,7 @@ use Mockery as m;
  * @link    http://elasticsearch.org
  */
 
-class AliasesTest extends \PHPUnit_Framework_TestCase
+class AliasesTest extends \PHPUnit\Framework\TestCase
 {
     public function tearDown() {
         m::close();

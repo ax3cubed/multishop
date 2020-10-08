@@ -7,7 +7,7 @@ use Guzzle\Iterator\AppendIterator;
 /**
  * @covers Guzzle\Iterator\AppendIterator
  */
-class AppendIteratorTest extends \PHPUnit_Framework_TestCase
+class AppendIteratorTest extends \PHPUnit\Framework\TestCase
 {
     public function testTraversesIteratorsInOrder()
     {
