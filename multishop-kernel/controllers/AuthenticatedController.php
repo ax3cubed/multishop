@@ -60,7 +60,7 @@ class AuthenticatedController extends SController
             if ($index==0)//first one
                 $rightsFilter = 'rights - '.$action.',';
             else
-                $rightsFilter = $action.',';
+                $rightsFilter .= $action.',';
         };
         if (isset($rightsFilter))
             $filters = array_merge($filters,[rtrim($rightsFilter, ",")]);
