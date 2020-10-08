@@ -109,6 +109,6 @@ trait PageSEOTrait
      */
     public function hasSEOConfigurator()
     {
-        return Subscription::hasService(Feature::$hasSEOConfigurator, ['shop'=>$this->{$this->getSeoShopAttribute()}]);
+        return Subscription::apiHasService(Feature::$hasSEOConfigurator, ['shop'=>$this->{$this->getSeoShopAttribute()}]);
     }    
 }

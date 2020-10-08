@@ -25,7 +25,7 @@ class SErrorController extends SController
     public $maintenanceView = 'common.views.error.maintenance';
     /**
      * Force logout for error code found
-     * @var type 
+     * @var array 
      */
     public $forceLogout = [];
     /**
