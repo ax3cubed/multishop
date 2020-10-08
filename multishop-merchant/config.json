@@ -13,7 +13,7 @@
         "yii2Path":"/var/www/moneymag.ml/yii2",
         "yiiDebug":true,
         "yiiTraceLevel":8,
-        "yiiEnv":"test",
+        "yiiEnv":"prod",
         "shopThemePath":"/var/www/moneymag.ml/multishop-shop-assets/themes",
         "shopWidgetPath":"/var/www/moneymag.ml/multishop-shop-assets/widgets"
     },

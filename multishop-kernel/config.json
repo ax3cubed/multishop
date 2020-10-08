@@ -13,6 +13,6 @@
         "yii2Path":"/var/www/moneymag.ml/yii2",
         "yiiDebug":true,
         "yiiTraceLevel":8,
-        "yiiEnv":"test"
+        "yiiEnv":"prod"
     }
 }
