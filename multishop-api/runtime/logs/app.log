@@ -14145,3 +14145,1090 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1602077813.9834
     'REQUEST_TIME' => 1602077813
 ]
+2020-10-08 02:01:27 [142.93.126.181][-][-][trace][application] SWebApp::__construct start webapp "multishop-api" params >> array (
+  'SITE_NAME' => 'API',
+  'HOST_DOMAIN' => 'api.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+2020-10-08 02:01:27 [142.93.126.181][-][-][trace][application] *** start loading dependencies ***
+2020-10-08 02:01:27 [142.93.126.181][-][-][trace][application] *** start loading modules ***
+2020-10-08 02:01:27 [142.93.126.181][-][-][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2020-10-08 02:01:27 [142.93.126.181][-][-][trace][yii\base\Module::getModule] Loading module: oauth2
+2020-10-08 02:01:27 [142.93.126.181][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2020-10-08 02:01:27 [142.93.126.181][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'api.moneymag.ml'
+    'REDIRECT_STATUS' => '200'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'api.moneymag.ml'
+    'HTTP_HOST' => 'api.moneymag.ml'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0'
+    'HTTP_REFERER' => 'http://api.moneymag.ml/wp-login.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_CONNECTION' => 'close'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at api.moneymag.ml Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)'
+    'SERVER_NAME' => 'api.moneymag.ml'
+    'SERVER_ADDR' => '104.248.49.238'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '142.93.126.181'
+    'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-api/web/index.php'
+    'REMOTE_PORT' => '47406'
+    'REDIRECT_URL' => '/wp-login.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wp-login.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1602093687.7168
+    'REQUEST_TIME' => 1602093687
+]
+2020-10-08 03:09:35 [104.131.82.72][-][-][trace][application] SWebApp::__construct start webapp "multishop-api" params >> array (
+  'SITE_NAME' => 'API',
+  'HOST_DOMAIN' => 'api.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+2020-10-08 03:09:35 [104.131.82.72][-][-][trace][application] *** start loading dependencies ***
+2020-10-08 03:09:35 [104.131.82.72][-][-][trace][application] *** start loading modules ***
+2020-10-08 03:09:35 [104.131.82.72][-][-][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2020-10-08 03:09:35 [104.131.82.72][-][-][trace][yii\base\Module::getModule] Loading module: oauth2
+2020-10-08 03:09:35 [104.131.82.72][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2020-10-08 03:09:35 [104.131.82.72][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'api.moneymag.ml'
+    'HTTP_HOST' => 'api.moneymag.ml'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at api.moneymag.ml Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)'
+    'SERVER_NAME' => 'api.moneymag.ml'
+    'SERVER_ADDR' => '104.248.49.238'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '104.131.82.72'
+    'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-api/web/index.php'
+    'REMOTE_PORT' => '51928'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1602097775.8699
+    'REQUEST_TIME' => 1602097775
+]
+2020-10-08 18:04:18 [104.248.49.238][-][-][trace][application] SWebApp::__construct start webapp "multishop-api" params >> array (
+  'SITE_NAME' => 'API',
+  'HOST_DOMAIN' => 'api.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+2020-10-08 18:04:18 [104.248.49.238][-][-][trace][application] *** start loading dependencies ***
+2020-10-08 18:04:18 [104.248.49.238][-][-][trace][application] *** start loading modules ***
+2020-10-08 18:04:18 [104.248.49.238][-][-][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2020-10-08 18:04:18 [104.248.49.238][-][-][trace][yii\base\Module::getModule] Loading module: oauth2
+2020-10-08 18:04:18 [104.248.49.238][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2020-10-08 18:04:18 [104.248.49.238][-][-][trace][yii\base\Controller::runAction] Route to run: oauth2/logout/index
+2020-10-08 18:04:18 [104.248.49.238][-][-][error][multishop-api] [userid=] app\modules\oauth2server\filters\auth\ResourceAuth::beforeAction response  >> filsh\yii2\oauth2server\Response Object
+(
+    [version] => 1.1
+    [statusCode:protected] => 401
+    [statusText:protected] => Unauthorized
+    [parameters:protected] => Array
+        (
+            [error] => invalid_token
+            [error_description] => The access token provided has expired
+        )
+
+    [httpHeaders:protected] => Array
+        (
+            [Cache-Control] => no-store
+            [WWW-Authenticate] => Bearer realm="Service", error="invalid_token", error_description="The access token provided has expired"
+        )
+
+)
+
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:264
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:28
+2020-10-08 18:04:18 [104.248.49.238][-][-][info][application] $_GET = []
+
+$_POST = [
+    'token' => '7e4c04c56f968b0b3cf894cb5307af7bc79aeb66'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'api.moneymag.ml'
+    'REDIRECT_STATUS' => '200'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'api.moneymag.ml'
+    'HTTP_HOST' => 'api.moneymag.ml'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip, br'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '46'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at api.moneymag.ml Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)'
+    'SERVER_NAME' => 'api.moneymag.ml'
+    'SERVER_ADDR' => '104.248.49.238'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '104.248.49.238'
+    'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-api/web/index.php'
+    'REMOTE_PORT' => '48380'
+    'REDIRECT_URL' => '/oauth2/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/oauth2/logout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1602151458.3767
+    'REQUEST_TIME' => 1602151458
+]
+2020-10-08 18:04:25 [104.248.49.238][1][-][trace][application] SWebApp::__construct start webapp "multishop-api" params >> array (
+  'SITE_NAME' => 'API',
+  'HOST_DOMAIN' => 'api.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+2020-10-08 18:04:25 [104.248.49.238][1][-][trace][application] *** start loading dependencies ***
+2020-10-08 18:04:25 [104.248.49.238][1][-][trace][application] *** start loading modules ***
+2020-10-08 18:04:25 [104.248.49.238][1][-][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2020-10-08 18:04:25 [104.248.49.238][1][-][trace][yii\base\Module::getModule] Loading module: oauth2
+2020-10-08 18:04:25 [104.248.49.238][1][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2020-10-08 18:04:25 [104.248.49.238][1][-][trace][yii\base\Controller::runAction] Route to run: oauth2/admin/index
+2020-10-08 18:04:25 [104.248.49.238][1][-][trace][multishop-api] SModule::preinit *** start module accounts ***
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/SModule.php:47
+    in /var/www/moneymag.ml/yii/framework/base/CModule.php:84
+    in /var/www/moneymag.ml/multishop-kernel/components/Yii2.php:97
+    in /var/www/moneymag.ml/yii/framework/base/CModule.php:282
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 18:04:25 [104.248.49.238][1][-][trace][multishop-api] AccountManagerTrait::authenticate Yii::app()->user = ApiUser >> 'IdentityAdmin'
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:49
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 18:04:26 [104.248.49.238][1][-][trace][multishop-api] NestedPDO::beginTransaction 1602151466 SAVEPOINT LEVEL 0
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/NestedPDO.php:33
+    in /var/www/moneymag.ml/yii/framework/db/CDbConnection.php:522
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:154
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 18:04:26 [104.248.49.238][1][-][info][multishop-api] ServiceManager::execute operation[Account.recordActivity] start
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:159
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 18:04:26 [104.248.49.238][1][-][trace][multishop-api] ActivityBehavior::recordActivity ok >> [
+    'obj_type' => 's_account'
+    'obj_id' => '1'
+    'location' => 'multishop-api'
+    'event' => 'login'
+    'description' => 'user_name=SUPERUSER, site=multishop-api, ip=104.248.49.238, user_agent='
+    'account_id' => '1'
+    'obj_url' => 'https://api.moneymag.ml/index.php?r=users/admin/view/id/1'
+    'icon_url' => '<i class=\"fa fa-user fa-fw\"></i>'
+    'create_time' => 1602151466
+    'id' => '86'
+]
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/modules/activities/behaviors/ActivityBehavior.php:98
+    in /var/www/moneymag.ml/yii/framework/base/CComponent.php:261
+    in /var/www/moneymag.ml/yii/framework/db/ar/CActiveRecord.php:229
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:222
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+2020-10-08 18:04:26 [104.248.49.238][1][-][info][multishop-api] ServiceManager::execute operation[Account.recordActivity] end
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:225
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 18:04:26 [104.248.49.238][1][-][trace][multishop-api] NestedPDO::commit 1602151466 physical commit SAVEPOINT LEVEL 0
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/NestedPDO.php:48
+    in /var/www/moneymag.ml/yii/framework/db/CDbTransaction.php:64
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:228
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 18:04:26 [104.248.49.238][1][-][info][multishop-api] ServiceManager::execute ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:230
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 18:04:26 [104.248.49.238][1][-][info][multishop-api] AccountManagerTrait::authenticate ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:67
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 18:04:26 [104.248.49.238][1][-][info][multishop-api] app\models\User::findUser login as \IdentityAdmin user=1
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:42
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 18:04:26 [104.248.49.238][1][-][trace][yii\base\InlineAction::runWithParams] Running action: app\modules\oauth2server\controllers\AdminController::actionIndex()
+2020-10-08 18:04:26 [104.248.49.238][1][-][trace][multishop-api] app\modules\oauth2server\controllers\LoginController::contructTokenRequest grant_type password ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:103
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:70
+2020-10-08 18:04:26 [104.248.49.238][1][-][trace][multishop-api] app\models\User::findByUsername found! >> [
+    'id' => '1'
+    'username' => 'SUPERUSER'
+    'identityType' => 'IdentityAdmin'
+    'roles' => [
+        0 => 'Activated'
+        1 => 'Administrator'
+        2 => 'Customer'
+        3 => 'Merchant'
+        4 => 'Packages Approver'
+        5 => 'Packages Creator'
+        6 => 'Plans Approver'
+        7 => 'Plans Creator'
+        8 => 'Shop Plans Manager'
+        9 => 'Shops Manager'
+        10 => 'SUPERUSER'
+        11 => 'Themes Admin'
+        12 => 'User'
+        13 => 'WCM Manager'
+    ]
+    'activate' => false
+]
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/models/User.php:106
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:64
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:26
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:57
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Server.php:320
+2020-10-08 18:04:26 [104.248.49.238][1][-][trace][multishop-api] AccountManagerTrait::authenticate Yii::app()->user = ApiUser >> 'IdentityAdmin'
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:49
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:121
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:30
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:57
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+2020-10-08 18:04:26 [104.248.49.238][1][-][info][multishop-api] AccountManagerTrait::authenticate ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:67
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:121
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:30
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:57
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+2020-10-08 18:04:26 [104.248.49.238][1][-][info][multishop-api] app\models\User::validatePassword passed! for IdentityAdmin user=1
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:122
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:30
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:57
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Server.php:320
+    in /var/www/moneymag.ml/yii2/vendor/filsh/yii2-oauth2-server/src/Server.php:39
+2020-10-08 18:04:26 [104.248.49.238][1][-][trace][multishop-api] app\models\User::findByUsername found! >> [
+    'id' => '1'
+    'username' => 'SUPERUSER'
+    'identityType' => 'IdentityAdmin'
+    'roles' => [
+        0 => 'Activated'
+        1 => 'Administrator'
+        2 => 'Customer'
+        3 => 'Merchant'
+        4 => 'Packages Approver'
+        5 => 'Packages Creator'
+        6 => 'Plans Approver'
+        7 => 'Plans Creator'
+        8 => 'Shop Plans Manager'
+        9 => 'Shops Manager'
+        10 => 'SUPERUSER'
+        11 => 'Themes Admin'
+        12 => 'User'
+        13 => 'WCM Manager'
+    ]
+    'activate' => false
+]
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/models/User.php:106
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:64
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:48
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:63
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Server.php:320
+2020-10-08 18:04:26 [104.248.49.238][1][-][info][multishop-api] app\modules\oauth2server\controllers\LoginController::actionIndex login status >> OAuth2\Response#1
+(
+    [version] => '1.1'
+    [*:statusCode] => 200
+    [*:statusText] => 'OK'
+    [*:parameters] => [
+        'access_token' => 'a8d7721d40e315dc45533038d4138d4b85f5ff18'
+        'expires_in' => 28800
+        'token_type' => 'Bearer'
+        'scope' => null
+        'refresh_token' => 'fe3f1ec4c583d3be0b565d83cdbb2671db2299eb'
+    ]
+    [*:httpHeaders] => [
+        'Cache-Control' => 'no-store'
+        'Pragma' => 'no-cache'
+        'Content-Type' => 'application/json'
+    ]
+)
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:72
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][application] SWebApp::__construct start webapp "multishop-api" params >> array (
+  'SITE_NAME' => 'API',
+  'HOST_DOMAIN' => 'api.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][application] *** start loading dependencies ***
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][application] *** start loading modules ***
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][yii\base\Module::getModule] Loading module: oauth2
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][yii\base\Module::getModule] Loading module: v1
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][multishop-api] app\modules\v1\controllers\ModelController::actions actions loaded >> [
+    'index' => [
+        'class' => 'app\\modules\\v1\\actions\\ModelIndexAction'
+    ]
+    'view' => [
+        'class' => 'app\\modules\\v1\\actions\\ModelViewAction'
+    ]
+    'create' => [
+        'class' => 'app\\modules\\v1\\actions\\ModelCreateAction'
+    ]
+    'update' => [
+        'class' => 'app\\modules\\v1\\actions\\ModelUpdateAction'
+    ]
+    'delete' => [
+        'class' => 'app\\modules\\v1\\actions\\ModelDeleteAction'
+    ]
+]
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/modules/v1/controllers/ModelController.php:45
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][yii\base\Controller::runAction] Route to run: v1/package/index
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][multishop-api] app\controllers\ResourceController::beforeAction Action index: raw body received
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:149
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][multishop-api] app\controllers\ResourceController::beforeAction Action index: Json decode raw body
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:151
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][multishop-api] app\models\User::findIdentityByAccessToken token passed! a8d7721d40e315dc45533038d4138d4b85f5ff18
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:207
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:162
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][multishop-api] app\models\User::findIdentity Searching for identity id 1 ...
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:52
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:162
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][multishop-api] SModule::preinit *** start module accounts ***
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/SModule.php:47
+    in /var/www/moneymag.ml/yii/framework/base/CModule.php:84
+    in /var/www/moneymag.ml/multishop-kernel/components/Yii2.php:97
+    in /var/www/moneymag.ml/yii/framework/base/CModule.php:282
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:79
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][multishop-api] AccountManagerTrait::authenticate Yii::app()->user = ApiUser >> 'IdentityAdmin'
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:49
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:79
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:162
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][multishop-api] AccountManagerTrait::authenticate ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:67
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:79
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:162
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][multishop-api] app\models\User::findIdentity Login as IdentityAdmin user=1
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:80
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:162
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][yii\base\Action::runWithParams] Running action: app\modules\v1\actions\ModelIndexAction::run(), invoked by app\modules\v1\controllers\PackageController
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][multishop-api] app\controllers\ResourceController::getDataProvider Criteria >> CDbCriteria#1
+(
+    [select] => '*'
+    [distinct] => false
+    [condition] => '(account_id=\'1\') AND (status!=\'DEL;\')'
+    [params] => []
+    [limit] => -1
+    [offset] => -1
+    [order] => ''
+    [group] => ''
+    [join] => ''
+    [having] => ''
+    [with] => null
+    [alias] => null
+    [together] => null
+    [index] => null
+    [scopes] => null
+    [CComponent:_e] => null
+    [CComponent:_m] => null
+)
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:271
+    in /var/www/moneymag.ml/multishop-api/modules/v1/actions/ModelIndexAction.php:22
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][multishop-api] app\controllers\ResourceController::checkAccess Yii 1 user id >> '1'
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:215
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:187
+    in /var/www/moneymag.ml/multishop-api/modules/v1/actions/ModelIndexAction.php:25
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][multishop-api] app\controllers\ResourceController::checkAccess Yii 2 user id >> '1'
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:216
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:187
+    in /var/www/moneymag.ml/multishop-api/modules/v1/actions/ModelIndexAction.php:25
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][multishop-api] app\controllers\ResourceController::checkAccess Yii 2 user identity >> app\models\User#1
+(
+    [id] => '1'
+    [username] => 'SUPERUSER'
+    [password] => null
+    [authKey] => null
+    [accessToken] => null
+    [identityType] => 'IdentityAdmin'
+    [roles] => [
+        0 => 'Activated'
+        1 => 'Administrator'
+        2 => 'Customer'
+        3 => 'Merchant'
+        4 => 'Packages Approver'
+        5 => 'Packages Creator'
+        6 => 'Plans Approver'
+        7 => 'Plans Creator'
+        8 => 'Shop Plans Manager'
+        9 => 'Shops Manager'
+        10 => 'SUPERUSER'
+        11 => 'Themes Admin'
+        12 => 'User'
+        13 => 'WCM Manager'
+    ]
+    [activate] => false
+)
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:217
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:187
+    in /var/www/moneymag.ml/multishop-api/modules/v1/actions/ModelIndexAction.php:25
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][multishop-api] app\controllers\ResourceController::setServiceUser User id >> '1'
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:588
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:223
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:187
+    in /var/www/moneymag.ml/multishop-api/modules/v1/actions/ModelIndexAction.php:25
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][multishop-api] app\controllers\ResourceController::checkPermission Check Plans.Package.Index for user 1 ...
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:447
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:229
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:187
+    in /var/www/moneymag.ml/multishop-api/modules/v1/actions/ModelIndexAction.php:25
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][multishop-api] app\controllers\ResourceController::checkPermission Check Plans.Package.Index for user 1 ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:449
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:229
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:187
+    in /var/www/moneymag.ml/multishop-api/modules/v1/actions/ModelIndexAction.php:25
+2020-10-08 18:05:02 [104.248.49.238][1][-][trace][multishop-api] app\controllers\ResourceController::afterAction index: logout login user.
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/controllers/ResourceController.php:173
+2020-10-08 18:05:02 [104.248.49.238][1][-][info][application] $_GET = [
+    'page' => 1
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'api.moneymag.ml'
+    'REDIRECT_STATUS' => '200'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'api.moneymag.ml'
+    'HTTP_HOST' => 'api.moneymag.ml'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip, br'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at api.moneymag.ml Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)'
+    'SERVER_NAME' => 'api.moneymag.ml'
+    'SERVER_ADDR' => '104.248.49.238'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '104.248.49.238'
+    'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-api/web/index.php'
+    'REMOTE_PORT' => '48388'
+    'REDIRECT_URL' => '/v1/packages'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/packages'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1602151502.0126
+    'REQUEST_TIME' => 1602151502
+]
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][application] SWebApp::__construct start webapp "multishop-api" params >> array (
+  'SITE_NAME' => 'API',
+  'HOST_DOMAIN' => 'api.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][application] *** start loading dependencies ***
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][application] *** start loading modules ***
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][yii\base\Module::getModule] Loading module: oauth2
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][yii\base\Controller::runAction] Route to run: oauth2/logout/index
+2020-10-08 18:05:08 [104.248.49.238][1][-][info][multishop-api] app\models\User::findIdentityByAccessToken token passed! a8d7721d40e315dc45533038d4138d4b85f5ff18
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:207
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+2020-10-08 18:05:08 [104.248.49.238][1][-][info][multishop-api] app\models\User::findIdentity Searching for identity id 1 ...
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:52
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][multishop-api] SModule::preinit *** start module accounts ***
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/SModule.php:47
+    in /var/www/moneymag.ml/yii/framework/base/CModule.php:84
+    in /var/www/moneymag.ml/multishop-kernel/components/Yii2.php:97
+    in /var/www/moneymag.ml/yii/framework/base/CModule.php:282
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:79
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][multishop-api] AccountManagerTrait::authenticate Yii::app()->user = ApiUser >> 'IdentityAdmin'
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:49
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:79
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+2020-10-08 18:05:08 [104.248.49.238][1][-][info][multishop-api] AccountManagerTrait::authenticate ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:67
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:79
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+2020-10-08 18:05:08 [104.248.49.238][1][-][info][multishop-api] app\models\User::findIdentity Login as IdentityAdmin user=1
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:80
+    in /var/www/moneymag.ml/multishop-api/models/User.php:208
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:32
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][yii\base\InlineAction::runWithParams] Running action: app\modules\oauth2server\controllers\LogoutController::actionIndex()
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][multishop-api] NestedPDO::beginTransaction 1602151508 SAVEPOINT LEVEL 0
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/NestedPDO.php:33
+    in /var/www/moneymag.ml/yii/framework/db/CDbConnection.php:522
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:154
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManager.php:293
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LogoutController.php:54
+2020-10-08 18:05:08 [104.248.49.238][1][-][info][multishop-api] ServiceManager::execute operation[Account.recordActivity] start
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:159
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManager.php:293
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LogoutController.php:54
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][multishop-api] ActivityBehavior::recordActivity ok >> [
+    'obj_type' => 's_account'
+    'obj_id' => '1'
+    'location' => 'multishop-api'
+    'event' => 'logout'
+    'description' => 'user_name=SUPERUSER, site=multishop-api, ip=104.248.49.238, user_agent='
+    'account_id' => '1'
+    'obj_url' => 'https://api.moneymag.ml/index.php?r=users/admin/view/id/1'
+    'icon_url' => '<i class=\"fa fa-user fa-fw\"></i>'
+    'create_time' => 1602151508
+    'id' => '87'
+]
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/modules/activities/behaviors/ActivityBehavior.php:98
+    in /var/www/moneymag.ml/yii/framework/base/CComponent.php:261
+    in /var/www/moneymag.ml/yii/framework/db/ar/CActiveRecord.php:229
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:222
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManager.php:293
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LogoutController.php:54
+2020-10-08 18:05:08 [104.248.49.238][1][-][info][multishop-api] ServiceManager::execute operation[Account.recordActivity] end
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:225
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManager.php:293
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LogoutController.php:54
+2020-10-08 18:05:08 [104.248.49.238][1][-][trace][multishop-api] NestedPDO::commit 1602151508 physical commit SAVEPOINT LEVEL 0
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/NestedPDO.php:48
+    in /var/www/moneymag.ml/yii/framework/db/CDbTransaction.php:64
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:228
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManager.php:293
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LogoutController.php:54
+2020-10-08 18:05:08 [104.248.49.238][1][-][info][multishop-api] ServiceManager::execute ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:230
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManager.php:293
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LogoutController.php:54
+2020-10-08 18:05:08 [104.248.49.238][1][-][info][multishop-api] AccountManager::logout ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManager.php:297
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LogoutController.php:54
+2020-10-08 18:05:08 [104.248.49.238][1][-][info][application] $_GET = []
+
+$_POST = [
+    'token' => 'a8d7721d40e315dc45533038d4138d4b85f5ff18'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'api.moneymag.ml'
+    'REDIRECT_STATUS' => '200'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'api.moneymag.ml'
+    'HTTP_HOST' => 'api.moneymag.ml'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip, br'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '46'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at api.moneymag.ml Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)'
+    'SERVER_NAME' => 'api.moneymag.ml'
+    'SERVER_ADDR' => '104.248.49.238'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '104.248.49.238'
+    'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-api/web/index.php'
+    'REMOTE_PORT' => '48390'
+    'REDIRECT_URL' => '/oauth2/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/oauth2/logout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1602151508.5408
+    'REQUEST_TIME' => 1602151508
+]
+2020-10-08 20:42:55 [104.248.49.238][-][-][trace][application] SWebApp::__construct start webapp "multishop-api" params >> array (
+  'SITE_NAME' => 'API',
+  'HOST_DOMAIN' => 'api.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+2020-10-08 20:42:55 [104.248.49.238][-][-][trace][application] *** start loading dependencies ***
+2020-10-08 20:42:55 [104.248.49.238][-][-][trace][application] *** start loading modules ***
+2020-10-08 20:42:55 [104.248.49.238][-][-][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2020-10-08 20:42:55 [104.248.49.238][-][-][trace][yii\base\Module::getModule] Loading module: oauth2
+2020-10-08 20:42:55 [104.248.49.238][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2020-10-08 20:42:55 [104.248.49.238][-][-][trace][yii\base\Controller::runAction] Route to run: oauth2/logout/index
+2020-10-08 20:42:55 [104.248.49.238][-][-][error][multishop-api] [userid=] app\modules\oauth2server\filters\auth\ResourceAuth::beforeAction response  >> filsh\yii2\oauth2server\Response Object
+(
+    [version] => 1.1
+    [statusCode:protected] => 401
+    [statusText:protected] => Unauthorized
+    [parameters:protected] => Array
+        (
+            [error] => invalid_token
+            [error_description] => The access token provided has expired
+        )
+
+    [httpHeaders:protected] => Array
+        (
+            [Cache-Control] => no-store
+            [WWW-Authenticate] => Bearer realm="Service", error="invalid_token", error_description="The access token provided has expired"
+        )
+
+)
+
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:264
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/filters/auth/ResourceAuth.php:28
+2020-10-08 20:42:55 [104.248.49.238][-][-][info][application] $_GET = []
+
+$_POST = [
+    'token' => '476693df9fb219e6367179f8f93e769ac579a4ad'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = []
+
+$_SERVER = [
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'api.moneymag.ml'
+    'REDIRECT_STATUS' => '200'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'api.moneymag.ml'
+    'HTTP_HOST' => 'api.moneymag.ml'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip, br'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '46'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at api.moneymag.ml Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Ubuntu)'
+    'SERVER_NAME' => 'api.moneymag.ml'
+    'SERVER_ADDR' => '104.248.49.238'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '104.248.49.238'
+    'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-api/web/index.php'
+    'REMOTE_PORT' => '48394'
+    'REDIRECT_URL' => '/oauth2/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/oauth2/logout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1602160975.0849
+    'REQUEST_TIME' => 1602160975
+]
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][application] SWebApp::__construct start webapp "multishop-api" params >> array (
+  'SITE_NAME' => 'API',
+  'HOST_DOMAIN' => 'api.moneymag.ml',
+  'MERCHANT_DOMAIN' => 'merchant.moneymag.ml',
+  'ORG_NAME' => 'Multishop.org',
+  'APP_VERSION' => 'Beta',
+  'OAUTH_CLIENT_PORTAL' => 'ShopbayOauthApp',
+  'CSRF_TOKEN_NAME' => 'APP_CSRF_TOKEN',
+  'LOCALE_DEFAULT' => 'en_sg',
+  'DATETIME_FORMAT' => 'd/M/yy h:mm a',
+  'DATE_FORMAT' => 'd/M/yy',
+  'BOWER_ASSET_DIR' => 'bower-asset',
+)
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][application] *** start loading dependencies ***
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][application] *** start loading modules ***
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][yii\base\Module::getModule] Loading module: oauth2
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][yii\base\Controller::runAction] Route to run: oauth2/merchant/index
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][multishop-api] SModule::preinit *** start module accounts ***
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/SModule.php:47
+    in /var/www/moneymag.ml/yii/framework/base/CModule.php:84
+    in /var/www/moneymag.ml/multishop-kernel/components/Yii2.php:97
+    in /var/www/moneymag.ml/yii/framework/base/CModule.php:282
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][multishop-api] AccountManagerTrait::authenticate Yii::app()->user = ApiUser >> 'IdentityMerchant'
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:49
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][multishop-api] NestedPDO::beginTransaction 1602160982 SAVEPOINT LEVEL 0
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/NestedPDO.php:33
+    in /var/www/moneymag.ml/yii/framework/db/CDbConnection.php:522
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:154
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 20:43:02 [104.248.49.238][10][-][info][multishop-api] ServiceManager::execute operation[Account.recordActivity] start
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:159
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][multishop-api] ActivityBehavior::recordActivity ok >> [
+    'obj_type' => 's_account'
+    'obj_id' => '10'
+    'location' => 'multishop-api'
+    'event' => 'login'
+    'description' => 'user_name=moneyymag@gmail.com, site=multishop-api, ip=104.248.49.238, user_agent='
+    'account_id' => '10'
+    'obj_url' => 'https://api.moneymag.ml/index.php?r=users/management/view/id/10'
+    'icon_url' => '<i class=\"fa fa-user fa-fw\"></i>'
+    'create_time' => 1602160982
+    'id' => '88'
+]
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/modules/activities/behaviors/ActivityBehavior.php:98
+    in /var/www/moneymag.ml/yii/framework/base/CComponent.php:261
+    in /var/www/moneymag.ml/yii/framework/db/ar/CActiveRecord.php:229
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:222
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+2020-10-08 20:43:02 [104.248.49.238][10][-][info][multishop-api] ServiceManager::execute operation[Account.recordActivity] end
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:225
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][multishop-api] NestedPDO::commit 1602160982 physical commit SAVEPOINT LEVEL 0
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/components/NestedPDO.php:48
+    in /var/www/moneymag.ml/yii/framework/db/CDbTransaction.php:64
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:228
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 20:43:02 [104.248.49.238][10][-][info][multishop-api] ServiceManager::execute ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php:230
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:64
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 20:43:02 [104.248.49.238][10][-][info][multishop-api] AccountManagerTrait::authenticate ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:67
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:40
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 20:43:02 [104.248.49.238][10][-][info][multishop-api] app\models\User::findUser login as \IdentityMerchant user=10
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:42
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:54
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][yii\base\InlineAction::runWithParams] Running action: app\modules\oauth2server\controllers\MerchantController::actionIndex()
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][multishop-api] app\modules\oauth2server\controllers\LoginController::contructTokenRequest grant_type password ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:103
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:70
+2020-10-08 20:43:02 [104.248.49.238][10][-][trace][multishop-api] app\models\User::findByUsername found! >> [
+    'id' => '10'
+    'username' => 'moneyymag@gmail.com'
+    'identityType' => 'IdentityMerchant'
+    'roles' => [
+        0 => 'Activated'
+        1 => 'Merchant'
+        2 => 'User'
+    ]
+    'activate' => false
+]
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/models/User.php:106
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:64
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:26
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:57
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Server.php:320
+2020-10-08 20:43:03 [104.248.49.238][10][-][trace][multishop-api] AccountManagerTrait::authenticate Yii::app()->user = ApiUser >> 'IdentityMerchant'
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:49
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:121
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:30
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:57
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+2020-10-08 20:43:03 [104.248.49.238][10][-][info][multishop-api] AccountManagerTrait::authenticate ok
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-kernel/services/AccountManagerTrait.php:67
+    in /var/www/moneymag.ml/multishop-api/models/User.php:229
+    in /var/www/moneymag.ml/multishop-api/models/User.php:121
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:30
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:57
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+2020-10-08 20:43:03 [104.248.49.238][10][-][info][multishop-api] app\models\User::validatePassword passed! for IdentityMerchant user=10
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/models/User.php:122
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:30
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:57
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Server.php:320
+    in /var/www/moneymag.ml/yii2/vendor/filsh/yii2-oauth2-server/src/Server.php:39
+2020-10-08 20:43:03 [104.248.49.238][10][-][trace][multishop-api] app\models\User::findByUsername found! >> [
+    'id' => '10'
+    'username' => 'moneyymag@gmail.com'
+    'identityType' => 'IdentityMerchant'
+    'roles' => [
+        0 => 'Activated'
+        1 => 'Merchant'
+        2 => 'User'
+    ]
+    'activate' => false
+]
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:248
+    in /var/www/moneymag.ml/multishop-api/models/User.php:106
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:64
+    in /var/www/moneymag.ml/multishop-api/components/ApiUserCredentials.php:48
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/GrantType/UserCredentials.php:63
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:175
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Controller/TokenController.php:87
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/vendor/bshaffer/oauth2-server-php/src/OAuth2/Server.php:320
+2020-10-08 20:43:03 [104.248.49.238][10][-][info][multishop-api] app\modules\oauth2server\controllers\LoginController::actionIndex login status >> OAuth2\Response#1
+(
+    [version] => '1.1'
+    [*:statusCode] => 200
+    [*:statusText] => 'OK'
+    [*:parameters] => [
+        'access_token' => '8b5e7de4406d01733a895acbe3a00524acd8a737'
+        'expires_in' => 28800
+        'token_type' => 'Bearer'
+        'scope' => null
+        'refresh_token' => '382a2a39871accca0ddf44aecb76232e67dc6088'
+    ]
+    [*:httpHeaders] => [
+        'Cache-Control' => 'no-store'
+        'Pragma' => 'no-cache'
+        'Content-Type' => 'application/json'
+    ]
+)
+    in /var/www/moneymag.ml/multishop-kernel/config/globals.php:237
+    in /var/www/moneymag.ml/multishop-api/modules/oauth2server/controllers/LoginController.php:72

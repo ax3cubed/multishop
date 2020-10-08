@@ -1,10 +1,10 @@
-2020/10/07 21:20:44 [warning] [multishop-merchant] [user=10] SModule::setDependencies carts not found
+2020/10/08 20:47:57 [warning] [multishop-merchant] [user=10] SModule::setDependencies carts not found
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (229)
 in /var/www/moneymag.ml/multishop-kernel/components/SModule.php (111)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/ShopsModule.php (70)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (204)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [warning] [application] Failed to set unsafe attribute "id" of "Shop".
+2020/10/08 20:47:57 [warning] [application] Failed to set unsafe attribute "id" of "Shop".
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/models/ShopForm.php (238)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/controllers/ManagementController.php (212)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (89)
@@ -13,7 +13,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.p
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [warning] [application] Failed to set unsafe attribute "keyAttribute" of "ShopAddress".
+2020/10/08 20:47:57 [warning] [application] Failed to set unsafe attribute "keyAttribute" of "ShopAddress".
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/models/ShopForm.php (242)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/controllers/ManagementController.php (212)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (89)
@@ -22,7 +22,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.p
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [warning] [application] Failed to set unsafe attribute "create_time" of "ShopAddress".
+2020/10/08 20:47:57 [warning] [application] Failed to set unsafe attribute "create_time" of "ShopAddress".
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/models/ShopForm.php (242)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/controllers/ManagementController.php (212)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (89)
@@ -31,7 +31,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.p
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [warning] [application] Failed to set unsafe attribute "update_time" of "ShopAddress".
+2020/10/08 20:47:57 [warning] [application] Failed to set unsafe attribute "update_time" of "ShopAddress".
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/models/ShopForm.php (242)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/controllers/ManagementController.php (212)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (89)
@@ -40,7 +40,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.p
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [warning] [application] Failed to set unsafe attribute "id" of "ShopAddress".
+2020/10/08 20:47:57 [warning] [application] Failed to set unsafe attribute "id" of "ShopAddress".
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/models/ShopForm.php (242)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/controllers/ManagementController.php (212)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (89)
@@ -49,7 +49,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.p
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [error] [multishop-merchant] [user=10] ServiceManager::execute scenario apiValidation error >> array (
+2020/10/08 20:47:57 [error] [multishop-merchant] [user=10] ServiceManager::execute scenario apiValidation error >> array (
   'size' => 
   array (
     0 => false,
@@ -63,7 +63,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/SingleMediaBeha
 in /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/SingleMediaBehavior.php (45)
 in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (222)
 in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
-2020/10/07 21:20:44 [error] [multishop-merchant] $_REQUEST >> array (
+2020/10/08 20:47:57 [error] [multishop-merchant] $_REQUEST >> array (
   'id' => '2',
   'APP_CSRF_TOKEN' => 'VWJzc1pDVFE4UU9idWVlczUyVm5xbTczbzJCYW5BSDYvOFnnnBffNWfAz6jyZOx3Wg59tV0lKPGOCokLwGxy7Q==',
   'ShopForm' => 
@@ -83,10 +83,10 @@ in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
     'contact_person' => 'Akinwole Adeola',
     'contact_no' => '08130532701',
     'email' => 'ajunior488@gmail.com',
-    'timezone' => 'America/Bogota',
+    'timezone' => 'US/Hawaii',
     'language' => 'en_sg',
-    'currency' => 'GBP',
-    'weight_unit' => 'lb',
+    'currency' => 'USD',
+    'weight_unit' => 'g',
   ),
   'ShopAddressForm' => 
   array (
@@ -106,7 +106,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/BaseMediaBehavi
 in /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/SingleMediaBehavior.php (72)
 in /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/SingleMediaBehavior.php (45)
 in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (222)
-2020/10/07 21:20:44 [error] [multishop-merchant] [user=10] ServiceManager::execute rollback: | >> #0 /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php(148): ServiceManager->throwValidationErrors()
+2020/10/08 20:47:57 [error] [multishop-merchant] [user=10] ServiceManager::execute rollback: | >> #0 /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php(148): ServiceManager->throwValidationErrors()
 #1 /var/www/moneymag.ml/multishop-kernel/services/MediaManager.php(78): ServiceManager->execute()
 #2 /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/BaseMediaBehavior.php(238): MediaManager->create()
 #3 /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/SingleMediaBehavior.php(72): BaseMediaBehavior->createMedia()
@@ -156,14 +156,14 @@ in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (222)
   'contact_person' => 'Akinwole Adeola',
   'contact_no' => '08130532701',
   'email' => 'ajunior488@gmail.com',
-  'timezone' => 'America/Bogota',
+  'timezone' => 'US/Hawaii',
   'language' => 'en_sg',
-  'currency' => 'GBP',
-  'weight_unit' => 'lb',
+  'currency' => 'USD',
+  'weight_unit' => 'g',
   'category' => '10010004',
   'status' => 'SHOP;PTT;',
   'create_time' => '1601503154',
-  'update_time' => 1602076844,
+  'update_time' => 1602161277,
 )
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (218)
 in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (235)
@@ -173,7 +173,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
-2020/10/07 21:20:44 [error] [multishop-merchant] [user=10] CRUDBaseAction::setErrorFlash #0 /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php(137): ServiceManager->execute()
+2020/10/08 20:47:57 [error] [multishop-merchant] [user=10] CRUDBaseAction::setErrorFlash #0 /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php(137): ServiceManager->execute()
 #1 /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php(162): ShopManager->update()
 #2 /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php(97): CRUDBaseAction->invokeService()
 #3 /var/www/moneymag.ml/yii/framework/web/actions/CAction.php(76): LanguageUpdateAction->run()
@@ -212,7 +212,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentCon
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
-2020/10/07 21:20:44 [info] [application] *** start web request *** >> array (
+2020/10/08 20:47:57 [info] [application] *** start web request *** >> array (
   'REDIRECT_HTTPS' => 'on',
   'REDIRECT_SSL_TLS_SNI' => 'merchant.moneymag.ml',
   'REDIRECT_STATUS' => '200',
@@ -220,7 +220,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrai
   'SSL_TLS_SNI' => 'merchant.moneymag.ml',
   'HTTP_HOST' => 'merchant.moneymag.ml',
   'HTTP_CONNECTION' => 'keep-alive',
-  'CONTENT_LENGTH' => '868',
+  'CONTENT_LENGTH' => '862',
   'HTTP_CACHE_CONTROL' => 'max-age=0',
   'HTTP_SEC_CH_UA' => '"\\\\Not;A\\"Brand";v="99", "Google Chrome";v="85", "Chromium";v="85"',
   'HTTP_SEC_CH_UA_MOBILE' => '?0',
@@ -237,7 +237,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrai
   'HTTP_REFERER' => 'https://merchant.moneymag.ml/shop/management/update?id=2',
   'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
   'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
-  'HTTP_COOKIE' => 'APP_CSRF_TOKEN=4718d37ff3ee92e06547afbfdc990d90c6e84eccs%3A88%3A%22VWJzc1pDVFE4UU9idWVlczUyVm5xbTczbzJCYW5BSDYvOFnnnBffNWfAz6jyZOx3Wg59tV0lKPGOCokLwGxy7Q%3D%3D%22%3B; PHPSESSID=6dr56vsda6bnl97ulb71mf7dkc; 3ef4445f94b8a36431ad71b18eb485aa=82e350051513eb42463bdd6243f1098ef4583449s%3A112%3A%22e40eab42bbf2ea00121c79d519d24b1caf887c87a%3A4%3A%7Bi%3A0%3Bs%3A2%3A%2210%22%3Bi%3A1%3Bs%3A19%3A%22moneyymag%40gmail.com%22%3Bi%3A2%3Bi%3A86400%3Bi%3A3%3Ba%3A0%3A%7B%7D%7D%22%3B',
+  'HTTP_COOKIE' => 'APP_CSRF_TOKEN=4718d37ff3ee92e06547afbfdc990d90c6e84eccs%3A88%3A%22VWJzc1pDVFE4UU9idWVlczUyVm5xbTczbzJCYW5BSDYvOFnnnBffNWfAz6jyZOx3Wg59tV0lKPGOCokLwGxy7Q%3D%3D%22%3B; PHPSESSID=ufpnkjf6a4q5osksgq107fd68o; 3ef4445f94b8a36431ad71b18eb485aa=82e350051513eb42463bdd6243f1098ef4583449s%3A112%3A%22e40eab42bbf2ea00121c79d519d24b1caf887c87a%3A4%3A%7Bi%3A0%3Bs%3A2%3A%2210%22%3Bi%3A1%3Bs%3A19%3A%22moneyymag%40gmail.com%22%3Bi%3A2%3Bi%3A86400%3Bi%3A3%3Ba%3A0%3A%7B%7D%7D%22%3B',
   'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin',
   'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Ubuntu) Server at merchant.moneymag.ml Port 443</address>
 ',
@@ -245,14 +245,14 @@ in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrai
   'SERVER_NAME' => 'merchant.moneymag.ml',
   'SERVER_ADDR' => '104.248.49.238',
   'SERVER_PORT' => '443',
-  'REMOTE_ADDR' => '102.89.0.161',
+  'REMOTE_ADDR' => '197.210.47.11',
   'DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-merchant/www',
   'REQUEST_SCHEME' => 'https',
   'CONTEXT_PREFIX' => '',
   'CONTEXT_DOCUMENT_ROOT' => '/var/www/moneymag.ml/multishop-merchant/www',
   'SERVER_ADMIN' => 'webmaster@localhost',
   'SCRIPT_FILENAME' => '/var/www/moneymag.ml/multishop-merchant/www/index.php',
-  'REMOTE_PORT' => '59314',
+  'REMOTE_PORT' => '26271',
   'REDIRECT_URL' => '/shop/management/update',
   'REDIRECT_QUERY_STRING' => 'id=2',
   'GATEWAY_INTERFACE' => 'CGI/1.1',
@@ -262,15 +262,15 @@ in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrai
   'REQUEST_URI' => '/shop/management/update?id=2',
   'SCRIPT_NAME' => '/index.php',
   'PHP_SELF' => '/index.php',
-  'REQUEST_TIME_FLOAT' => 1602076844.363075,
-  'REQUEST_TIME' => 1602076844,
+  'REQUEST_TIME_FLOAT' => 1602161277.445307,
+  'REQUEST_TIME' => 1602161277,
 )
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (203)
 in /var/www/moneymag.ml/multishop-merchant/config/main.php (2)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [application] SWebApp::__construct start webapp "multishop-merchant" params >> array (
+2020/10/08 20:47:57 [trace] [application] SWebApp::__construct start webapp "multishop-merchant" params >> array (
   'ORG_NAME' => 'Multishop.org',
   'SITE_NAME' => 'Multishop Merchant',
   'SITE_LOGO' => false,
@@ -317,7 +317,7 @@ in /var/www/moneymag.ml/multishop-merchant/config/main.php (5)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [application] *** start loading dependencies ***
+2020/10/08 20:47:57 [trace] [application] *** start loading dependencies ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (296)
 in /var/www/moneymag.ml/multishop-merchant/config/dependencies.php (254)
@@ -326,7 +326,7 @@ in /var/www/moneymag.ml/multishop-merchant/config/main.php (5)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [application] *** start loading modules ***
+2020/10/08 20:47:57 [trace] [application] *** start loading modules ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (333)
 in /var/www/moneymag.ml/multishop-kernel/components/SWebApp.php (215)
@@ -334,27 +334,27 @@ in /var/www/moneymag.ml/multishop-merchant/config/main.php (144)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (123)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (96)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SModule::preinit *** start module shops ***
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SModule::preinit *** start module shops ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/SModule.php (47)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (204)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopAssetsBehavior::setShopAssetsPathAlias  >> '/var/www/moneymag.ml/multishop-shop-assets/widgets'
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopAssetsBehavior::setShopAssetsPathAlias  >> '/var/www/moneymag.ml/multishop-shop-assets/widgets'
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/behaviors/ShopAssetsBehavior.php (21)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/ShopsModule.php (121)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (204)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopAssetsBehavior::setShopAssetsPathAlias  >> '/var/www/moneymag.ml/multishop-shop-assets/themes'
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopAssetsBehavior::setShopAssetsPathAlias  >> '/var/www/moneymag.ml/multishop-shop-assets/themes'
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/behaviors/ShopAssetsBehavior.php (23)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/ShopsModule.php (121)
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (204)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SMessageSource::setModule set to shops ok
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SMessageSource::setModule set to shops ok
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/SMessageSource.php (46)
@@ -363,7 +363,7 @@ in /var/www/moneymag.ml/multishop-kernel/controllers/AuthenticatedController.php
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (34)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/controllers/ManagementController.php (24)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SMessageSource::loadMessages loading sii for shops ...
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SMessageSource::loadMessages loading sii for shops ...
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/SMessageSource.php (28)
@@ -372,7 +372,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/Sii.php (85)
 in /var/www/moneymag.ml/multishop-kernel/components/Sii.php (49)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/ShopsModule.php (133)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (36)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] AuthenticatedController::filters >> array (
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] AuthenticatedController::filters >> array (
   0 => 
   array (
     0 => 'common.components.filters.PageTitleSuffixFilter',
@@ -387,7 +387,7 @@ in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/controllers/AuthenticatedController.php (70)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (56)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopParentController::filters >> array (
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopParentController::filters >> array (
   0 => 
   array (
     0 => 'common.components.filters.PageTitleSuffixFilter',
@@ -402,7 +402,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (68)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SubscriptionFilter::controllerRoute >> 'shops/management/update'
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SubscriptionFilter::controllerRoute >> 'shops/management/update'
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFilter.php (195)
@@ -411,7 +411,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFi
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFilter.php (73)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
-2020/10/07 21:20:44 [info] [multishop-merchant] [user=10] SubscriptionFilter::getServiceRules post request! post:shops/management/update?service=
+2020/10/08 20:47:57 [info] [multishop-merchant] [user=10] SubscriptionFilter::getServiceRules post request! post:shops/management/update?service=
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (240)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFilter.php (159)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFilter.php (95)
@@ -419,7 +419,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFi
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SubscriptionFilter::getCheckRules no rule found, skip post:shops/management/update?service=
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SubscriptionFilter::getCheckRules no rule found, skip post:shops/management/update?service=
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFilter.php (174)
@@ -428,7 +428,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFi
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopSubscriptionFilter::preFilter Start checking...
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopSubscriptionFilter::preFilter Start checking...
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/ShopSubscriptionFilter.php (25)
@@ -437,7 +437,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.p
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopSubscriptionFilter::findSessionShop Catch shop by update url : >> '2'
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopSubscriptionFilter::findSessionShop Catch shop by update url : >> '2'
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/ShopSubscriptionFilter.php (175)
@@ -446,7 +446,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/ShopSubscripti
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopSubscriptionFilter::controllerRoute >> 'shops/management/update'
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopSubscriptionFilter::controllerRoute >> 'shops/management/update'
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFilter.php (195)
@@ -455,7 +455,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFi
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/ShopSubscriptionFilter.php (111)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
-2020/10/07 21:20:44 [info] [multishop-merchant] [user=10] SubscriptionFilter::getServiceRules post request! post:shops/management/update?service=
+2020/10/08 20:47:57 [info] [multishop-merchant] [user=10] SubscriptionFilter::getServiceRules post request! post:shops/management/update?service=
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (240)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFilter.php (159)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFilter.php (95)
@@ -464,7 +464,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentCon
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopSubscriptionFilter::getCheckRules no rule found, skip post:shops/management/update?service=
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopSubscriptionFilter::getCheckRules no rule found, skip post:shops/management/update?service=
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/SubscriptionFilter.php (174)
@@ -473,7 +473,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/plans/components/ShopSubscripti
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SMessageSource::loadMessages loading sii for shops ...
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SMessageSource::loadMessages loading sii for shops ...
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/SMessageSource.php (28)
@@ -482,7 +482,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/Sii.php (85)
 in /var/www/moneymag.ml/multishop-kernel/components/Sii.php (43)
 in /var/www/moneymag.ml/multishop-kernel/components/Sii.php (61)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/models/ShopPrototypeForm.php (52)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ServiceManager::_checkAccess(10,10) based on attribute account_id
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ServiceManager::_checkAccess(10,10) based on attribute account_id
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (85)
@@ -491,7 +491,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] LanguageMasterForm::validateLocaleAttributes scenario 
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] LanguageMasterForm::validateLocaleAttributes scenario 
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/models/LanguageMasterForm.php (55)
@@ -500,7 +500,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentCon
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopForm::ruleNameUnique comparing existing: en_sg.My First Shop_10 vs new: en_sg.Nick Watches ...
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopForm::ruleNameUnique comparing existing: en_sg.My First Shop_10 vs new: en_sg.Nick Watches ...
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/models/ShopForm.php (131)
@@ -509,7 +509,7 @@ in /var/www/moneymag.ml/multishop-kernel/models/LanguageMasterForm.php (64)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (83)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopForm::ruleNameUnique >> CDbCriteria::__set_state(array(
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopForm::ruleNameUnique >> CDbCriteria::__set_state(array(
    'select' => '*',
    'distinct' => false,
    'condition' => 'name LIKE :ycp6',
@@ -539,7 +539,7 @@ in /var/www/moneymag.ml/multishop-kernel/models/LanguageMasterForm.php (64)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (83)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopForm::setModelAttributes calling simple slug...
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopForm::setModelAttributes calling simple slug...
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/models/ShopForm.php (246)
@@ -548,7 +548,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopForm::setModelAttributes Shop >> array (
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopForm::setModelAttributes Shop >> array (
   'id' => '2',
   'account_id' => '10',
   'name' => '{"en_sg":"Nick Watches","zh_cn":""}',
@@ -558,10 +558,10 @@ in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrai
   'contact_person' => 'Akinwole Adeola',
   'contact_no' => '08130532701',
   'email' => 'ajunior488@gmail.com',
-  'timezone' => 'America/Bogota',
+  'timezone' => 'US/Hawaii',
   'language' => 'en_sg',
-  'currency' => 'GBP',
-  'weight_unit' => 'lb',
+  'currency' => 'USD',
+  'weight_unit' => 'g',
   'category' => '10010004',
   'status' => 'SHOP;PTT;',
   'create_time' => '1601503154',
@@ -575,7 +575,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] {closure} $nameUniqueCheck "en_sg":"Nick Watches" >> CDbCriteria::__set_state(array(
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] {closure} $nameUniqueCheck "en_sg":"Nick Watches" >> CDbCriteria::__set_state(array(
    'select' => '*',
    'distinct' => false,
    'condition' => 'name LIKE :ycp7',
@@ -605,7 +605,7 @@ in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (146)
 in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (162)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (97)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] NestedPDO::beginTransaction 1602076844 SAVEPOINT LEVEL 0
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] NestedPDO::beginTransaction 1602161277 SAVEPOINT LEVEL 0
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/NestedPDO.php (33)
@@ -614,7 +614,7 @@ in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (162)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (97)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
-2020/10/07 21:20:44 [info] [multishop-merchant] [user=10] ServiceManager::execute operation[Shop.update] start
+2020/10/08 20:47:57 [info] [multishop-merchant] [user=10] ServiceManager::execute operation[Shop.update] start
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (240)
 in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (159)
 in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
@@ -623,7 +623,7 @@ in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
 in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.php (36)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SlugBehavior::beforeSave skipScenario=api-create vs currentScenario=api-create
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SlugBehavior::beforeSave skipScenario=api-create vs currentScenario=api-create
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/behaviors/SlugBehavior.php (65)
@@ -632,7 +632,7 @@ in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (162)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (97)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SlugBehavior::slugSkipScenario use existing slug value "watchesbynick" from Shop.id=2
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SlugBehavior::slugSkipScenario use existing slug value "watchesbynick" from Shop.id=2
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/behaviors/SlugBehavior.php (112)
@@ -641,7 +641,7 @@ in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (222)
 in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (162)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (97)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SingleMediaBehavior::afterSave $sessionMedia size=1
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SingleMediaBehavior::afterSave $sessionMedia size=1
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/SingleMediaBehavior.php (34)
@@ -650,17 +650,17 @@ in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (162)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (97)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SingleMediaBehavior::afterSave session file data >> array (
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SingleMediaBehavior::afterSave session file data >> array (
   'primary' => false,
-  'thumbnail_url' => '/uploads/20201007/98a67d5a7f25ff66668693ef6c2ae8e74bdaec73.jpg',
+  'thumbnail_url' => '/uploads/20201008/d1c0cdd4bb7e16fb4386dade3e768c6e005cd1f2.jpg',
   'size' => 131193,
   'mime' => 'image/jpeg',
   'name' => 'onetwolyrics-website-banner.jpg',
-  'filename' => '98a67d5a7f25ff66668693ef6c2ae8e74bdaec73.jpg',
+  'filename' => 'd1c0cdd4bb7e16fb4386dade3e768c6e005cd1f2.jpg',
   'delete_type' => 'DELETE',
-  'delete_url' => 'https://merchant.moneymag.ml/shop/management/imageupload?_method=delete&file=98a67d5a7f25ff66668693ef6c2ae8e74bdaec73.jpg&APP_CSRF_TOKEN=VWJzc1pDVFE4UU9idWVlczUyVm5xbTczbzJCYW5BSDYvOFnnnBffNWfAz6jyZOx3Wg59tV0lKPGOCokLwGxy7Q==',
-  'path' => '/var/www/moneymag.ml/multishop-merchant/www/uploads/20201007/98a67d5a7f25ff66668693ef6c2ae8e74bdaec73.jpg',
-  'url' => '/uploads/20201007/98a67d5a7f25ff66668693ef6c2ae8e74bdaec73.jpg',
+  'delete_url' => 'https://merchant.moneymag.ml/shop/management/imageupload?_method=delete&file=d1c0cdd4bb7e16fb4386dade3e768c6e005cd1f2.jpg&APP_CSRF_TOKEN=VWJzc1pDVFE4UU9idWVlczUyVm5xbTczbzJCYW5BSDYvOFnnnBffNWfAz6jyZOx3Wg59tV0lKPGOCokLwGxy7Q==',
+  'path' => '/var/www/moneymag.ml/multishop-merchant/www/uploads/20201008/d1c0cdd4bb7e16fb4386dade3e768c6e005cd1f2.jpg',
+  'url' => '/uploads/20201008/d1c0cdd4bb7e16fb4386dade3e768c6e005cd1f2.jpg',
 )
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
@@ -670,7 +670,7 @@ in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (162)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (97)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] BaseMediaBehavior::detachMediaAssociation criteria >> CDbCriteria::__set_state(array(
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] BaseMediaBehavior::detachMediaAssociation criteria >> CDbCriteria::__set_state(array(
    'select' => '*',
    'distinct' => false,
    'condition' => '(obj_type=:ycp9) AND (obj_id=:ycp10)',
@@ -701,7 +701,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/SingleMediaBeha
 in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (222)
 in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (162)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] BaseMediaBehavior::createMedia creating local media..
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] BaseMediaBehavior::createMedia creating local media..
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/BaseMediaBehavior.php (229)
@@ -710,7 +710,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/media/behaviors/SingleMediaBeha
 in /var/www/moneymag.ml/multishop-kernel/services/ServiceManager.php (222)
 in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (162)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] NestedPDO::rollback 1602076844 physical rollback SAVEPOINT LEVEL 0
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] NestedPDO::rollback 1602161277 physical rollback SAVEPOINT LEVEL 0
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/NestedPDO.php (60)
@@ -719,7 +719,7 @@ in /var/www/moneymag.ml/multishop-kernel/services/ShopManager.php (137)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (162)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (97)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] LanguageUpdateAction::run ===== exception ==========  >> '|'
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] LanguageUpdateAction::run ===== exception ==========  >> '|'
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (105)
@@ -728,7 +728,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/rights/components/RController.p
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (22)
 in /var/www/moneymag.ml/multishop-kernel/components/filters/ControllerFilterTrait.php (31)
 in /var/www/moneymag.ml/multishop-merchant/www/index.php (7)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SMessageSource::loadMessages loading sii for shops ...
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SMessageSource::loadMessages loading sii for shops ...
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/SMessageSource.php (28)
@@ -737,7 +737,7 @@ in /var/www/moneymag.ml/multishop-kernel/extensions/supload/SUpload.php (185)
 in /var/www/moneymag.ml/multishop-kernel/extensions/supload/SUpload.php (113)
 in /var/www/moneymag.ml/multishop-kernel/widgets/simagemanager/SImageManager.php (195)
 in /var/www/moneymag.ml/multishop-kernel/extensions/xupload/XUpload.php (82)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopForm::renderForm before name attr value= {"en_sg":"Nick Watches","zh_cn":""}
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopForm::renderForm before name attr value= {"en_sg":"Nick Watches","zh_cn":""}
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/models/ShopForm.php (271)
@@ -746,7 +746,7 @@ in /var/www/moneymag.ml/multishop-merchant/modules/shops/views/management/update
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (110)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (116)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] ShopForm::renderForm after name attr value= {"en_sg":"Nick Watches","zh_cn":""}
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] ShopForm::renderForm after name attr value= {"en_sg":"Nick Watches","zh_cn":""}
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/models/ShopForm.php (277)
@@ -755,7 +755,7 @@ in /var/www/moneymag.ml/multishop-merchant/modules/shops/views/management/update
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (110)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/LanguageUpdateAction.php (116)
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (47)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] WizardControllerBehavior::_wizardCallerId >> 'merchant:shops/management/update'
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] WizardControllerBehavior::_wizardCallerId >> 'merchant:shops/management/update'
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/modules/help/wizards/behaviors/WizardControllerBehavior.php (39)
@@ -764,7 +764,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentCon
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (399)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/views/management/update.php (43)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (110)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] WizardManager::runWizard case shop >> array (
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] WizardManager::runWizard case shop >> array (
   'id' => '11',
   'caller' => 'merchant:shops/management/update',
   'name' => 'ShopWizard',
@@ -781,7 +781,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentCon
 in /var/www/moneymag.ml/multishop-kernel/modules/shops/controllers/ShopParentController.php (399)
 in /var/www/moneymag.ml/multishop-merchant/modules/shops/views/management/update.php (43)
 in /var/www/moneymag.ml/multishop-kernel/components/actions/CRUDBaseAction.php (110)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SModule::preinit *** start module help ***
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SModule::preinit *** start module help ***
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/components/SModule.php (47)
@@ -790,7 +790,7 @@ in /var/www/moneymag.ml/multishop-kernel/modules/help/wizards/base/WizardContain
 in /var/www/moneymag.ml/multishop-kernel/modules/help/wizards/shop/ShopWizard.php (22)
 in /var/www/moneymag.ml/multishop-kernel/services/WizardManager.php (41)
 in /var/www/moneymag.ml/multishop-kernel/modules/help/wizards/behaviors/WizardControllerBehavior.php (19)
-2020/10/07 21:20:44 [trace] [multishop-merchant] [userid=10] SPage::renderCSRFToken skip embedding csrf form
+2020/10/08 20:47:57 [trace] [multishop-merchant] [userid=10] SPage::renderCSRFToken skip embedding csrf form
 in /var/www/moneymag.ml/multishop-kernel/components/Yii.php (455)
 in /var/www/moneymag.ml/multishop-kernel/config/globals.php (251)
 in /var/www/moneymag.ml/multishop-kernel/widgets/spage/SPage.php (175)
