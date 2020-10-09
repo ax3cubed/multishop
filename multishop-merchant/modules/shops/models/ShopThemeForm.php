@@ -64,7 +64,7 @@ class ShopThemeForm extends SFormModel
      */
     public function hasCSSEditor()
     {
-        return Subscription::apiHasService(Feature::getKey(Feature::$hasCSSEditing), ['shop'=>$this->shop_id]);
+        return Subscription::hasService(Feature::getKey(Feature::$hasCSSEditing), ['shop'=>$this->shop_id]);
     }    
     
 }

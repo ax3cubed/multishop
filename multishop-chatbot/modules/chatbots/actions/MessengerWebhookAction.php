@@ -54,7 +54,7 @@ class MessengerWebhookAction extends ChatbotWebhookAction
     protected function verifyChatbot()
     {
         $bot = $this->findChatbot();
-        if (!Subscription::apiHasService($bot->owner->subscription, Feature::$integrateFacebookMessenger))
+        if (!Subscription::hasService($bot->owner->subscription, Feature::$integrateFacebookMessenger))
             throwError404('Service not found');
                 
         logInfo(__METHOD__.' Service '.Feature::$integrateFacebookMessenger.' found for subscription',$bot->owner->subscription->planName);

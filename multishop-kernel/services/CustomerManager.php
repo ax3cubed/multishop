@@ -106,7 +106,7 @@ class CustomerManager extends ServiceManager
         $merchantId = $order->shop->account_id;
         $customerId = $order->address->email;
         $subscription = Subscription::model()->mine($merchantId)->active()->notExpired()->find();
-        if (Subscription::apiHasService($subscription,Feature::$trackCustomerBehaviors)){
+        if (Subscription::hasService($subscription,Feature::$trackCustomerBehaviors)){
             $customer = Customer::model()->retrieveRecord($merchantId,$customerId)->find();
             $customerData = new CustomerData();
             if ($customer===null){

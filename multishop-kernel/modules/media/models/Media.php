@@ -118,7 +118,7 @@ class Media extends Downloadable
     {
         if (!$this->isExternalImage){
             $service = Feature::patternize(Feature::$hasStorageLimitTierN);
-            $message = Subscription::apiHasService($service,[],true);//return error message if any
+            $message = Subscription::hasService($service,[],true);//return error message if any
             if ($message!=$service)
                 $this->addError($attribute, $message);
         }
