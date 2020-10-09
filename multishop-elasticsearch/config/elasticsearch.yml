@@ -12,9 +12,8 @@ http.port: 9200
 # Set a custom port for the node to node communication (9300 by default):
 #transport.tcp.port: 9300
 # Path to directory where to store index data allocated for this node.
-path.data: /var/www/moneymag.ml/elasticsearch/data
-# Path to log files:
-path.logs: /var/www/moneymag.ml/elasticsearch/logs
+logs: /var/log/elasticsearch
+data: /var/data/elasticsearch
 
 ########################################################################
 # Note: More settings and detailed explanation please refer to out of box elasticsearch.yml.

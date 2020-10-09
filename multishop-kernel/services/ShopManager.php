@@ -207,7 +207,7 @@ class ShopManager extends ServiceManager
      * 
      * @param integer $user Session user id
      * @param CModel $model Shop model to approve
-     * @param string $transition Contains the conditions and decision of this action (refer to s_workflow)
+     * @param object $transition Contains the conditions and decision of this action (refer to s_workflow)
      * @return CModel $model
      * @throws CException
      */
