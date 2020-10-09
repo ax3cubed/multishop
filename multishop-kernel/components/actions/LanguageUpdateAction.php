@@ -106,7 +106,7 @@ class LanguageUpdateAction extends UpdateAction
                     //assign values in raw form but multi-lang (json formatted) value
                     if (isset($this->setAttributesMethod)){
                         $form = $this->controller->{$this->setAttributesMethod}($form,true);
-                        logTrace(__METHOD__.' ===== exception ========== ',$form);
+                       
                     }
                     else{
                         //serialize multi-lang attribute values before returning error
