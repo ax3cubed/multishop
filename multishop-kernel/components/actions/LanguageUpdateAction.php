@@ -50,77 +50,80 @@ class LanguageUpdateAction extends UpdateAction
     /**
      * Run the action
      */
-    // public function run() 
-    // {
-    //     if (!isset($this->loadModelMethod))
-    //         $form = $this->controller->loadModel($_GET[$this->loadModelAttribute]);
-    //     else {
-    //         if (isset($this->loadModelAttribute))
-    //             $form = $this->controller->{$this->loadModelMethod}($_GET[$this->loadModelAttribute]); 
-    //         else
-    //             $form = $this->controller->{$this->loadModelMethod}(); 
-    //     }
+    public function run() 
+    {
+        if (!isset($this->loadModelMethod))
+            $form = $this->controller->loadModel($_GET[$this->loadModelAttribute]);
+        else {
+            if (isset($this->loadModelAttribute))
+                $form = $this->controller->{$this->loadModelMethod}($_GET[$this->loadModelAttribute]); 
+            else
+                $form = $this->controller->{$this->loadModelMethod}(); 
+        }
 
-    //     if (!$form instanceof LanguageForm)
-    //         throw new CException(Sii::t('sii','Invalid form type, expecting LanguageForm.'));
+        if (!$form instanceof LanguageForm)
+            throw new CException(Sii::t('sii','Invalid form type, expecting LanguageForm.'));
                     
-    //     if ($this->controller->module->getServiceManager($this->serviceInvokeParam)===null)
-    //         throw new CHttpException(500,Sii::t('sii','Service not found'));        
+        if ($this->controller->module->getServiceManager($this->serviceInvokeParam)===null)
+            throw new CHttpException(500,Sii::t('sii','Service not found'));        
             
-    //     if ($this->controller->module->getServiceManager($this->serviceInvokeParam)->checkObjectAccess(user()->getId(),$form->modelInstance,$this->serviceOwnerAttribute)){
+        if ($this->controller->module->getServiceManager($this->serviceInvokeParam)->checkObjectAccess(user()->getId(),$form->modelInstance,$this->serviceOwnerAttribute)){
 
-    //         $this->controller->setPageTitle($this->getPageTitle($form));
+            $this->controller->setPageTitle($this->getPageTitle($form));
         
-    //         if (isset($_POST[$this->form])) {
+            if (isset($_POST[$this->form])) {
             
-    //             try {
-    //                 //[1]assign values in raw form
-    //                 if (!isset($this->setAttributesMethod))
-    //                     $form->assignLocaleAttributes($_POST[$this->form],false,$this->excludeLocaleAttributes);
-    //                 else 
-    //                     $form = $this->controller->{$this->setAttributesMethod}($form,false);
+                try {
+                    //[1]assign values in raw form
+                    if (!isset($this->setAttributesMethod))
+                        $form->assignLocaleAttributes($_POST[$this->form],false,$this->excludeLocaleAttributes);
+                    else 
+                        $form = $this->controller->{$this->setAttributesMethod}($form,false);
 
-    //                 if ($form->validateLocaleAttributes()){
-    //                     //[2]now serialize multi-lang attribute values
-    //                     $form->assignLocaleAttributes($_POST[$this->form],true,$this->excludeLocaleAttributes);
+                    if ($form->validateLocaleAttributes()){
+                        //[2]now serialize multi-lang attribute values
+                        $form->assignLocaleAttributes($_POST[$this->form],true,$this->excludeLocaleAttributes);
 
-    //                     //[3]copy form attributes to model attributes
-    //                     if (isset($this->setModelAttributesMethod))
-    //                         $form = $this->controller->{$this->setModelAttributesMethod}($form);
-    //                     else {
-    //                         $form->modelInstance->attributes = $form->getAttributes($this->formAttributes);
-    //                         logTrace(__METHOD__.' '.get_class($form->modelInstance), $form->modelInstance->attributes);
-    //                     }   
+                        //[3]copy form attributes to model attributes
+                        if (isset($this->setModelAttributesMethod))
+                            $form = $this->controller->{$this->setModelAttributesMethod}($form);
+                        else {
+                            $form->modelInstance->attributes = $form->getAttributes($this->formAttributes);
+                            logTrace(__METHOD__.' '.get_class($form->modelInstance), $form->modelInstance->attributes);
+                        }   
 
-    //                     //[4] call ServiceManager to update record
-    //                     $skipCheckAccess = false;//since this is already done at above lines
-    //                     $this->invokeService(array(user()->getId(),$form->modelInstance,$skipCheckAccess));
-    //                 }
-    //                 else {
-    //                     logError(__METHOD__.' form validation error', $form->getErrors(), false);
-    //                     throw new CException(Sii::t('sii','Validation Error'));
-    //                 }
+                        //[4] call ServiceManager to update record
+                        $skipCheckAccess = false;//since this is already done at above lines
+                        $this->invokeService(array(user()->getId(),$form->modelInstance,$skipCheckAccess));
+                    }
+                    else {
+                        logError(__METHOD__.' form validation error', $form->getErrors(), false);
+                        throw new CException(Sii::t('sii','Validation Error'));
+                    }
                     
-    //              } catch (CException $e) {
-    //                 logTrace(__METHOD__.' ===== exception ========== ',$e->getMessage());
-    //                 //assign values in raw form but multi-lang (json formatted) value
-    //                 if (isset($this->setAttributesMethod))
-    //                     $form = $this->controller->{$this->setAttributesMethod}($form,true);
-    //                 else
-    //                     //serialize multi-lang attribute values before returning error
-    //                     $form->assignLocaleAttributes($_POST[$this->form],true,$this->excludeLocaleAttributes);                     
-    //                 $this->setErrorFlash($form,$e);
-    //             }
-    //         }           
+                 } catch (CException $e) {
+                    logTrace(__METHOD__.' ===== exception ========== ',$e->getMessage());
+                    //assign values in raw form but multi-lang (json formatted) value
+                    if (isset($this->setAttributesMethod)){
+                        $form = $this->controller->{$this->setAttributesMethod}($form,true);
+                        logTrace(__METHOD__.' ===== exception ========== ',$form);
+                    }
+                    else{
+                        //serialize multi-lang attribute values before returning error
+                        $form->assignLocaleAttributes($_POST[$this->form],true,$this->excludeLocaleAttributes);                     
+                    }
+                        $this->setErrorFlash($form,$e);
+                }
+            }           
        
-    //         $this->renderPage($form);
+            $this->renderPage($form);
         
-    //     }
-    //     else {
-    //         logError('Unauthorized access', $form->getAttributes());
-    //         throwError403(Sii::t('sii','Unauthorized Access'));
-    //     }
-    // }     
+        }
+        else {
+            logError('Unauthorized access', $form->getAttributes());
+            throwError403(Sii::t('sii','Unauthorized Access'));
+        }
+    }     
     /**
      * Generate success flash
      * 
