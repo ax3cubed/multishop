@@ -104,7 +104,7 @@ class ManagementController extends ShopParentController
                 'beforeRender'=>'setSessionVariables',
             ],              
             'update'=>[
-                'class'=>'common.components.actions.UpdateAction',
+                'class'=>'common.components.actions.LanguageUpdateAction',
                 'form'=>$this->formType,
                 'loadModelMethod'=>'prepareForm',
                 'setAttributesMethod'=>'setFormAttributes',
